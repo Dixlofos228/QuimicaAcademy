@@ -1,0 +1,54 @@
+1164 Capítulo 25: 1
+
+TABLA 25.1 Estructuras y puntos de fusión de algunos ácidos grasos
+
+Nombre Carbonos Estructura Punto de fusión ()
+CooH
+ácido láurico 12 e
+ácido mirístico 14 A s 59
+- - ácido palmítico 16 A ed 6
+- - ácido estcárico 18 Ze 70
+- ácido araquídico 20 7 A a 76
+ácido oleico 18 AA Y eoou -
+ácido linoleica 18 de N ÓV Y coou -
+ácido linolénice 18 A TA / eo 1
+ácido elcoesteárico 18 ZAN ANAN a
+ácido araquidónice 20 NA— 2 = coon ”
+
+(AcetilCoA) (de dos carbonos). Alguno de los ácidos grasos comunes tienen cadenas de carbono
+saturadas, mientras que otros tienen uno o más enlaces dobles carbono-carbono. En la Tabta 25.1
+rasos derivados de grasas y aceites.
+
+se representan las estructuras de alguno de los ácidos
+
+PROBLEMA 25.1
+
+La trimiristina, una grasa sólida €
+
+se encuentra en la nuez moscada, se hidroliza para dar lugar
+a un equivalente de glicerina y a tres equivalentes de ico. Represente la estructura de
+la trimiristina.
+
+En la Tabla 25.1 se puede observar que los ácidos grasos saturados tienen unos pun-
+tos de fusión que aumentan gradualmente a medida que aumentan sus masas moleculares.
+
+Sin embargo, la presencia de un doble enlace en cis (configuración Z) hace que el punto
+de fusión disminuya. Se puede observar que el ácido saturado de 18 carbonos (ácido es-
+teárico) tiene un punto de fusión de 70%C, mientras que el ácido de 18 carbonos con un do-
+ble enlace cis (ácido oleico) tiene un punto de fusión de 4“C. Esta disminución del punto
+de fusión en los ácidos insaturados se debe a un «doblamiento» de la cadena al nivel del
+dobie enlace (Figura 25.2). Las moléculas dobladas de esta manera no se pueden empa-
+quetar tan juntas, en el estado sólido, como las cadenas en zigzag de un ácido saturado.
+
+SD SDLLILI D al
+
+COOH . "
+DY VUO '&-X -
+
+.cooh
+
+ácido esteárico, pl = 70C ácido oleico, pf = 4*C
+
+4 Figura 25.2
+El doble enlace cis del ácido oleico hace que disminuya el punto de fusión en 66“C.
+

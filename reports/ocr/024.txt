@@ -1,0 +1,68 @@
+30/30H/30 208
+
+TORIO DE QUÍMICA
+Liceo N* 4 LABORA
+
+MEDIDA DE LA ACTIVIDA
+
+POLARÍMETRO: ESQVEMA Y DESCRIPOÓN — nuieniinuieeeeeeeeereoreneseeeeeee TE
+
+sor José Vilaplana
+
+lo por el profe:
+ola tro const » por el P
+Anelizador Polarímei
+Disco
+tubo con una
+graduado Na m d
+sustancia comil
+= Juúcemente aa "*2 anabizador
+al 1 cámara L ] 2
+- XX porta celda
+' — Muz no polarizada u
+electrónico de luz iic h ..
+monocromática. 1os planos m n
+- sólo ptano)
+Conexión a fuento
+de alimentación £
+
+El ángulo de rotación del plano de polarización de la luz (rotación óptica) de ua sustancia depende de:
+O Naturaleza del solvente.
+O Temperatura
+O Número de moléculas presentes en +rayectoria del haz (concentración de la solución y camino óptico)
+O Longitud de onda utilizada.
+
+Esta dependencia queda expresada en la LEY PE
+
+[a] ) = poder rotatorio espectfico.
+
+a = ángulo de rotación óptica medido.
+
+1= camino óptico, longitud que recorre la luz polarizada a +ravés de la solución, se mide
+
+en dm.
+
+C = concentración de la solución expresada en 9/mL
+
+| El PODERROTATORIO ESPECÍFICO [a]) se define como la rotación que producirá una masa de 1 g9ramo
+de la sustancia distribuida en un volumen de 4 cm? (concentración = 19/mL) a lo largo de una +rayectoria de
+4dm, bajo ciertas condiciones (luz amarilla correspondiente a la línea D del espectro del sodio 2= 584 u, y
+
+| +emperatura de 20 ). En soluciones acuosas, el poder rotatorio es una constante física Y es característico de
+| cada sustancia ópticamente activa.
+
+TÉ(NICA PARA (ALIBRACIÓN DEL PoLARÍMETRO:
+
+MEEEO NEEN ENNNO ANRAN ANAN ANUAANVeNTN NNE
+sONEA NEE ANEnNAEAA ANe
+
+1. Conectar el polarímetro a la fuente de alimentación.
+
+2. Cargarla celda con agua destilada hasta la marca indicada, Registrar el camino óptico (en dm)
+3. Secarla celda por fuera con papel absorbente.
+
+4. Colocar la celda en la porta celda del polarímetro.
+5. Colocar el analizador.
+
+$. Girar el analizador hasta observar mínima intensidad luminosa.
+A -la escala girando el disco graduado hasta hacer coincidir el cero

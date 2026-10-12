@@ -1,0 +1,33 @@
+p30c5803
+ESPONTANEOS Y
+REVERSIBLES
+
+ACTIVIDAD ( ;W Estudia el siguiente modelo hidráulico (ver +igura).
+
+Dos tanques conectados por una llave de paso, el tanque 1 está lleno de agua alcanzando el nivel na y
+el tanque 2 está vacío, n = 0,
+
+Tanque 1 Tanque 2- =0 T_ Fanque 2
+
+O Dibuja el estado final del sistema cuando se abra la llave de paso.
+
+O ¿En qué dirección circulará el agua?
+
+O ¿Hasta qué momento circulará el agua?
+
+O ¿Qué sucederá con los niveles de agua en cada tanque a partir de este momento?
+
+Q ¿Podrá circular agua espontáneamente de Tal manera que el Na aumente?
+
+O completa el siguiente cuadro:
+
+Variación de nivel de agua en el + — | Dirección en la que circula el a
+An< 0
+
+— T
+—
+
+Química 39 EMS
+
+1A e VA RA TA A A
+

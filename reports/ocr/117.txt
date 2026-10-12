@@ -1,0 +1,23 @@
+Por ejemplo para la combustión del metano:
+
+º“":> + 20209 —> 020y + 2H:00) AHocomb = - 890,3 Ki/mol
+
+C 0s) + 2 H209) > th (9) AH cu4 = - 74,8 Kj/mol
+
+Cs) + 0209 — 020 AHO co2 = - 393,5 Ki/mol
+
+2 H2 (9) + 02 9 > 2 H20 ay AHoruz0 = 2 mol X (-285,8 Ki/mol)
+
+AHSreacción = [ AHStco2 + 2 AHSrnzo] - - AHStem
+
+- 890,3 Kj/mol = [ - 393,5 Kj/mol + 2 mol x (-285,8 Kj/mol) ] - [-748 Kj/mol ]
+
+Observa que los AH: quedan multiplicados por los coeficientes que cada compuesto tiene en la
+ecuación, y que el AH9: del 02 por ser una sustancia simple vale [
+
+Sumando las etapas:
+
+Química 3* El
+
+Prof. Liliana Rodri¡m
+

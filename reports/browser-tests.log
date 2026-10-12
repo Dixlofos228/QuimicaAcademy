@@ -1,0 +1,21 @@
+
+> quimica-academy@1.0.0 test:e2e
+> playwright test
+
+
+Running 12 tests using 1 worker
+
+  ✓   1 tests/e2e/platform.spec.ts:8:1 › home, every lesson in both languages, formulas and source links (4.8s)
+  ✓   2 tests/e2e/platform.spec.ts:9:1 › all images and unchanged originals respond over HTTP (1.8s)
+  ✓   3 tests/e2e/platform.spec.ts:10:1 › all exercise types reject wrong and accept right answers (7.0s)
+  ✓   4 tests/e2e/platform.spec.ts:13:1 › progress survives browser context restart and solver step survives language change (1.3s)
+  ✓   5 tests/e2e/platform.spec.ts:14:1 › glossary bilingual search, term popup keyboard and flashcards (450ms)
+  ✓   6 tests/e2e/platform.spec.ts:15:1 › each simulation controls and state changes; initial, middle, final, replay, language and resize (57.0s)
+  ✓   7 tests/e2e/platform.spec.ts:16:1 › dark/light responsive layouts, source viewer and reduced-motion (1.4s)
+  ✓   8 tests/e2e/platform.spec.ts:17:1 › export/import progress and malformed JSON preserve data (350ms)
+  ✓   9 tests/e2e/platform.spec.ts:18:1 › diagnostic test records result and supplies correction after finish (2.2s)
+  ✓  10 tests/e2e/platform.spec.ts:19:1 › runs with external internet blocked and no browser console errors (997ms)
+  ✓  11 tests/e2e/platform.spec.ts:20:1 › atom isotope, calorimeter sign/capacity, Hess scaling and zero energy flows (2.5s)
+  ✓  12 tests/e2e/platform.spec.ts:26:1 › full exam and section test cover their lessons without revealing correctness (504ms)
+
+  12 passed (1.4m)

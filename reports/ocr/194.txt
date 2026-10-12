@@ -1,0 +1,39 @@
+a e7
+
+o U
+
+CÁLCULO DE pH EN ÁCIDOS DÉBILES
+
+E jemplo: R
+Jemplo: calcular el pH de una solución 0,30 mol/L de ácido acético a 25%C si Ka vale 1,8 x 105
+
+de pas: e
+paso Plantear la ecuación de disociación del ácido
+
+Plantear la ecuación de la constante de equilibrio
+
+paso se debe elaborar
+
+Expresar las concentraciones en el equitibrio. Para este
+
+3* paso
+siempre un tabla como la siguiente:
+Inicial
+cambio
+Equilibrio
+4* paso Sustituir en la expresión de la constante las concentraciones en el equilibrio
+
+e simplificar esta expresión si tomamos en cuenta que el valor de Ka es muy pequeña. Por lo
+
+prevee que el sentido del equilibrio favorecido es el indirecto y es probable que X sea m
+ción inicial del ácido acético. Por tanto supondremos que X
+de modo que: 0,30 - X €S básicamente igual a 030
+
+Se pued
+tanto se
+
+pequeño
+
+en comparación con la concentra
+es insignificante en comparación con 0,30
+

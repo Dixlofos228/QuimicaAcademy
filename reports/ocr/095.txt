@@ -1,0 +1,59 @@
+TIPOS DE
+— TRANSFERENCIA DE
+C
+
+yEN
+
+|
+H
+|
+
+iación de energía interna
+£ un sisfema aislado no intercambia energía con el entorno por lo que la variación d 3
+es:
+
+>
+AU=0
+
+% Un sistema no aislado es aquel que puede intercambiar energía con el entorvo. T
+
+u=O .o;
+
+1
+
+Los sistemas pueden modificar su energía de 2 maneras, mediante transterencias de TRABAJO 5
+
+(W) o de CALOR () con el entorno. "
+
+5
+
+E
+
+ú
+
+Se realiza trabajo cuando un cuerpo se mueve
+contra una fuerza opuesta.
+
+W=-F.AX
+
+Ax: desplazamiento
+
+1
+En química, interesan principalmente dos tipos de trabajo: el trabajo eléctrico y el trabajo mecánico
+
+que realizan los gases en expansión. En este curso consideraremos el último, conocido como trabajo '
+presión-volumen (P-V) o trabajo de expansión-compresión Cwe-c).
+
+N
+IRABADO DE:: .5. DE UN GAS
+
+" l
+Los gases que se expanden en el cilindro de un motor de automóvil realizan un trabajo P-V sobre el
+pistón; finalmente, este trabajo hace girar las ruedas. Los gases en expansión de una reacción en un -
+recipiente abierto realizan un trabajo P-V sobre la atmóstfera. En un sentido práctico, este trabajo
+
+no logra nada, pero debe considerarse todo el trabajo, útil o no, cuando se avalizan los cambios de '
+energía en un sistema.
+
+Química 3 EMS
+

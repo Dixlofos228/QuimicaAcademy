@@ -1,0 +1,1550 @@
+[
+  {
+    "id": "atoms",
+    "group": "foundation",
+    "additional": true,
+    "title": {
+      "ru": "Атомы, молекулы и химические формулы",
+      "es": "Átomos, moléculas y fórmulas químicas"
+    },
+    "summary": {
+      "ru": "Научитесь читать язык химии: символы, индексы, связи и состав вещества.",
+      "es": "Aprendé a leer el lenguaje de la química: símbolos, subíndices, enlaces y composición."
+    },
+    "goals": [
+      {
+        "ru": "Различать атом, элемент и молекулу.",
+        "es": "Distinguir átomo, elemento y molécula."
+      },
+      {
+        "ru": "Считать атомы по формуле, включая скобки.",
+        "es": "Contar átomos en fórmulas con paréntesis."
+      }
+    ],
+    "prereqs": {
+      "ru": "Достаточно знать сложение и умножение.",
+      "es": "Alcanza con conocer suma y multiplicación."
+    },
+    "sourceIds": [
+      43,
+      44
+    ],
+    "simulation": "atom",
+    "paragraphs": [
+      {
+        "title": {
+          "ru": "Из чего состоит вещество",
+          "es": "De qué está hecha la materia"
+        },
+        "text": {
+          "ru": "Вещество имеет массу и занимает пространство. Атом — химическая частица с ядром и электронами. Число протонов в ядре определяет элемент: 6 протонов означают углерод C, 8 — кислород O. В молекуле атомы соединены химическими связями. Вода содержит молекулы H₂O, каждая состоит из двух атомов H и одного O. Не всякое вещество состоит из отдельных молекул: соль NaCl образует ионную решётку.",
+          "es": "La materia tiene masa y ocupa espacio. Un átomo tiene núcleo y electrones. La cantidad de protones define el elemento: 6 protones indican carbono C, 8 oxígeno O. En una molécula los átomos se unen por enlaces. Cada molécula H₂O tiene dos átomos H y uno O. No toda sustancia tiene moléculas separadas: NaCl forma una red iónica."
+        },
+        "formal": {
+          "ru": "Химический элемент определяется атомным номером Z. Молекула — электрически нейтральная совокупность связанных атомов. Формула NaCl выражает отношение ионов 1:1 в кристалле, а не отдельную молекулу.",
+          "es": "El elemento está definido por el número atómico Z. Una molécula es un conjunto eléctricamente neutro de átomos enlazados. NaCl expresa una relación iónica 1:1 en el cristal, no una molécula aislada."
+        },
+        "simple": {
+          "ru": "Атомы можно представить как детали конструктора, молекулы — как собранные фигуры. Но атомы не твёрдые шарики: связь зависит от электронов, а не от механического замка.",
+          "es": "Podés imaginar átomos como piezas y moléculas como figuras armadas. Pero no son bolas rígidas: los enlaces dependen de electrones, no de trabas mecánicas."
+        }
+      },
+      {
+        "title": {
+          "ru": "Как читать формулу",
+          "es": "Cómo leer una fórmula"
+        },
+        "text": {
+          "ru": "Буква с заглавным началом — символ элемента. C и Ca — разные элементы; CO содержит C и O, а Co обозначает кобальт. Маленькое число справа — индекс, количество атомов этого элемента в одной формульной единице. Если числа нет, оно равно 1. В C₆H₁₂O₆: 6 C, 12 H и 6 O, всего 24 атома. Индекс после скобки умножает всё внутри: Ca(OH)₂ содержит Ca:1, O:2, H:2.",
+          "es": "La mayúscula inicia un símbolo. C y Ca son elementos distintos; CO tiene C y O, mientras Co es cobalto. El subíndice indica cantidad de átomos en una unidad. Sin número significa 1. C₆H₁₂O₆ tiene 6 C, 12 H y 6 O: 24 átomos. El subíndice tras paréntesis multiplica todo el grupo: Ca(OH)₂ contiene Ca:1, O:2, H:2."
+        },
+        "formal": {
+          "ru": "Молекулярная формула задаёт состав, но не порядок связей. Глюкоза и фруктоза имеют одну формулу C₆H₁₂O₆ и различное строение.",
+          "es": "La fórmula molecular indica composición, no conectividad. Glucosa y fructosa comparten C₆H₁₂O₆ pero tienen distinta estructura."
+        },
+        "simple": {
+          "ru": "Читайте C₆ как «шесть атомов углерода», а не «шесть молекул». Число перед всей формулой, например 3H₂O, означает три молекулы.",
+          "es": "Leé C₆ como seis átomos de carbono, no seis moléculas. Un número delante de toda la fórmula, como 3H₂O, representa tres moléculas."
+        }
+      },
+      {
+        "title": {
+          "ru": "Связи и модели",
+          "es": "Enlaces y modelos"
+        },
+        "text": {
+          "ru": "Углерод в обычных нейтральных органических соединениях образует четыре связи по сумме порядков: четыре одинарные или две одинарные и одну двойную. Водород обычно образует одну связь, кислород — две. Схема с шариками помогает считать и сравнивать, но не передаёт реальное распределение электронов и размеры атомов.",
+          "es": "En compuestos orgánicos neutros habituales, el carbono suma cuatro unidades de orden de enlace: cuatro simples o dos simples y un doble. El hidrógeno suele formar uno y oxígeno dos. Una representación de bolas ayuda a contar, pero no muestra la distribución electrónica ni tamaños reales."
+        },
+        "formal": {
+          "ru": "Ковалентная связь связана с общей электронной плотностью между ядрами. Валентность и степень окисления — разные понятия; правило четырёх для C здесь относится к выбранному классу молекул.",
+          "es": "Un enlace covalente implica densidad electrónica compartida entre núcleos. Valencia y número de oxidación son distintos; la regla de cuatro para C se limita aquí a la clase estudiada."
+        },
+        "simple": {
+          "ru": "У C четыре доступных «места» связи: двойная занимает два. Это счётная аналогия; у атома нет четырёх физических отверстий.",
+          "es": "C tiene cuatro lugares contables: un doble ocupa dos. Es una analogía de conteo, no cuatro agujeros físicos."
+        }
+      }
+    ],
+    "formulas": [
+      {
+        "tex": "\\mathrm{Ca(OH)_2}:\\quad N_{Ca}=1,\\ N_O=2,\\ N_H=2",
+        "symbols": {
+          "ru": "N — число атомов выбранного элемента в формульной единице.",
+          "es": "N es cantidad de átomos del elemento en una unidad."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "title": {
+          "ru": "Посчитаем атомы в 2H₂O",
+          "es": "Contemos átomos en 2H₂O"
+        },
+        "steps": [
+          {
+            "ru": "Запишем формулу одной молекулы: H₂O.",
+            "es": "Escribimos una molécula: H₂O."
+          },
+          {
+            "ru": "Индекс H равен 2, индекс O равен 1.",
+            "es": "H tiene subíndice 2 y O tiene 1."
+          },
+          {
+            "ru": "Коэффициент 2 умножает число каждого атома.",
+            "es": "El coeficiente 2 multiplica cada cantidad."
+          },
+          {
+            "ru": "H: 2 × 2 = 4; O: 2 × 1 = 2.",
+            "es": "H: 2 × 2 = 4; O: 2 × 1 = 2."
+          },
+          {
+            "ru": "Всего 4 + 2 = 6 атомов в двух молекулах.",
+            "es": "Hay 4 + 2 = 6 átomos en dos moléculas."
+          }
+        ],
+        "why": [
+          {
+            "ru": "Сначала различим молекулу и набор молекул.",
+            "es": "Primero distinguimos una molécula del conjunto."
+          },
+          {
+            "ru": "Отсутствующий индекс означает один.",
+            "es": "Sin subíndice significa uno."
+          },
+          {
+            "ru": "Коэффициент относится ко всей формуле.",
+            "es": "El coeficiente afecta toda la fórmula."
+          },
+          {
+            "ru": "Считаем элементы отдельно.",
+            "es": "Contamos cada elemento por separado."
+          },
+          {
+            "ru": "Сумма проверяет общее число.",
+            "es": "La suma verifica el total."
+          }
+        ],
+        "result": {
+          "ru": "Ответ: 4 H и 2 O.",
+          "es": "Respuesta: 4 H y 2 O."
+        }
+      },
+      {
+        "title": {
+          "ru": "Скобки: Ca(OH)₂",
+          "es": "Paréntesis: Ca(OH)₂"
+        },
+        "steps": [
+          {
+            "ru": "Снаружи скобок стоит один Ca.",
+            "es": "Fuera de paréntesis hay un Ca."
+          },
+          {
+            "ru": "В группе OH один O и один H.",
+            "es": "OH tiene un O y un H."
+          },
+          {
+            "ru": "Индекс 2 повторяет группу дважды.",
+            "es": "El 2 repite el grupo dos veces."
+          },
+          {
+            "ru": "Получаем O:2 и H:2.",
+            "es": "Resultan O:2 y H:2."
+          },
+          {
+            "ru": "Сумма атомов 1 + 2 + 2 = 5.",
+            "es": "Total: 1 + 2 + 2 = 5."
+          }
+        ],
+        "why": [
+          {
+            "ru": "Индекс скобки не относится к Ca.",
+            "es": "El subíndice del grupo no afecta Ca."
+          },
+          {
+            "ru": "У каждого символа без индекса количество 1.",
+            "es": "Cada símbolo sin índice vale 1."
+          },
+          {
+            "ru": "Умножается весь состав группы.",
+            "es": "Se multiplica todo el grupo."
+          },
+          {
+            "ru": "Не складываем индексы, а умножаем.",
+            "es": "Multiplicamos, no sumamos subíndices."
+          },
+          {
+            "ru": "Это состав формульной единицы ионного вещества.",
+            "es": "Es la composición de una unidad de sustancia iónica."
+          }
+        ],
+        "result": {
+          "ru": "В Ca(OH)₂ пять атомов на формульную единицу.",
+          "es": "Ca(OH)₂ tiene cinco átomos por unidad."
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "atoms-count",
+        "type": "numeric",
+        "question": {
+          "ru": "Сколько атомов всего в одной молекуле C₆H₁₂O₆?",
+          "es": "¿Cuántos átomos hay en una molécula C₆H₁₂O₆?"
+        },
+        "answer": 24,
+        "explanation": {
+          "ru": "Сложите 6 + 12 + 6. Индексы считаются для одной молекулы, а не для отдельных порций.",
+          "es": "Sumá 6 + 12 + 6. Los subíndices describen una molécula, no porciones."
+        },
+        "hints": [
+          {
+            "ru": "Посчитайте элементы по отдельности.",
+            "es": "Contá cada elemento."
+          },
+          {
+            "ru": "Сложите три индекса.",
+            "es": "Sumá los tres subíndices."
+          }
+        ],
+        "tolerance": 0
+      },
+      {
+        "id": "atoms-formula",
+        "type": "formula",
+        "question": {
+          "ru": "Введите формулу воды: два H и один O.",
+          "es": "Escribí la fórmula del agua: dos H y un O."
+        },
+        "answer": "H2O",
+        "explanation": {
+          "ru": "Индекс 2 относится только к H. HO₂ означало бы другой состав.",
+          "es": "El subíndice 2 afecta H. HO₂ indica otra composición."
+        },
+        "hints": [
+          {
+            "ru": "Начните с символа H.",
+            "es": "Comenzá por H."
+          },
+          {
+            "ru": "Число 1 не пишется.",
+            "es": "El número 1 se omite."
+          }
+        ]
+      },
+      {
+        "id": "atoms-multi",
+        "type": "multi",
+        "question": {
+          "ru": "Выберите верные утверждения.",
+          "es": "Elegí las afirmaciones correctas."
+        },
+        "answer": [
+          0,
+          2
+        ],
+        "explanation": {
+          "ru": "Коэффициент умножает всю формулу, а индекс меняет состав единицы. NaCl в кристалле не состоит из отдельных молекул.",
+          "es": "El coeficiente multiplica toda la fórmula; el subíndice cambia la unidad. NaCl cristalino no tiene moléculas aisladas."
+        },
+        "hints": [
+          {
+            "ru": "Различите число перед формулой и внутри неё.",
+            "es": "Distinguí número delante y dentro."
+          },
+          {
+            "ru": "Подумайте об ионной решётке.",
+            "es": "Pensá en la red iónica."
+          }
+        ],
+        "options": [
+          {
+            "ru": "2H₂O содержит 4 H.",
+            "es": "2H₂O contiene 4 H."
+          },
+          {
+            "ru": "NaCl всегда отдельная молекула.",
+            "es": "NaCl siempre es una molécula separada."
+          },
+          {
+            "ru": "CO и Co обозначают разное.",
+            "es": "CO y Co representan cosas distintas."
+          },
+          {
+            "ru": "Изменение индекса сохраняет вещество.",
+            "es": "Cambiar un subíndice conserva la sustancia."
+          }
+        ]
+      },
+      {
+        "id": "atoms-error",
+        "type": "error",
+        "question": {
+          "ru": "Ученик считает в Ca(OH)₂ только один O. Как исправить ошибку?",
+          "es": "Un estudiante cuenta un solo O en Ca(OH)₂. ¿Cómo corregirlo?"
+        },
+        "answer": 1,
+        "explanation": {
+          "ru": "Индекс после скобки умножает и O, и H на два. Ca находится вне скобок.",
+          "es": "El subíndice tras paréntesis multiplica O y H por dos; Ca queda fuera."
+        },
+        "hints": [
+          {
+            "ru": "Посмотрите, какие символы находятся внутри скобок.",
+            "es": "Mirá los símbolos dentro de paréntesis."
+          },
+          {
+            "ru": "Повторите всю группу OH дважды.",
+            "es": "Repetí todo OH dos veces."
+          }
+        ],
+        "options": [
+          {
+            "ru": "Умножить только H.",
+            "es": "Multiplicar solo H."
+          },
+          {
+            "ru": "Умножить O и H на 2.",
+            "es": "Multiplicar O y H por 2."
+          },
+          {
+            "ru": "Умножить Ca на 2.",
+            "es": "Multiplicar Ca por 2."
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "id": "atom",
+        "name": {
+          "ru": "Атом",
+          "es": "Átomo"
+        },
+        "definition": {
+          "ru": "Частица элемента с ядром и электронами.",
+          "es": "Partícula de un elemento con núcleo y electrones."
+        },
+        "detail": {
+          "ru": "Число протонов определяет элемент; число нейтронов может различаться у изотопов.",
+          "es": "La cantidad de protones define el elemento; los isótopos varían en neutrones."
+        },
+        "formula": "Z=N_p",
+        "example": {
+          "ru": "У углерода 6 протонов.",
+          "es": "El carbono tiene 6 protones."
+        },
+        "lessonId": "atoms"
+      },
+      {
+        "id": "molecule",
+        "name": {
+          "ru": "Молекула",
+          "es": "Molécula"
+        },
+        "definition": {
+          "ru": "Связанный нейтральный набор атомов.",
+          "es": "Conjunto neutro de átomos enlazados."
+        },
+        "detail": {
+          "ru": "Молекулярная формула показывает состав; структурная показывает соединение атомов.",
+          "es": "La fórmula molecular da composición; la estructural muestra conectividad."
+        },
+        "formula": "\\mathrm{H_2O}",
+        "example": {
+          "ru": "Вода: 2 H и 1 O.",
+          "es": "Agua: 2 H y 1 O."
+        },
+        "lessonId": "atoms"
+      }
+    ],
+    "notes": [
+      {
+        "ru": "Фотография 43 содержит план курса, 44 — пустую страницу для результатов. Они сохранены как контекст программы и не содержат нерешённой задачи.",
+        "es": "La foto 43 contiene el plan del curso y 44 una página vacía de evaluaciones. Se conservan como contexto y no contienen ejercicios pendientes."
+      }
+    ]
+  },
+  {
+    "id": "mole",
+    "group": "foundation",
+    "additional": true,
+    "title": {
+      "ru": "Моль и молярная масса",
+      "es": "Mol y masa molar"
+    },
+    "summary": {
+      "ru": "Свяжем невидимые частицы с массой, которую можно измерить.",
+      "es": "Relacionamos partículas invisibles con masa medible."
+    },
+    "goals": [
+      {
+        "ru": "Понимать каждое обозначение и проверять единицы.",
+        "es": "Entender cada símbolo y verificar unidades."
+      },
+      {
+        "ru": "Решать задачи по шагам и объяснять выбор формулы.",
+        "es": "Resolver por pasos y explicar la elección de fórmula."
+      }
+    ],
+    "prereqs": {
+      "ru": "Прочитайте урок об атомах и формулах.",
+      "es": "Leé la lección de átomos y fórmulas."
+    },
+    "sourceIds": [
+      217,
+      218
+    ],
+    "paragraphs": [
+      {
+        "title": {
+          "ru": "Зачем нужен моль",
+          "es": "Para qué sirve el mol"
+        },
+        "text": {
+          "ru": "Химические реакции зависят от количества частиц, а весы измеряют массу. Моль связывает эти два описания. Это единица количества вещества, подобно дюжине как единице счёта, но 1 моль содержит 6,02214076 × 10²³ указанных частиц. Нужно назвать частицы: молекулы воды, атомы C или ионы Na⁺. Один моль воды и один моль углерода содержат одинаковое число указанных частиц, но имеют разную массу.",
+          "es": "Las reacciones dependen del número de partículas, pero la balanza mide masa. El mol conecta ambas descripciones. Es unidad de cantidad de sustancia, como una docena cuenta objetos, pero un mol tiene 6,02214076 × 10²³ entidades indicadas. Hay que especificarlas: moléculas de agua, átomos C o iones Na⁺. Un mol de agua y de carbono tiene igual número de entidades, pero distinta masa."
+        },
+        "formal": {
+          "ru": "Число Авогадро Nₐ = 6,02214076×10²³ моль⁻¹ точно. Количество вещества n = N/Nₐ, где N — число указанных элементарных объектов.",
+          "es": "La constante de Avogadro Nₐ = 6,02214076×10²³ mol⁻¹ es exacta. n=N/Nₐ, con N número de entidades especificadas."
+        },
+        "simple": {
+          "ru": "Дюжина яблок и дюжина монет — по 12 штук, но разный вес. Моль работает как огромная «дюжина». Аналогия касается только счёта.",
+          "es": "Una docena de manzanas y de monedas son 12 objetos de distinta masa. El mol es un paquete enorme para contar. La analogía vale solo para el conteo."
+        }
+      },
+      {
+        "title": {
+          "ru": "Молярная масса как мост",
+          "es": "Masa molar como puente"
+        },
+        "text": {
+          "ru": "Молярная масса M — масса одного моля, обычно в g/mol. Для воды сложим 2 × 1,008 для H и 15,999 для O: M(H₂O)=18,015 g/mol. Числа берутся из таблицы относительных атомных масс, здесь округлённой для школьных расчётов. Если m=36,03 g воды, то число молей n=m/M=2,000 mol. Деление показывает, сколько порций по 18,015 g содержится в данной массе.",
+          "es": "La masa molar M es masa por mol, normalmente g/mol. Para agua: 2 × 1,008 de H + 15,999 de O =18,015 g/mol. Se usan masas atómicas promedio redondeadas. Con m=36,03 g, n=m/M=2,000 mol. Dividir cuenta cuántas porciones de 18,015 g caben en esa masa."
+        },
+        "formal": {
+          "ru": "M=m/n. Для чистого вещества m=nM. Единица: mol × g/mol = g. Массу раствора нельзя считать массой растворённого вещества без сведений о составе.",
+          "es": "M=m/n. Para sustancia pura m=nM. Unidad: mol × g/mol = g. La masa de solución no equivale a masa de soluto sin conocer composición."
+        },
+        "simple": {
+          "ru": "M — масса одной химической порции. Делим общую массу на массу порции. Не путайте mol и g: это разные величины.",
+          "es": "M es la masa de una porción química. Dividimos masa total por masa de porción. Mol y g representan magnitudes distintas."
+        }
+      },
+      {
+        "title": {
+          "ru": "Проверка расчёта",
+          "es": "Verificar el cálculo"
+        },
+        "text": {
+          "ru": "Запишите массу в g, M в g/mol и только затем делите. Если масса дана в mg, сначала разделите её на 1000. Результат можно проверить обратным действием: n × M должно вернуть исходную m. Значение N получается умножением n на Nₐ и относится к тому типу частиц, который указан в условии.",
+          "es": "Escribí masa en g y M en g/mol antes de dividir. Para mg dividí por 1000. Verificá con n × M: debe recuperar m. N se obtiene con n × Nₐ y cuenta el tipo de partículas indicado."
+        },
+        "formal": {
+          "ru": "При округлении сохраняем промежуточные цифры и округляем итог. Школьные таблицы могут использовать H=1, C=12, O=16; тогда ответы отличаются в пределах точности.",
+          "es": "Conservá cifras intermedias y redondeá el resultado. Tablas escolares pueden usar H=1, C=12, O=16; las diferencias reflejan la precisión."
+        },
+        "simple": {
+          "ru": "Если половина массы одной порции, количество должно быть 0,5 mol. Проверка размером результата помогает заметить ошибку ×1000.",
+          "es": "Media masa de una porción debe dar 0,5 mol. Estimar el tamaño ayuda a detectar errores por un factor de 1000."
+        }
+      }
+    ],
+    "formulas": [
+      {
+        "tex": "n=\\frac{m}{M},\\quad m=nM,\\quad N=nN_A",
+        "symbols": {
+          "ru": "n — mol; m — g; M — g/mol; N — число частиц.",
+          "es": "n en mol; m en g; M en g/mol; N cantidad de partículas."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "title": {
+          "ru": "Количество вещества глюкозы",
+          "es": "Cantidad de glucosa"
+        },
+        "steps": [
+          {
+            "ru": "Дано m=18,016 g, формула C₆H₁₂O₆.",
+            "es": "Datos: m=18,016 g, fórmula C₆H₁₂O₆."
+          },
+          {
+            "ru": "Ищем n в mol, поэтому используем n=m/M.",
+            "es": "Buscamos n en mol; usamos n=m/M."
+          },
+          {
+            "ru": "M=6×12,011+12×1,008+6×15,999=180,156 g/mol.",
+            "es": "M=6×12,011+12×1,008+6×15,999=180,156 g/mol."
+          },
+          {
+            "ru": "n=18,016/180,156≈0,1000 mol.",
+            "es": "n=18,016/180,156≈0,1000 mol."
+          },
+          {
+            "ru": "Проверка: 0,1000×180,156≈18,016 g.",
+            "es": "Verificación: 0,1000×180,156≈18,016 g."
+          }
+        ],
+        "why": [
+          {
+            "ru": "Выделяем числовые данные и единицы: это предотвращает использование массы или объёма не того вещества.",
+            "es": "Identificamos datos y unidades para no usar la masa o volumen de otra sustancia."
+          },
+          {
+            "ru": "Выбираем формулу по искомой величине: масса делится на массу одного моля, чтобы получить число молей.",
+            "es": "Elegimos la fórmula por la incógnita: masa dividida por masa molar da mol."
+          },
+          {
+            "ru": "Каждый индекс показывает число атомов. Сумма их атомных масс даёт массу одного моля молекул.",
+            "es": "Cada subíndice cuenta átomos. Sumar sus masas da la masa por mol de moléculas."
+          },
+          {
+            "ru": "Деление массы на g/mol даёт mol; это число химических порций данной массы.",
+            "es": "Dividir g entre g/mol da mol: cantidad de porciones de esa masa."
+          },
+          {
+            "ru": "Обратный расчёт и оценка масштаба позволяют обнаружить ошибку в формуле или переводе единиц.",
+            "es": "El cálculo inverso y estimar tamaño detectan errores de fórmula o unidades."
+          }
+        ],
+        "result": {
+          "ru": "Ответ: около 0,1000 mol.",
+          "es": "Respuesta: aproximadamente 0,1000 mol."
+        }
+      },
+      {
+        "title": {
+          "ru": "Масса 0,5 mol воды",
+          "es": "Masa de 0,5 mol de agua"
+        },
+        "steps": [
+          {
+            "ru": "Дано n=0,5 mol и H₂O.",
+            "es": "Datos: n=0,5 mol y H₂O."
+          },
+          {
+            "ru": "M=2×1,008+15,999=18,015 g/mol.",
+            "es": "M=2×1,008+15,999=18,015 g/mol."
+          },
+          {
+            "ru": "Из n=m/M получаем m=nM.",
+            "es": "De n=m/M se obtiene m=nM."
+          },
+          {
+            "ru": "m=0,5×18,015=9,0075 g.",
+            "es": "m=0,5×18,015=9,0075 g."
+          },
+          {
+            "ru": "Единицы mol×g/mol=g. Это половина массы одного моля.",
+            "es": "mol×g/mol=g. Es la mitad de la masa de un mol."
+          }
+        ],
+        "why": [
+          {
+            "ru": "Выделяем числовые данные и единицы: это предотвращает использование массы или объёма не того вещества.",
+            "es": "Identificamos datos y unidades para no usar la masa o volumen de otra sustancia."
+          },
+          {
+            "ru": "Каждый индекс показывает число атомов. Сумма их атомных масс даёт массу одного моля молекул.",
+            "es": "Cada subíndice cuenta átomos. Sumar sus masas da la masa por mol de moléculas."
+          },
+          {
+            "ru": "Преобразуем равенство одинаковым действием с обеих сторон, сохраняя его смысл.",
+            "es": "Aplicamos la misma operación a ambos lados para conservar la igualdad."
+          },
+          {
+            "ru": "Умножение mol на g/mol даёт g, а не mol²: единицы количества сокращаются.",
+            "es": "Multiplicar mol por g/mol da g; se cancela la unidad mol."
+          },
+          {
+            "ru": "Обратный расчёт и оценка масштаба позволяют обнаружить ошибку в формуле или переводе единиц.",
+            "es": "El cálculo inverso y estimar tamaño detectan errores de fórmula o unidades."
+          }
+        ],
+        "result": {
+          "ru": "Ответ: около 9,01 g.",
+          "es": "Respuesta: alrededor de 9,01 g."
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mole-mass",
+        "type": "numeric",
+        "question": {
+          "ru": "Найдите M(CO₂), используя C=12,011 и O=15,999.",
+          "es": "Calculá M(CO₂) con C=12,011 y O=15,999."
+        },
+        "answer": 44.009,
+        "explanation": {
+          "ru": "Сумма 12,011 + 2×15,999 = 44,009 g/mol.",
+          "es": "12,011 + 2×15,999 = 44,009 g/mol."
+        },
+        "hints": [
+          {
+            "ru": "Кислородов два.",
+            "es": "Hay dos oxígenos."
+          },
+          {
+            "ru": "Умножьте массу O на индекс.",
+            "es": "Multiplicá masa de O por su índice."
+          }
+        ],
+        "unit": "g/mol",
+        "tolerance": 0.05
+      },
+      {
+        "id": "mole-amount",
+        "type": "numeric",
+        "question": {
+          "ru": "36,03 g чистой воды: сколько mol? M=18,015 g/mol.",
+          "es": "36,03 g de agua pura: ¿cuántos mol? M=18,015 g/mol."
+        },
+        "answer": 2,
+        "explanation": {
+          "ru": "n=m/M=36,03/18,015=2 mol.",
+          "es": "n=m/M=36,03/18,015=2 mol."
+        },
+        "hints": [
+          {
+            "ru": "Массу нужно делить на молярную массу.",
+            "es": "Dividí la masa por M."
+          },
+          {
+            "ru": "Проверьте обратным умножением.",
+            "es": "Verificá multiplicando."
+          }
+        ],
+        "unit": "mol"
+      },
+      {
+        "id": "mole-order",
+        "type": "order",
+        "question": {
+          "ru": "Расположите действия плана: сначала формула и M, затем единицы массы и расчёт n.",
+          "es": "Ordená este plan: primero fórmula y M, luego unidades de masa y cálculo de n."
+        },
+        "answer": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "explanation": {
+          "ru": "Сначала читаем формулу, затем считаем M, переводим массу в g и делим. Перевод единиц можно сделать раньше M, но здесь выбран такой план.",
+          "es": "Leemos fórmula, calculamos M, expresamos masa en g y dividimos. Convertir antes de M también es válido; aquí ordenamos este plan."
+        },
+        "hints": [
+          {
+            "ru": "Формула нужна для M.",
+            "es": "La fórmula permite hallar M."
+          },
+          {
+            "ru": "Деление — последний этап.",
+            "es": "La división va al final."
+          }
+        ],
+        "options": [
+          {
+            "ru": "Записать массу в g.",
+            "es": "Escribir masa en g."
+          },
+          {
+            "ru": "Прочитать химическую формулу.",
+            "es": "Leer fórmula química."
+          },
+          {
+            "ru": "Вычислить n=m/M.",
+            "es": "Calcular n=m/M."
+          },
+          {
+            "ru": "Вычислить M по формуле.",
+            "es": "Calcular M con la fórmula."
+          }
+        ]
+      },
+      {
+        "id": "mole-steps",
+        "type": "steps",
+        "question": {
+          "ru": "Решите задачу по шагам: 9,0075 g H₂O. Введите M, затем n.",
+          "es": "Resolvé por pasos: 9,0075 g H₂O. Ingresá M y luego n."
+        },
+        "answer": [
+          "18.015",
+          "0.5"
+        ],
+        "explanation": {
+          "ru": "M=18,015 g/mol, n=9,0075/18,015=0,5 mol.",
+          "es": "M=18,015 g/mol; n=9,0075/18,015=0,5 mol."
+        },
+        "hints": [
+          {
+            "ru": "M=2M(H)+M(O).",
+            "es": "M=2M(H)+M(O)."
+          },
+          {
+            "ru": "n=m/M.",
+            "es": "n=m/M."
+          }
+        ],
+        "options": [
+          {
+            "ru": "M (g/mol)",
+            "es": "M (g/mol)"
+          },
+          {
+            "ru": "n (mol)",
+            "es": "n (mol)"
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "id": "mole",
+        "name": {
+          "ru": "Моль",
+          "es": "Mol"
+        },
+        "definition": {
+          "ru": "Единица количества вещества; 6,02214076×10²³ указанных частиц.",
+          "es": "Unidad de cantidad de sustancia; 6,02214076×10²³ entidades especificadas."
+        },
+        "detail": {
+          "ru": "Называйте частицы: атомы, молекулы, ионы. Масса моля зависит от вещества.",
+          "es": "Indicá si son átomos, moléculas o iones. La masa de un mol depende de la sustancia."
+        },
+        "formula": "N=nN_A",
+        "example": {
+          "ru": "1 mol H₂O содержит число Авогадро молекул.",
+          "es": "1 mol H₂O contiene el número de Avogadro de moléculas."
+        },
+        "lessonId": "mole"
+      },
+      {
+        "id": "molar-mass",
+        "name": {
+          "ru": "Молярная масса",
+          "es": "Masa molar"
+        },
+        "definition": {
+          "ru": "Масса вещества на один моль.",
+          "es": "Masa de sustancia por mol."
+        },
+        "detail": {
+          "ru": "Вычисляется суммой атомных масс с учётом индексов. Единица g/mol.",
+          "es": "Se suma masa atómica por cada subíndice. Unidad g/mol."
+        },
+        "formula": "M=m/n",
+        "example": {
+          "ru": "M(H₂O)=18,015 g/mol.",
+          "es": "M(H₂O)=18,015 g/mol."
+        },
+        "lessonId": "mole"
+      }
+    ],
+    "simulation": "mole",
+    "notes": [
+      {
+        "ru": "Подготовительный материал добавлен для понимания школьных листов. Примеры разработаны для курса.",
+        "es": "Material preparatorio agregado para comprender las fichas. Ejemplos creados para el curso."
+      },
+      {
+        "ru": "Фотографии 217–218 — периодические таблицы для выбора атомных масс. Значения в примерах явно указаны; округление в таблицах может отличаться.",
+        "es": "Las fotos 217–218 son tablas periódicas para elegir masas atómicas. Los ejemplos especifican los valores; el redondeo puede variar."
+      }
+    ]
+  },
+  {
+    "id": "concentration",
+    "group": "foundation",
+    "additional": true,
+    "title": {
+      "ru": "Растворы, концентрация и единицы",
+      "es": "Soluciones, concentración y unidades"
+    },
+    "summary": {
+      "ru": "Почему одинаковый стакан может содержать разное количество вещества.",
+      "es": "Por qué un mismo vaso puede contener diferente cantidad de sustancia."
+    },
+    "goals": [
+      {
+        "ru": "Понимать каждое обозначение и проверять единицы.",
+        "es": "Entender cada símbolo y verificar unidades."
+      },
+      {
+        "ru": "Решать задачи по шагам и объяснять выбор формулы.",
+        "es": "Resolver por pasos y explicar la elección de fórmula."
+      }
+    ],
+    "prereqs": {
+      "ru": "Понимать моль, массу и деление.",
+      "es": "Entender mol, masa y división."
+    },
+    "sourceIds": [],
+    "paragraphs": [
+      {
+        "title": {
+          "ru": "Что такое раствор",
+          "es": "Qué es una solución"
+        },
+        "text": {
+          "ru": "Раствор — однородная смесь. Растворитель задаёт среду, растворённое вещество распределено в ней. В водном растворе сахара вода — растворитель. Объём раствора измеряют после растворения: он не всегда равен сумме исходных объёмов. Концентрация отвечает на вопрос, сколько выбранного вещества содержится в определённой порции раствора.",
+          "es": "Una solución es una mezcla homogénea. El solvente constituye el medio y el soluto se distribuye en él. En azúcar acuosa, agua es solvente. Medimos el volumen final, que no siempre es la suma inicial. La concentración indica cuánto soluto hay en una porción de solución."
+        },
+        "formal": {
+          "ru": "Раствор однороден на молекулярном или ионном уровне. Концентрации массовая, молярная и массовая доля имеют разные размерности.",
+          "es": "La solución es homogénea a nivel molecular o iónico. Concentración másica, molar y fracción másica tienen dimensiones distintas."
+        },
+        "simple": {
+          "ru": "Чай с одной ложкой сахара и с тремя имеет разную концентрацию. Но ложка — неточная мера: в расчёте нужны g, mol и объём.",
+          "es": "Té con una cucharada o tres tiene distinta concentración. La cuchara es imprecisa: el cálculo requiere g, mol y volumen."
+        }
+      },
+      {
+        "title": {
+          "ru": "Молярная концентрация",
+          "es": "Concentración molar"
+        },
+        "text": {
+          "ru": "c=n/V, где n — mol растворённого вещества, V — L всего раствора. Если 0,10 mol сахара содержится в 0,50 L раствора, c=0,20 mol/L. Это не означает, что стакан содержит 0,20 mol: столько было бы в целом литре того же раствора. Для перевода 250 mL в L делим на 1000 и получаем 0,250 L.",
+          "es": "c=n/V: n en mol de soluto, V en L de solución. Si 0,10 mol están en 0,50 L, c=0,20 mol/L. No significa 0,20 mol en ese vaso: sería la cantidad en un litro de esa solución. 250 mL/1000=0,250 L."
+        },
+        "formal": {
+          "ru": "Молярная концентрация вещества зависит от объёма и температуры. При реакции или диссоциации концентрация отдельных частиц может отличаться от аналитической c₀.",
+          "es": "La concentración molar depende de volumen y temperatura. Tras reacción o disociación, las concentraciones de especies difieren de la concentración analítica c₀."
+        },
+        "simple": {
+          "ru": "Концентрация похожа на число людей на квадратный метр: она связывает количество с размером места. Здесь размер — объём, а количество — mol.",
+          "es": "Como personas por metro cuadrado relaciona cantidad y espacio, c relaciona mol y volumen. La analogía no describe interacciones químicas."
+        }
+      },
+      {
+        "title": {
+          "ru": "Разбавление и массовая доля",
+          "es": "Dilución y fracción másica"
+        },
+        "text": {
+          "ru": "Если добавить только растворитель и вещество не реагирует, число молей сохраняется: c₁V₁=c₂V₂. V₂ — конечный объём, не объём добавленной воды. Массовая доля w=m(вещества)/m(раствора); в процентах умножаем на 100. Нельзя подставлять массу растворителя в знаменатель.",
+          "es": "Si agregás solo solvente sin reacción, se conserva n: c₁V₁=c₂V₂. V₂ es volumen final, no agua agregada. Fracción másica w=m(soluto)/m(solución); para porcentaje multiplicamos por 100. El denominador no es masa de solvente."
+        },
+        "formal": {
+          "ru": "Разбавление следует из сохранения количества вещества. w безразмерна, c имеет единицу mol/L. 10 % m/m означает 10 g soluto в 100 g solución.",
+          "es": "Diluir conserva cantidad de sustancia. w es adimensional; c tiene unidad mol/L. 10 % m/m significa 10 g soluto por 100 g solución."
+        },
+        "simple": {
+          "ru": "Добавленная вода распределяет то же вещество в большем объёме. Сахар не исчезает: его порция на литр уменьшается.",
+          "es": "Más agua reparte el mismo soluto en más volumen. No desaparece azúcar; baja la cantidad por litro."
+        }
+      }
+    ],
+    "formulas": [
+      {
+        "tex": "c=\\frac{n}{V}=\\frac{m}{MV},\\qquad c_1V_1=c_2V_2",
+        "symbols": {
+          "ru": "c — mol/L; V — L; m — g растворённого вещества; M — g/mol.",
+          "es": "c en mol/L; V en L; m en g de soluto; M en g/mol."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "title": {
+          "ru": "Раствор глюкозы",
+          "es": "Solución de glucosa"
+        },
+        "steps": [
+          {
+            "ru": "Дано 18,0156 g глюкозы в 500 mL раствора.",
+            "es": "18,0156 g de glucosa en 500 mL de solución."
+          },
+          {
+            "ru": "M=180,156 g/mol; n=18,0156/180,156=0,100 mol.",
+            "es": "M=180,156 g/mol; n=0,100 mol."
+          },
+          {
+            "ru": "V=500/1000=0,500 L.",
+            "es": "V=500/1000=0,500 L."
+          },
+          {
+            "ru": "c=n/V=0,100/0,500=0,200 mol/L.",
+            "es": "c=n/V=0,100/0,500=0,200 mol/L."
+          },
+          {
+            "ru": "Проверка: cV=0,200×0,500=0,100 mol.",
+            "es": "Verificación: cV=0,100 mol."
+          }
+        ],
+        "why": [
+          {
+            "ru": "Выделяем числовые данные и единицы: это предотвращает использование массы или объёма не того вещества.",
+            "es": "Identificamos datos y unidades para no usar la masa o volumen de otra sustancia."
+          },
+          {
+            "ru": "Каждый индекс показывает число атомов. Сумма их атомных масс даёт массу одного моля молекул.",
+            "es": "Cada subíndice cuenta átomos. Sumar sus masas da la masa por mol de moléculas."
+          },
+          {
+            "ru": "В знаменателе концентрации нужны литры. Один литр содержит тысячу миллилитров.",
+            "es": "La concentración usa litros; un litro contiene mil mililitros."
+          },
+          {
+            "ru": "Количество относится к объёму всей смеси; деление на L выражает количество в одном литре.",
+            "es": "Usamos volumen total; dividir por L expresa cantidad por litro."
+          },
+          {
+            "ru": "Обратный расчёт и оценка масштаба позволяют обнаружить ошибку в формуле или переводе единиц.",
+            "es": "El cálculo inverso y estimar tamaño detectan errores de fórmula o unidades."
+          }
+        ],
+        "result": {
+          "ru": "Ответ: 0,200 mol/L.",
+          "es": "Respuesta: 0,200 mol/L."
+        }
+      },
+      {
+        "title": {
+          "ru": "Разбавление",
+          "es": "Dilución"
+        },
+        "steps": [
+          {
+            "ru": "Дано c₁=1,0 mol/L, V₁=0,10 L, V₂=0,50 L.",
+            "es": "c₁=1,0 mol/L, V₁=0,10 L, V₂=0,50 L."
+          },
+          {
+            "ru": "Без реакции n₁=n₂.",
+            "es": "Sin reacción n₁=n₂."
+          },
+          {
+            "ru": "Из c₁V₁=c₂V₂ получаем c₂=c₁V₁/V₂.",
+            "es": "c₂=c₁V₁/V₂."
+          },
+          {
+            "ru": "c₂=1,0×0,10/0,50=0,20 mol/L.",
+            "es": "c₂=1,0×0,10/0,50=0,20 mol/L."
+          },
+          {
+            "ru": "Объём вырос в 5 раз, концентрация упала в 5 раз.",
+            "es": "Volumen aumentó cinco veces; concentración bajó cinco veces."
+          }
+        ],
+        "why": [
+          {
+            "ru": "Выделяем числовые данные и единицы: это предотвращает использование массы или объёма не того вещества.",
+            "es": "Identificamos datos y unidades para no usar la masa o volumen de otra sustancia."
+          },
+          {
+            "ru": "Опираемся на определение величины и сохранение вещества; каждый символ относится к заданной системе.",
+            "es": "Usamos la definición y conservación de materia; cada símbolo corresponde al sistema indicado."
+          },
+          {
+            "ru": "Преобразуем равенство одинаковым действием с обеих сторон, сохраняя его смысл.",
+            "es": "Aplicamos la misma operación a ambos lados para conservar la igualdad."
+          },
+          {
+            "ru": "Количество относится к объёму всей смеси; деление на L выражает количество в одном литре.",
+            "es": "Usamos volumen total; dividir por L expresa cantidad por litro."
+          },
+          {
+            "ru": "Обратный расчёт и оценка масштаба позволяют обнаружить ошибку в формуле или переводе единиц.",
+            "es": "El cálculo inverso y estimar tamaño detectan errores de fórmula o unidades."
+          }
+        ],
+        "result": {
+          "ru": "Ответ: 0,20 mol/L.",
+          "es": "Respuesta: 0,20 mol/L."
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "conc-number",
+        "type": "numeric",
+        "question": {
+          "ru": "0,05 mol в 250 mL раствора. Найдите c.",
+          "es": "0,05 mol en 250 mL de solución. Hallá c."
+        },
+        "answer": 0.2,
+        "explanation": {
+          "ru": "250 mL=0,250 L, c=0,05/0,250=0,20 mol/L.",
+          "es": "250 mL=0,250 L; c=0,05/0,250=0,20 mol/L."
+        },
+        "hints": [
+          {
+            "ru": "Переведите mL в L.",
+            "es": "Convertí mL en L."
+          },
+          {
+            "ru": "Разделите n на V.",
+            "es": "Dividí n por V."
+          }
+        ],
+        "unit": "mol/L"
+      },
+      {
+        "id": "conc-percent",
+        "type": "numeric",
+        "question": {
+          "ru": "10 g сахара и 90 g воды: массовая доля сахара в процентах?",
+          "es": "10 g de azúcar y 90 g de agua: ¿porcentaje másico de azúcar?"
+        },
+        "answer": 10,
+        "explanation": {
+          "ru": "Масса раствора 100 g, 10/100×100%=10%.",
+          "es": "La solución pesa 100 g: 10/100×100%=10%."
+        },
+        "hints": [
+          {
+            "ru": "Сложите массы.",
+            "es": "Sumá ambas masas."
+          },
+          {
+            "ru": "Делите на массу всего раствора.",
+            "es": "Dividí por masa de solución."
+          }
+        ],
+        "unit": "%"
+      },
+      {
+        "id": "conc-choice",
+        "type": "choice",
+        "question": {
+          "ru": "При разбавлении без реакции сохраняется…",
+          "es": "Al diluir sin reacción se conserva…"
+        },
+        "answer": 1,
+        "explanation": {
+          "ru": "Добавляем растворитель; n вещества сохраняется, V растёт и c меняется.",
+          "es": "Se agrega solvente; n se conserva, V aumenta y c cambia."
+        },
+        "hints": [
+          {
+            "ru": "Какие частицы добавляются?",
+            "es": "¿Qué partículas agregás?"
+          },
+          {
+            "ru": "Само растворённое вещество не удаляется.",
+            "es": "El soluto no se elimina."
+          }
+        ],
+        "options": [
+          {
+            "ru": "Концентрация.",
+            "es": "Concentración."
+          },
+          {
+            "ru": "Количество растворённого вещества.",
+            "es": "Cantidad de soluto."
+          },
+          {
+            "ru": "Объём.",
+            "es": "Volumen."
+          }
+        ]
+      },
+      {
+        "id": "conc-match",
+        "type": "match",
+        "question": {
+          "ru": "Сопоставьте величины и единицы.",
+          "es": "Relacioná magnitudes y unidades."
+        },
+        "answer": [
+          0,
+          1,
+          2
+        ],
+        "explanation": {
+          "ru": "Масса m измеряется в g, количество n в mol, c в mol/L.",
+          "es": "m se mide en g, n en mol y c en mol/L."
+        },
+        "hints": [
+          {
+            "ru": "n считает химические порции.",
+            "es": "n cuenta porciones químicas."
+          },
+          {
+            "ru": "c — количество на объём.",
+            "es": "c es cantidad por volumen."
+          }
+        ],
+        "matches": [
+          {
+            "ru": "Грамм (g)",
+            "es": "Gramo (g)"
+          },
+          {
+            "ru": "Моль (mol)",
+            "es": "Mol (mol)"
+          },
+          {
+            "ru": "Моль на литр (mol/L)",
+            "es": "Mol por litro (mol/L)"
+          }
+        ],
+        "options": [
+          {
+            "ru": "Масса m",
+            "es": "Masa m"
+          },
+          {
+            "ru": "Количество n",
+            "es": "Cantidad n"
+          },
+          {
+            "ru": "Концентрация c",
+            "es": "Concentración c"
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "id": "concentration",
+        "name": {
+          "ru": "Молярная концентрация",
+          "es": "Concentración molar"
+        },
+        "definition": {
+          "ru": "Количество растворённого вещества в единице объёма раствора.",
+          "es": "Cantidad de soluto por volumen de solución."
+        },
+        "detail": {
+          "ru": "Используйте конечный объём всего раствора, обычно L.",
+          "es": "Usá el volumen final total, normalmente L."
+        },
+        "formula": "c=n/V",
+        "example": {
+          "ru": "0,1 mol в 0,5 L даёт 0,2 mol/L.",
+          "es": "0,1 mol en 0,5 L da 0,2 mol/L."
+        },
+        "lessonId": "concentration"
+      }
+    ],
+    "simulation": "dilution",
+    "notes": [
+      {
+        "ru": "Подготовительный материал добавлен для понимания школьных листов. Примеры разработаны для курса.",
+        "es": "Material preparatorio agregado para comprender las fichas. Ejemplos creados para el curso."
+      }
+    ]
+  },
+  {
+    "id": "equations",
+    "group": "foundation",
+    "additional": true,
+    "title": {
+      "ru": "Уравнения реакций и сохранение атомов",
+      "es": "Ecuaciones y conservación de átomos"
+    },
+    "summary": {
+      "ru": "Балансировка как честный учёт каждого атома.",
+      "es": "Balancear es contar cada átomo."
+    },
+    "goals": [
+      {
+        "ru": "Понимать каждое обозначение и проверять единицы.",
+        "es": "Entender cada símbolo y verificar unidades."
+      },
+      {
+        "ru": "Решать задачи по шагам и объяснять выбор формулы.",
+        "es": "Resolver por pasos y explicar la elección de fórmula."
+      }
+    ],
+    "prereqs": {
+      "ru": "Уметь читать формулы и считать атомы.",
+      "es": "Saber leer fórmulas y contar átomos."
+    },
+    "sourceIds": [
+      219
+    ],
+    "paragraphs": [
+      {
+        "title": {
+          "ru": "Что означает стрелка",
+          "es": "Qué significa la flecha"
+        },
+        "text": {
+          "ru": "Слева записаны реагенты, справа продукты. Реакция перестраивает связи, но в обычной химии не превращает один элемент в другой. Поэтому число атомов каждого элемента должно совпадать слева и справа. В ионном уравнении дополнительно сохраняется суммарный заряд.",
+          "es": "A la izquierda están reactivos y a la derecha productos. Una reacción reorganiza enlaces, pero no cambia un elemento en otro en química habitual. Debe coincidir la cantidad de cada elemento a ambos lados; en ecuaciones iónicas también la carga."
+        },
+        "formal": {
+          "ru": "Баланс атомов и электрического заряда — обязательные условия корректного уравнения; они не доказывают, что реакция самопроизвольна или быстра.",
+          "es": "Conservar átomos y carga es necesario; no demuestra que la reacción sea espontánea ni rápida."
+        },
+        "simple": {
+          "ru": "Можно перестроить фигуру из деталей, сохранив все детали. Но химическая возможность зависит ещё и от энергии и условий.",
+          "es": "Podés reorganizar piezas sin perderlas. La posibilidad química depende también de energía y condiciones."
+        }
+      },
+      {
+        "title": {
+          "ru": "Коэффициенты и индексы",
+          "es": "Coeficientes y subíndices"
+        },
+        "text": {
+          "ru": "В H₂ + O₂ → H₂O кислород не совпадает: 2 слева и 1 справа. Поставим 2 перед H₂O, тогда справа 4 H. Теперь поставим 2 перед H₂. Получаем 2H₂ + O₂ → 2H₂O. Коэффициент умножает всю формулу. Изменить H₂O на H₂O₂ нельзя: перекись водорода — другое вещество.",
+          "es": "H₂ + O₂ → H₂O no balancea O: 2 a la izquierda, 1 a la derecha. Ponemos 2H₂O: quedan 4 H. Ponemos 2H₂ a la izquierda. Resulta 2H₂ + O₂ → 2H₂O. El coeficiente multiplica toda la fórmula. Cambiar a H₂O₂ crearía peróxido, otra sustancia."
+        },
+        "formal": {
+          "ru": "Стехиометрические коэффициенты выражают отношения количеств вещества. Любое общее положительное кратное сохраняет баланс; принято приводить к минимальным целым.",
+          "es": "Los coeficientes estequiométricos expresan relaciones de cantidades. Todo múltiplo común positivo conserva balance; se usan enteros mínimos."
+        },
+        "simple": {
+          "ru": "Индекс — состав одной порции; коэффициент — сколько таких порций берём.",
+          "es": "Subíndice es composición de una porción; coeficiente indica cuántas porciones."
+        }
+      },
+      {
+        "title": {
+          "ru": "Как использовать пропорцию",
+          "es": "Cómo usar la proporción"
+        },
+        "text": {
+          "ru": "Уравнение гидролиза сахарозы C₁₂H₂₂O₁₁ + H₂O → C₆H₁₂O₆ + C₆H₁₂O₆ показывает 1 mol сахарозы на 1 mol воды и по 1 mol глюкозы и фруктозы. Массы продуктов не равны массам реагентов по отдельности, но общая масса сохраняется в закрытой системе. Коэффициенты задают mol, а не g.",
+          "es": "La hidrólisis de sacarosa C₁₂H₂₂O₁₁ + H₂O → C₆H₁₂O₆ + C₆H₁₂O₆ usa 1 mol de sacarosa y de agua, y produce 1 mol de glucosa y de fructosa. Las masas individuales difieren, pero la masa total se conserva en sistema cerrado. Los coeficientes relacionan mol, no g."
+        },
+        "formal": {
+          "ru": "nᵢ/νᵢ — стехиометрическое отношение для полного превращения при отсутствии побочных реакций. Лимитирующий реагент определяется минимальным nᵢ/νᵢ.",
+          "es": "nᵢ/νᵢ describe proporción estequiométrica sin reacciones laterales. El reactivo limitante tiene menor nᵢ/νᵢ."
+        },
+        "simple": {
+          "ru": "Рецепт 2 порции H₂ на 1 порцию O₂ означает число частиц, а не одинаковые массы.",
+          "es": "Una receta 2 porciones H₂ por 1 O₂ habla de entidades, no de masas iguales."
+        }
+      }
+    ],
+    "formulas": [
+      {
+        "tex": "2\\mathrm{H_2}+\\mathrm{O_2}\\rightarrow2\\mathrm{H_2O}",
+        "symbols": {
+          "ru": "H: 4 с каждой стороны, O: 2 с каждой стороны.",
+          "es": "H: 4 por lado; O: 2 por lado."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "title": {
+          "ru": "Баланс образования воды",
+          "es": "Balance de formación de agua"
+        },
+        "steps": [
+          {
+            "ru": "Запишем H₂ + O₂ → H₂O.",
+            "es": "Escribimos H₂ + O₂ → H₂O."
+          },
+          {
+            "ru": "Считаем O: слева 2, справа 1.",
+            "es": "Contamos O: 2 izquierda y 1 derecha."
+          },
+          {
+            "ru": "Поставим 2 перед H₂O, справа O:2 и H:4.",
+            "es": "Ponemos 2H₂O: O:2 y H:4."
+          },
+          {
+            "ru": "Поставим 2 перед H₂, слева H:4.",
+            "es": "Ponemos 2H₂: H:4 a izquierda."
+          },
+          {
+            "ru": "Проверяем оба элемента: H 4=4, O 2=2.",
+            "es": "Verificamos H 4=4 y O 2=2."
+          }
+        ],
+        "why": [
+          {
+            "ru": "Опираемся на определение величины и сохранение вещества; каждый символ относится к заданной системе.",
+            "es": "Usamos la definición y conservación de materia; cada símbolo corresponde al sistema indicado."
+          },
+          {
+            "ru": "Сохранение атомов проверяется отдельно для каждого элемента, а не только по общей сумме.",
+            "es": "Verificamos átomos de cada elemento, no solo el total."
+          },
+          {
+            "ru": "Коэффициент умножает всю молекулу; индекс оставляем неизменным, чтобы не создать другое вещество.",
+            "es": "El coeficiente multiplica la molécula; mantenemos subíndices para no cambiar la sustancia."
+          },
+          {
+            "ru": "Коэффициент умножает всю молекулу; индекс оставляем неизменным, чтобы не создать другое вещество.",
+            "es": "El coeficiente multiplica la molécula; mantenemos subíndices para no cambiar la sustancia."
+          },
+          {
+            "ru": "Обратный расчёт и оценка масштаба позволяют обнаружить ошибку в формуле или переводе единиц.",
+            "es": "El cálculo inverso y estimar tamaño detectan errores de fórmula o unidades."
+          }
+        ],
+        "result": {
+          "ru": "2H₂ + O₂ → 2H₂O.",
+          "es": "2H₂ + O₂ → 2H₂O."
+        }
+      },
+      {
+        "title": {
+          "ru": "Сгорание метана",
+          "es": "Combustión del metano"
+        },
+        "steps": [
+          {
+            "ru": "CH₄ + O₂ → CO₂ + H₂O.",
+            "es": "CH₄ + O₂ → CO₂ + H₂O."
+          },
+          {
+            "ru": "C совпадает, 1 с обеих сторон.",
+            "es": "C coincide: 1 por lado."
+          },
+          {
+            "ru": "H слева 4, ставим 2 перед H₂O.",
+            "es": "H izquierda 4: ponemos 2H₂O."
+          },
+          {
+            "ru": "O справа 2+2=4, ставим 2 перед O₂.",
+            "es": "O derecha 2+2=4: ponemos 2O₂."
+          },
+          {
+            "ru": "Проверяем C:1, H:4, O:4 на каждой стороне.",
+            "es": "Verificamos C:1, H:4, O:4 por lado."
+          }
+        ],
+        "why": [
+          {
+            "ru": "Опираемся на определение величины и сохранение вещества; каждый символ относится к заданной системе.",
+            "es": "Usamos la definición y conservación de materia; cada símbolo corresponde al sistema indicado."
+          },
+          {
+            "ru": "Сохранение атомов проверяется отдельно для каждого элемента, а не только по общей сумме.",
+            "es": "Verificamos átomos de cada elemento, no solo el total."
+          },
+          {
+            "ru": "Коэффициент умножает всю молекулу; индекс оставляем неизменным, чтобы не создать другое вещество.",
+            "es": "El coeficiente multiplica la molécula; mantenemos subíndices para no cambiar la sustancia."
+          },
+          {
+            "ru": "Коэффициент умножает всю молекулу; индекс оставляем неизменным, чтобы не создать другое вещество.",
+            "es": "El coeficiente multiplica la molécula; mantenemos subíndices para no cambiar la sustancia."
+          },
+          {
+            "ru": "Обратный расчёт и оценка масштаба позволяют обнаружить ошибку в формуле или переводе единиц.",
+            "es": "El cálculo inverso y estimar tamaño detectan errores de fórmula o unidades."
+          }
+        ],
+        "result": {
+          "ru": "CH₄ + 2O₂ → CO₂ + 2H₂O.",
+          "es": "CH₄ + 2O₂ → CO₂ + 2H₂O."
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "eq-balance",
+        "type": "balance",
+        "question": {
+          "ru": "Уравняйте CH₄ + O₂ → CO₂ + H₂O.",
+          "es": "Balanceá CH₄ + O₂ → CO₂ + H₂O."
+        },
+        "answer": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "explanation": {
+          "ru": "C задаёт 1 CO₂, H задаёт 2 H₂O, значит справа 4 O и нужно 2 O₂.",
+          "es": "C exige 1 CO₂ y H exige 2 H₂O: hay 4 O, por eso 2 O₂."
+        },
+        "hints": [
+          {
+            "ru": "Начните с C и H.",
+            "es": "Empezá por C y H."
+          },
+          {
+            "ru": "Кислород балансируется последним.",
+            "es": "Balanceá O al final."
+          }
+        ],
+        "options": [
+          {
+            "ru": "CH₄",
+            "es": "CH₄"
+          },
+          {
+            "ru": "O₂",
+            "es": "O₂"
+          },
+          {
+            "ru": "CO₂",
+            "es": "CO₂"
+          },
+          {
+            "ru": "H₂O",
+            "es": "H₂O"
+          }
+        ]
+      },
+      {
+        "id": "eq-index",
+        "type": "error",
+        "question": {
+          "ru": "Ученик заменил H₂O на H₂O₂, чтобы уравнять кислород. В чём ошибка?",
+          "es": "Un estudiante cambió H₂O por H₂O₂ para balancear O. ¿Cuál es el error?"
+        },
+        "answer": 0,
+        "explanation": {
+          "ru": "Индексы определяют вещество. Балансируем только коэффициентами.",
+          "es": "Los subíndices definen sustancia. Balanceamos con coeficientes."
+        },
+        "hints": [
+          {
+            "ru": "Сравните состав воды и перекиси.",
+            "es": "Compará agua y peróxido."
+          },
+          {
+            "ru": "Какое число можно менять перед формулой?",
+            "es": "¿Qué número podés cambiar delante?"
+          }
+        ],
+        "options": [
+          {
+            "ru": "Изменился продукт реакции.",
+            "es": "Cambió el producto."
+          },
+          {
+            "ru": "Коэффициенты обязаны быть нулём.",
+            "es": "Los coeficientes deben ser cero."
+          },
+          {
+            "ru": "Кислород не сохраняется в химии.",
+            "es": "El oxígeno no se conserva."
+          }
+        ]
+      },
+      {
+        "id": "eq-proportion",
+        "type": "numeric",
+        "question": {
+          "ru": "Полный гидролиз 0,20 mol сахарозы. Сколько mol глюкозы получается?",
+          "es": "Hidrólisis completa de 0,20 mol de sacarosa. ¿Cuántos mol de glucosa?"
+        },
+        "answer": 0.2,
+        "explanation": {
+          "ru": "Коэффициенты сахарозы и глюкозы 1:1, поэтому 0,20 mol.",
+          "es": "Sacarosa y glucosa están 1:1: 0,20 mol."
+        },
+        "hints": [
+          {
+            "ru": "Не складывайте глюкозу и фруктозу.",
+            "es": "No sumes glucosa y fructosa."
+          },
+          {
+            "ru": "У каждого отдельного продукта коэффициент 1.",
+            "es": "Cada producto tiene coeficiente 1."
+          }
+        ],
+        "unit": "mol"
+      },
+      {
+        "id": "eq-multi",
+        "type": "multi",
+        "question": {
+          "ru": "Что обязательно сохраняется в уравнении обычной химической реакции?",
+          "es": "¿Qué se conserva necesariamente en una reacción química habitual?"
+        },
+        "answer": [
+          0,
+          1
+        ],
+        "explanation": {
+          "ru": "Сохраняются атомы каждого элемента и общий заряд. Число молекул и объём могут меняться.",
+          "es": "Se conservan átomos por elemento y carga total. Moléculas y volumen pueden cambiar."
+        },
+        "hints": [
+          {
+            "ru": "Молекулы перестраиваются.",
+            "es": "Las moléculas se reorganizan."
+          },
+          {
+            "ru": "Элементы не превращаются друг в друга.",
+            "es": "Los elementos no se transforman entre sí."
+          }
+        ],
+        "options": [
+          {
+            "ru": "Число атомов каждого элемента.",
+            "es": "Átomos de cada elemento."
+          },
+          {
+            "ru": "Суммарный заряд.",
+            "es": "Carga total."
+          },
+          {
+            "ru": "Число молекул.",
+            "es": "Número de moléculas."
+          },
+          {
+            "ru": "Объём.",
+            "es": "Volumen."
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "id": "stoichiometry",
+        "name": {
+          "ru": "Стехиометрия",
+          "es": "Estequiometría"
+        },
+        "definition": {
+          "ru": "Количественные отношения веществ в реакции.",
+          "es": "Relaciones cuantitativas entre sustancias de una reacción."
+        },
+        "detail": {
+          "ru": "Коэффициенты уравнения задают отношения mol. Проверяется сохранение атомов и заряда.",
+          "es": "Coeficientes indican relaciones de mol. Se verifica conservación de átomos y carga."
+        },
+        "formula": "n_i/\nu_i=n_j/\nu_j",
+        "example": {
+          "ru": "В 2H₂+O₂→2H₂O отношение H₂:O₂ равно 2:1.",
+          "es": "En 2H₂+O₂→2H₂O la relación H₂:O₂ es 2:1."
+        },
+        "lessonId": "equations"
+      }
+    ],
+    "simulation": "balance",
+    "notes": [
+      {
+        "ru": "Подготовительный материал добавлен для понимания школьных листов. Примеры разработаны для курса.",
+        "es": "Material preparatorio agregado para comprender las fichas. Ejemplos creados para el curso."
+      },
+      {
+        "ru": "Фотография 219 — обложка комплекта учебных таблиц, без самостоятельного упражнения.",
+        "es": "La foto 219 es portada del conjunto de tablas, sin ejercicio independiente."
+      }
+    ]
+  }
+]

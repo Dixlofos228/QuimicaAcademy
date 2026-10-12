@@ -1,0 +1,24 @@
+ACTIVIDAD
+Estudia ahora las siguientes situaciones, se parte de los tanques según
+
+muestra la figura Cllave de paso abierta):
+
+Tanque 1 Tanque 2
+
+O ¿En qué situación se encuentran los tanques en el estado inicial?
+
+O Dibuja el estado final de los tanques si agregas agua en el tanque 1: ¿dn qué sentido circulará el
+agua?
+
+Tanque 2
+
+Ae
+
+O Dibuja el estado final de los tanques si agregas agua en el tanque 2: ¿en qué sentido circulará el
+
+agua?
+
+Tanque 2
+
+O ¿Por qué se puede afirmar que “a circulación de agua en los tanques es Un proceso reversible”.
+

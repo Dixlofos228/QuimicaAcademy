@@ -1,0 +1,46 @@
+ACTIVIDAD c
+
+O Mnaliza el cuadro de la Fig. 1 y representa uN ácido graso saturado y un ácido insaturado (que
+contengan ambos 18 átomos de carbono), en la torma semidesarrollada, condensada y stick.
+
+CÓDIGO_
+
+Nombre Estructura
+Ácidos grasos saturados
+
+(1
+Y )
+Ácido láurico CHs (CHí10 C“OH
+
+U
+Ácido mirístico— CH CH9 |2'CxOH
+
+lI
+Átido palmítico CHs (CH2) "_C—DH
+
+o
+1
+Ácido esteárico — CHs (CH»[S'CN0H
+
+Ácidos grasos Insaturados
+o
+
+Ácidos grasos más comunes
+
+U
+Ácido palmitoleico CH3(CH2JE)C:¡=%(CH2)Íon
+
+II
+CH (CH))] g=%(CH2)7 CHOH
+
+Fig. 1.
+
+Átido oleico
+
+1l
+E Ácido linaleico — "Ha £H2)l%=gCH2CH=E¡(CP&)7 C—0H'
+
+Q A partir del código de referencia planteado para los ácidos grasos representados, establece el
+
+código para los restantes A6.
+

@@ -1,0 +1,43 @@
+considera un gas en uN cilindro Csistema)
+con un pistón móvil de área transversal A.
+
+Sobre el pistón actúa una fuerza F dirigida
+hacia abajo.
+
+La presión, P, sobre el as es la fuerza por
+
+área: P=".
+a a
+
+ln
+
+Se supone que el pistón es de masa
+Cambio — despreciable y que la Únmica presión que
+devolumen — actúa sobre él es la presión atmostérica,
+debida a la atmóstfera terrestre, la cual se
+
+considera constante.
+
+Gas encerrado
+en el cilindro
+
+[
+—
+
+4
+
+Area de la sección
+transversal = A _ Estado
+inicial final
+
+QEl gas, ¿experimenta una expansión o compresión? Explica Y completa el subtítulo en la página
+
+anterior
+
+O ¿El sistema realiza trabajo sobre el entorno 0 el entorno realiza trabajo sobre el sistema?
+
+completa en el globo.
+
+9 Deduce la expresión matemática que relaciona el trabajo (W) realizado por uN 9as con la presión
+(P) y el volumen (Y)
+

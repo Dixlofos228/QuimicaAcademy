@@ -1,0 +1,9 @@
+node_modules/
+dist/
+work/
+reports/e2e-artifacts/
+*.tsbuildinfo
+
+# Original photos remain on disk; immutable hashes recorded in reports.
+public/originals/
+public/sources/

@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-12",
+  "archivalReview": {
+    "pages": 241,
+    "visuallyReviewed": 241,
+    "needsCrossCheck": 76,
+    "duplicateGroups": [
+      [
+        226,
+        231
+      ],
+      [
+        227,
+        232
+      ]
+    ]
+  },
+  "content": {
+    "photos": 241,
+    "visuallyReviewed": 241,
+    "linked": 241,
+    "flaggedPages": 76,
+    "sections": 9,
+    "lessons": 61,
+    "additionalLessons": 4,
+    "exercises": 246,
+    "workedExamples": 123,
+    "terms": 124,
+    "simulationKinds": [
+      "aminocharge",
+      "atom",
+      "balance",
+      "bonds",
+      "calorimeter",
+      "carbs",
+      "chirality",
+      "dilution",
+      "energy",
+      "energyflow",
+      "equilibrium",
+      "ester",
+      "hess",
+      "lipidreaction",
+      "lipids",
+      "micelle",
+      "mole",
+      "pH",
+      "polarimeter",
+      "polymer",
+      "protein",
+      "proteinfold",
+      "sugarcycle",
+      "sugartests",
+      "thermo",
+      "work"
+    ],
+    "exerciseTypes": [
+      "balance",
+      "choice",
+      "error",
+      "formula",
+      "match",
+      "multi",
+      "numeric",
+      "order",
+      "steps"
+    ]
+  },
+  "authorChecks": [
+    "Organic/carbohydrate numeric keys and representative worked calculations independently recomputed",
+    "Thermodynamic/equilibrium numeric keys independently recomputed; first-law signs, gas work and Hess paths reviewed",
+    "Lipid, acid/base and protein keys independently recomputed; stoichiometry and pH/pI reviewed",
+    "Foundation and final C content independently inspected by second author",
+    "All 76 flagged source notes translated to Spanish and matched to registry IDs"
+  ],
+  "simulationCorrections": [
+    "Hydrolysis oxygen bridge, OH groups and separated products",
+    "Hess scaled coefficients and enthalpy-axis levels",
+    "No directional heat/work arrows at zero",
+    "Calorimetry includes apparatus heat capacity and opposite heat signs",
+    "TG esterification, transesterification, saponification and hydrogenation have balanced formulas"
+  ],
+  "scopeLimits": [
+    "Visual review is not full certainty for every handwritten symbol",
+    "Registry flags errors and ambiguities rather than inventing missing values",
+    "Course exercises cover source topics; not a literal answer key to every original subquestion",
+    "Models have explicit assumptions and schematic structures",
+    "External QR video not reconstructed; historical climate/health/ALUR figures not claimed current"
+  ]
+}

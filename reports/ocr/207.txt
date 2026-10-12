@@ -1,0 +1,45 @@
+Propiedades ácido — base de Los aminoáacidos
+
+Dada la característica estructural de los aminoácidos de presentar dos grupos funcionales:
+
+el grupo CARBOXILO:
+
+El grupo carboxilo tiene carácter ácido
+- — 1 der protones H *
+Son — o + dado que tiende a ceder p
+
+o
+
+1 grupo AMINO E -
+— El grupo amino tiene un carácter básico
+dado que tiende a aceptar protones H*
+
+¿Qué tipo de comportamiento ácido/base piensas que tendrán los aminoácidos?
+
+Los aminoácidos en solución acuosa se encuentran bajo torma de ¡on dipolar. El carboxilo y el amino
+se neutralizan mutuamente al ceder y aceptar un H*
+
+R
+
+Estructura en función del pH
+
+La característica de poder actuar, dependiendo de las condiciones, como ácido o como base, se conoce
+con el nombre de antoterismo. En los aminoácidos se puede esperar este comportamiento antótero.
+La forma bajo la cual se encuentra uN aa en solución acuosa depende del pH del medio.
+
+dE  Supongamos que tenemos un aa bajo la Torma de ¡on dipolar, si lo colocamos en una solución
+de pH muy bajo Celevada concentración de H*) es esperable que el grupo carboxilo Ccargado
+
+negativamente), capte uN H', Esto originará una especie catiónica, dado que sobre el grupo
+amino permanece la carga positiva.
+
+dE Por otra parte, si la especie dipolar es colocada en una solución de pH muy alto Celevada
+concentración de 0H), es esperable que estos aniones pierdan el H* adicional del grupo amino
+
+protonado (-NH:"), para tormar agua. El grupo carboxilato permanecerá inalterado, por lo cual
+se habrá generado una especie aniónica.
+
+de - Existe un pH para el cual la torma predominante será la torma de ¡on dipolar. Dicho pH se
+conoce con el nombre de Punto isoeléctrico Cpl)
+
+J

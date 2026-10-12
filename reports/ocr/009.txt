@@ -1,0 +1,46 @@
+Fermas de representar 1a esVuetLIA de
+aS MOICCUIAS ErgáNicas
+
+¿ePO
+
+Tomemos como ejemplo al PROPANO, un alcano cuyas woléculas tienen 3
+átomos de carbono y es uno de los componentes del supergas de las garrafas.
+
+1 MODELO MOLECULAR DE ESFERAS Y ” *,d y
+VARILLAS - A v
+FORMA DESARROLLADA y
+H—C—H
+Se representan todos los átomos de la molécula y los enlaces que se > H_(I:_H
+establecen entre ellos. 1
+H—C—H
+——]; Ú —].e— — A TE s í
+FORMA SEMIDESARROLLADA
+H
+Se representan todos los átomos de carbono de la cadena carbonada y del C|: :
+funci "
+g3rupo tuncional y los enlaces que se establecen entre ellos. CH:
+Al lado del símbolo de cada carbono se indica el N? de átomos de hidrógeno |
+CH:
+
+enlazados a éste, utilizando su simbolo H y un subindice a (a derecha para
+indicar la cantidad de átomos enlazados.
+
+FORMA STICK_0 216-ZAG
+
+Se utiliza para representar [a estructura de la molécula en forma gráfica.
+
+Para ello:
+
+* se elimina (a escritura de (os átomos de c e H Cexcepto cuando los de H
+forman parte del grupo funcional, ej. - 0H).
+
+* cada trazo leal representa un enlace covalente simple C - € y el ángulo
+
+9 “quiebre" al átomo de c.
+
+% los enlaces C-H y0 se representan,
+
+FÓRMULA MOLECULAR 0 GLOBAL
+Se indica el número total de átomos de cada elemento que forma a la
+molécula. Primero c, luego H, 0, N, etc.
+

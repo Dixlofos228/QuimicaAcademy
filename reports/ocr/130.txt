@@ -1,0 +1,46 @@
+ACTIVIDAD ©
+
+Se estudia nuevamente el equilibrio:
+2N02c9) — N204c9)
+
+Aspectos cuantitativos del
+equilibrio químico
+
+Para ello se analizan diferentes composiciones en equilibrio a la misma temperatura, obteniéndose
+
+los siguientes resultados:
+
+donde []es!
+
+X
+
+No exp | [N204] | [NO2] | [M.O,] | [mo]
+mol/L mol/L [Vo,] [vo, ?
+1 1,00 0,50
+2,00 o7
+3 4,00 100
+
+O completa el cuadro anterior
+
+O ¿Qué diferencias presentan las operaciones que realizaste?
+
+concentración molar
+
+O ¿Qué conclusión puedes sacar al analizar los resultados obtenidos?
+
+Para poder controlar una reacción, es necesario poseer intormación cuantitativa sobre el estado de
+equilibrio. Para ello utilizamos la constante de equilibrio.
+
+Para los sistemas en equilibrio existe una constante, llamada constante de equili
+(as concentraciones de reactivos y productos en el equilibrio. El valor d
+
+isQQT
+
+brio (K) que relaciona
+
+e esta constante es
+
+característico para cada reacción y solo varía con la temperatura para una misma reacción. La
+
+importancia que tiene la constante de equilibrio es que anticipa el grado de avance de un proceso.
+

@@ -1,0 +1,49 @@
+Cálculo de AU en procesos donde no hay transferencia de calor (Q)
+
+Sabiendo que:
+
+AU=Q+W
+
+Q considera un sistema que no intercambia calor con el entorno, ¿a qué es igual la variación de la
+
+energía interna CAU) del sistema?
+SISTEMA
+ADIABÁTICO
+
+k No intercambia calor
+
+3 Puede intercambiar W
+
+k Puede intercambiar materia
+
+9 Ahora considera un sistema que no intercambia calor con el entorno, pero además el proceso que
+experimenta ocurre a volumen constante (V=cte), ¿a qué es igual la variación de la energía interna
+CAU) del sistema?
+
+SISTEMA
+AISLADO
+
+Y No intercambia calor
+
+3£ No intercambia W
+
+3£ No intercambia materia
+
+Cálculo de AU en procesos donde hay transferencia de calor (0)
+
+Ahora analizaremos cómo calcular la variación de la energía interna CAU) en procesos donde hay
+
+transterencia de calor.
+
+Consideraremos 2 casos:
+
+1. Procesos que ocurren a volumen constante (V=cte), por ejemplo, en recipientes (reactores) con
+
+paredes rígidas.
+
+2. Procesos que ocurren a presión constante (P=cte), por ej
+y P=cte), Jemplo, los ocurrel
+seres vivos (presión constante igual a la presión atmostérica) o en c“u:l1u¡er :e:c?or1::c“ezz
+
+en contacto con esta.
+

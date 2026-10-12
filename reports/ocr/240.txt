@@ -1,0 +1,31 @@
+Química 3*CT, 2026 - Liceo N* 4 Juan Zorrilla de San Martín
+A partir de esto se establece la escala de pH
+
+MEDIO ACIDO MEDIO NEUTRO MEDIO BÁSICO
+
+[H:0'] [OH] [H:0'] [OH] [H;0'] [OH]
+pH 7 pH 7 pH 7
+
+d A
+(1) 1 2 3 4 5 6 7 8 g 10 n 12 13 14
+
+Calcula [H;O*] para los siguientes puntos de la escala
+
+[Hbo.]=
+
+La relación entre [H;O'] y pH es
+una relación logarítmica e inversa
+
+Antes de desarrollarse una teoría para diferenciar aquellas sustancias que generan un medio ácido de las
+que generan uno básico, ya se las podía diferenciar por ciertas propiedades organolépticas. Las
+sustancias que generan un medio ácido (pH<7) se caracterizan por tener un sabor agrio, mientras que las
+sustancias típicas de un medio básico (pH>7) tienen un sabor amargo y son resbaladizas al tacto.
+
+Es posible calcular también el pOH y pKw
+
+pOH: -log[OH]
+
+pKw= -log Kw
+
+plw:
+

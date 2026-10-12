@@ -1,0 +1,74 @@
+
+> quimica-academy@1.0.0 test
+> node --test tests/science.test.mjs
+
+TAP version 13
+# Subtest: atom parser respects subscripts, parentheses and case
+ok 1 - atom parser respects subscripts, parentheses and case
+  ---
+  duration_ms: 3.13563
+  ...
+# Subtest: molar masses match atomic-mass sums
+ok 2 - molar masses match atomic-mass sums
+  ---
+  duration_ms: 0.343757
+  ...
+# Subtest: reaction models conserve every element
+ok 3 - reaction models conserve every element
+  ---
+  duration_ms: 0.410907
+  ...
+# Subtest: numeric answers parse decimal comma, scientific notation and compatible units
+ok 4 - numeric answers parse decimal comma, scientific notation and compatible units
+  ---
+  duration_ms: 0.32355
+  ...
+# Subtest: first law, calorimetry, food energy and optical units
+ok 5 - first law, calorimetry, food energy and optical units
+  ---
+  duration_ms: 0.159749
+  ...
+# Subtest: weak-acid quadratic and equilibrium mass balance
+ok 6 - weak-acid quadratic and equilibrium mass balance
+  ---
+  duration_ms: 0.15537
+  ...
+# Subtest: all lessons have substantive bilingual content, two examples and exercises
+ok 7 - all lessons have substantive bilingual content, two examples and exercises
+  ---
+  duration_ms: 1.021703
+  ...
+# Subtest: every stored answer accepted, incorrect answers rejected
+ok 8 - every stored answer accepted, incorrect answers rejected
+  ---
+  duration_ms: 1.024355
+  ...
+# Subtest: formulas render with strict KaTeX validation
+ok 9 - formulas render with strict KaTeX validation
+  ---
+  duration_ms: 41.155409
+  ...
+# Subtest: all 241 archive photos linked to actual lessons and visual registry
+ok 10 - all 241 archive photos linked to actual lessons and visual registry
+  ---
+  duration_ms: 4.221896
+  ...
+# Subtest: gas work conversion, Hess cycle and glycine charge model
+ok 11 - gas work conversion, Hess cycle and glycine charge model
+  ---
+  duration_ms: 0.161422
+  ...
+# Subtest: lipid transformations conserve atoms independently of answer keys
+ok 12 - lipid transformations conserve atoms independently of answer keys
+  ---
+  duration_ms: 0.270752
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 129.705847
