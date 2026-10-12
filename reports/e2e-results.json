@@ -3,7 +3,8 @@
     "argv": [
       "/home/mirai/.nvm/versions/node/v20.19.6/bin/node",
       "/home/mirai/Projects/QuimicaAcademy/node_modules/.bin/playwright",
-      "test"
+      "test",
+      "--workers=2"
     ],
     "configFile": "/home/mirai/Projects/QuimicaAcademy/playwright.config.ts",
     "rootDir": "/home/mirai/Projects/QuimicaAcademy/tests/e2e",
@@ -17,7 +18,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "projects": [
@@ -26,16 +27,32 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
-        "id": "",
-        "name": "",
+        "id": "chromium",
+        "name": "chromium",
         "testDir": "/home/mirai/Projects/QuimicaAcademy/tests/e2e",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 90000
+        "timeout": 180000
+      },
+      {
+        "outputDir": "/home/mirai/Projects/QuimicaAcademy/reports/e2e-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/mirai/Projects/QuimicaAcademy/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 180000
       }
     ],
     "filteredProjects": [
@@ -46,14 +63,14 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
-        "name": "",
+        "name": "chromium",
         "testDir": "/home/mirai/Projects/QuimicaAcademy/tests/e2e",
         "snapshotDir": "/home/mirai/Projects/QuimicaAcademy/tests/e2e",
         "testIgnore": [],
         "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
-        "timeout": 90000,
+        "timeout": 180000,
         "use": {
           "baseURL": "http://127.0.0.1:4173",
           "headless": true,
@@ -61,17 +78,50 @@
             "width": 1600,
             "height": 1000
           },
+          "screenshot": "only-on-failure",
+          "browserName": "chromium",
           "launchOptions": {
             "executablePath": "/usr/bin/chromium",
             "args": [
               "--no-sandbox"
             ]
-          },
-          "screenshot": "only-on-failure"
+          }
         },
         "dependencies": [],
         "ignoreSnapshots": false,
-        "__projectId": ""
+        "__projectId": "chromium"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/mirai/Projects/QuimicaAcademy/reports/e2e-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "firefox",
+        "testDir": "/home/mirai/Projects/QuimicaAcademy/tests/e2e",
+        "snapshotDir": "/home/mirai/Projects/QuimicaAcademy/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 180000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "headless": true,
+          "viewport": {
+            "width": 1600,
+            "height": 1000
+          },
+          "screenshot": "only-on-failure",
+          "browserName": "firefox",
+          "launchOptions": {
+            "executablePath": "/home/mirai/.cache/ms-playwright/firefox-1555/firefox/firefox"
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "firefox"
       }
     ],
     "quiet": false,
@@ -96,10 +146,2534 @@
     "updateSnapshots": "default",
     "updateSourceMethod": "patch",
     "version": "1.64.0",
-    "workers": 1,
+    "workers": 2,
     "webServer": null
   },
   "suites": [
+    {
+      "title": "modern.spec.ts",
+      "file": "modern.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "the course exposes all 26 specialized laboratories",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:25:29.345Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-a58b21c7cbc9a05908d0",
+          "file": "modern.spec.ts",
+          "line": 20,
+          "column": 1
+        },
+        {
+          "title": "motion lab atom / atoms: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3447,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:25:29.385Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-9b9fb9d564bb91a048fc",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab mole / mole: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3968,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:25:32.996Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-a2562ba34e8ddc4fb002",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab dilution / concentration: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3454,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:25:36.980Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-bb5cedb1d5b81b28c50f",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab balance / equations: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3390,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:25:40.445Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-bc63fdf2c4562b93327a",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab bonds / carbon: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3539,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:25:43.845Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-238359ae52d435566a98",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab chirality / chirality: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3509,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:25:47.395Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-4494e79200787e1cfadd",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab polarimeter / polarimetry: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3454,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:25:50.913Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-483738ce282ec6b7a43a",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab carbs / carb-classification: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3423,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:25:54.379Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-ea6c39ab3819410ee4d4",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab sugarcycle / cyclization: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3286,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:25:57.813Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-53ebf11ab61dd7f11075",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab sugartests / reducing: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3241,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:01.109Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-2be9f8efc5f64d811bfd",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab polymer / polysaccharides: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3356,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:04.363Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-f0cdd0d2b37a08b5a41a",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab energy / nutrition: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3389,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:07.731Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-82c8a6df0f945ee9b759",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab energyflow / thermo-system: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3287,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:11.130Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-02ba6dec763795bba87f",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab work / thermo-gas-work: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3273,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:14.429Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-c20d482715b8f3e3eee1",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab thermo / thermo-heat: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3367,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:17.712Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-a3d1275b6b6072928297",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab calorimeter / thermo-bomb: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3392,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:21.088Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-335a84336ac3601baac6",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab hess / thermo-thermochemical: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3287,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:24.494Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-27eb1bdc92b9c7d40ec6",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab equilibrium / equilibrium-dynamic: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3429,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:27.791Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-c802eae7990bcea7a3d5",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab lipids / lipid-family: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3655,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:31.229Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-eb2b1ee1e476634b775e",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab ester / waxes-esters: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3326,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:34.894Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-df45ba23885d029be9f5",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab lipidreaction / lipids-glycerides: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3646,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:38.231Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-5f192ab14c8856504485",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab micelle / soap-micelles: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3268,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:41.887Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-dfc51e918ce3ac8e668d",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab pH / acid-models: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3350,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:45.165Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-3f5cef289ea6ff3ef30d",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab protein / amino-acids: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3408,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:48.527Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-6d69f89df4f23bcdd53a",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab aminocharge / amino-acid-charge: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3663,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:51.950Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-6883cbce9aa0aad28015",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab proteinfold / protein-structure: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4043,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:55.627Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-40172d88bdaaf6eb3612",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab energy / thermo-fuels: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3420,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:59.680Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-ec8304df16f6ed157a96",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "parameters recalculate atom inventories, chemical balance, concentrations and fuel totals",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3877,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:03.110Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-b203ffb00f68845b60ce",
+          "file": "modern.spec.ts",
+          "line": 35,
+          "column": 1
+        },
+        {
+          "title": "visual preferences persist separately; lightweight and reduced motion retain educational data",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2237,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:06.997Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-840f186c1356c79b1d80",
+          "file": "modern.spec.ts",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "a valid v1 progress record is preserved and backed up once before modernization",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1118,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:09.245Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-e964e69099770ec3ac44",
+          "file": "modern.spec.ts",
+          "line": 48,
+          "column": 1
+        },
+        {
+          "title": "original artwork is displayed and every asset request stays on the local origin",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2238,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:10.377Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-c62ea65fb63cace7c9fa",
+          "file": "modern.spec.ts",
+          "line": 53,
+          "column": 1
+        },
+        {
+          "title": "a failed optional backup write preserves valid v1 progress and visible completion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 659,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:12.629Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-ea0c947b7eb6f2720ab5",
+          "file": "modern.spec.ts",
+          "line": 59,
+          "column": 1
+        },
+        {
+          "title": "all mapped formula stories 1–18: five states, RU/ES and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14141,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:13.298Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-a6367412cdec258d90b7",
+          "file": "modern.spec.ts",
+          "line": 68,
+          "column": 2
+        },
+        {
+          "title": "all mapped formula stories 19–36: five states, RU/ES and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14750,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:27.450Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-88eed0345785310d02ea",
+          "file": "modern.spec.ts",
+          "line": 68,
+          "column": 2
+        },
+        {
+          "title": "all mapped formula stories 37–54: five states, RU/ES and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16604,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:42.211Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-16498fb6aa257877534b",
+          "file": "modern.spec.ts",
+          "line": 68,
+          "column": 2
+        },
+        {
+          "title": "formula tokens retain identity while moving; solver pause, replay, speed and offscreen pause",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5468,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:58.826Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-b9cf3077467e1dd1d3bf",
+          "file": "modern.spec.ts",
+          "line": 84,
+          "column": 1
+        },
+        {
+          "title": "the course exposes all 26 specialized laboratories",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:36.882Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-f4a04a986c0cb16510c7",
+          "file": "modern.spec.ts",
+          "line": 20,
+          "column": 1
+        },
+        {
+          "title": "motion lab atom / atoms: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2934,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:36.926Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-927fb5c6001b4a5f46bc",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab mole / mole: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2527,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:40.206Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-ee1071833c5fcfe14875",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab dilution / concentration: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2266,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:42.743Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-25c61ced47a3a2c8c9bd",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab balance / equations: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2343,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:45.019Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-39fd3e521af5efdae01f",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab bonds / carbon: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2382,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:47.372Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-772c581cd1ea9152da35",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab chirality / chirality: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2366,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:49.765Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-50184bc65c381c21ff6a",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab polarimeter / polarimetry: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2438,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:52.141Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-b505cfcc647d720ec853",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab carbs / carb-classification: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2494,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:54.592Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-6a9e65973c8297f97823",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab sugarcycle / cyclization: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2323,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:57.096Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-45f3c3baeb5e71865cf0",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab sugartests / reducing: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2705,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:26:59.429Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-9023a7d88fa371681097",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab polymer / polysaccharides: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2350,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:02.144Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-883544c978ffd41bed59",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab energy / nutrition: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2235,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:04.504Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-812f48db15405aa8910d",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab energyflow / thermo-system: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2242,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:06.749Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-d05d58ab2b03dad8ae4f",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab work / thermo-gas-work: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2445,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:09.001Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-9f86c2d703fba06f46f2",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab thermo / thermo-heat: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2360,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:11.456Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-99de7aea41833403df2e",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab calorimeter / thermo-bomb: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2394,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:13.825Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-a221aadbdcc65c33b33b",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab hess / thermo-thermochemical: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2279,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:16.229Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-c26de920e60fba83b591",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab equilibrium / equilibrium-dynamic: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2353,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:18.519Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-7ffc2a3d7b0d1a778465",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab lipids / lipid-family: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2386,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:20.881Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-195834b2f1fa89abe858",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab ester / waxes-esters: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3186,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:23.276Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-33d09f2b136122b6ed4c",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab lipidreaction / lipids-glycerides: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2854,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:26.472Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-152eeac592d702c54040",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab micelle / soap-micelles: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2263,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:29.336Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-ae727a29c9ed3a2c4dcf",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab pH / acid-models: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2329,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:31.608Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-c6b39429210705297270",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab protein / amino-acids: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2312,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:33.948Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-c991ed20e53c2fa84474",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab aminocharge / amino-acid-charge: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2432,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:36.270Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-b017d111d373c645c3ba",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab proteinfold / protein-structure: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2700,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:38.712Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-cb02e3cdb4a42708f19c",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "motion lab energy / thermo-fuels: timeline, transport, localization and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2283,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:41.421Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-b31a5060d40a9f9db94c",
+          "file": "modern.spec.ts",
+          "line": 23,
+          "column": 2
+        },
+        {
+          "title": "parameters recalculate atom inventories, chemical balance, concentrations and fuel totals",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2536,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:43.713Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-4e2ba69f42704cb34bc2",
+          "file": "modern.spec.ts",
+          "line": 35,
+          "column": 1
+        },
+        {
+          "title": "visual preferences persist separately; lightweight and reduced motion retain educational data",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2474,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:46.259Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-18e38912bcd5e6df1df1",
+          "file": "modern.spec.ts",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "a valid v1 progress record is preserved and backed up once before modernization",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1991,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:48.743Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-330160ada6d91e6f1091",
+          "file": "modern.spec.ts",
+          "line": 48,
+          "column": 1
+        },
+        {
+          "title": "original artwork is displayed and every asset request stays on the local origin",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2344,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:50.743Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-9677ca230704ddfb6bb2",
+          "file": "modern.spec.ts",
+          "line": 53,
+          "column": 1
+        },
+        {
+          "title": "a failed optional backup write preserves valid v1 progress and visible completion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 737,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:53.097Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-65d6ce2270432d69b95a",
+          "file": "modern.spec.ts",
+          "line": 59,
+          "column": 1
+        },
+        {
+          "title": "all mapped formula stories 1–18: five states, RU/ES and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 13826,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:27:53.844Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-5350fde632da5e1c2952",
+          "file": "modern.spec.ts",
+          "line": 68,
+          "column": 2
+        },
+        {
+          "title": "all mapped formula stories 19–36: five states, RU/ES and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 14473,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:28:07.679Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-d64def85f7ae68fff657",
+          "file": "modern.spec.ts",
+          "line": 68,
+          "column": 2
+        },
+        {
+          "title": "all mapped formula stories 37–54: five states, RU/ES and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 14850,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:28:22.162Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-24510e21a1713c86ed1e",
+          "file": "modern.spec.ts",
+          "line": 68,
+          "column": 2
+        },
+        {
+          "title": "formula tokens retain identity while moving; solver pause, replay, speed and offscreen pause",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5093,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:28:37.021Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73bea19bfe8bcf7bfe74-2786a4b4eb6e66ed52c3",
+          "file": "modern.spec.ts",
+          "line": 84,
+          "column": 1
+        }
+      ]
+    },
     {
       "title": "platform.spec.ts",
       "file": "platform.spec.ts",
@@ -112,22 +2686,22 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 90000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 4762,
+                  "duration": 11037,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-12T17:35:47.756Z",
+                  "startTime": "2026-10-12T19:25:29.332Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -135,7 +2709,7 @@
               "status": "expected"
             }
           ],
-          "id": "310f5d38cd89ad55ea3f-d506159edbded7e1cd73",
+          "id": "310f5d38cd89ad55ea3f-2382d9f1868510f688e4",
           "file": "platform.spec.ts",
           "line": 8,
           "column": 1
@@ -146,22 +2720,22 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 90000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1762,
+                  "duration": 1797,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-12T17:35:52.684Z",
+                  "startTime": "2026-10-12T19:25:40.552Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -169,7 +2743,7 @@
               "status": "expected"
             }
           ],
-          "id": "310f5d38cd89ad55ea3f-639255d7f52bbaa4eef6",
+          "id": "310f5d38cd89ad55ea3f-f426960af7d8e0ad90d9",
           "file": "platform.spec.ts",
           "line": 9,
           "column": 1
@@ -180,22 +2754,22 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 90000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 6996,
+                  "duration": 7480,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-12T17:35:54.454Z",
+                  "startTime": "2026-10-12T19:25:42.381Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -203,7 +2777,7 @@
               "status": "expected"
             }
           ],
-          "id": "310f5d38cd89ad55ea3f-36afb79a26cccb7902b3",
+          "id": "310f5d38cd89ad55ea3f-c1369e851c7d458263ea",
           "file": "platform.spec.ts",
           "line": 10,
           "column": 1
@@ -214,22 +2788,22 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 90000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1346,
+                  "duration": 2053,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-12T17:36:01.460Z",
+                  "startTime": "2026-10-12T19:25:49.872Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -237,7 +2811,7 @@
               "status": "expected"
             }
           ],
-          "id": "310f5d38cd89ad55ea3f-087e054ec082f1e1c697",
+          "id": "310f5d38cd89ad55ea3f-0658025e8b0995eb4a5a",
           "file": "platform.spec.ts",
           "line": 13,
           "column": 1
@@ -248,22 +2822,22 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 90000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 450,
+                  "duration": 850,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-12T17:36:02.815Z",
+                  "startTime": "2026-10-12T19:25:51.934Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -271,7 +2845,7 @@
               "status": "expected"
             }
           ],
-          "id": "310f5d38cd89ad55ea3f-83f345b8f740301a5cff",
+          "id": "310f5d38cd89ad55ea3f-efac7e181955a1b51366",
           "file": "platform.spec.ts",
           "line": 14,
           "column": 1
@@ -282,22 +2856,22 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 90000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 57011,
+                  "duration": 31456,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-12T17:36:03.275Z",
+                  "startTime": "2026-10-12T19:25:52.796Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -305,7 +2879,7 @@
               "status": "expected"
             }
           ],
-          "id": "310f5d38cd89ad55ea3f-56025df983577e210eb1",
+          "id": "310f5d38cd89ad55ea3f-b329652830b1a62ab0ae",
           "file": "platform.spec.ts",
           "line": 15,
           "column": 1
@@ -316,22 +2890,22 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 90000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1389,
+                  "duration": 1864,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-12T17:37:00.297Z",
+                  "startTime": "2026-10-12T19:26:24.262Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -339,9 +2913,9 @@
               "status": "expected"
             }
           ],
-          "id": "310f5d38cd89ad55ea3f-6ac0002373bc8e34fc0d",
+          "id": "310f5d38cd89ad55ea3f-c6310c9910dcabd55403",
           "file": "platform.spec.ts",
-          "line": 16,
+          "line": 25,
           "column": 1
         },
         {
@@ -350,22 +2924,22 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 90000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 350,
+                  "duration": 713,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-12T17:37:01.696Z",
+                  "startTime": "2026-10-12T19:26:26.137Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -373,9 +2947,9 @@
               "status": "expected"
             }
           ],
-          "id": "310f5d38cd89ad55ea3f-f8c5cbeed9dfeeb93d64",
+          "id": "310f5d38cd89ad55ea3f-c76115bed6142c0b3f7f",
           "file": "platform.spec.ts",
-          "line": 17,
+          "line": 26,
           "column": 1
         },
         {
@@ -384,22 +2958,22 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 90000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 2201,
+                  "duration": 2573,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-12T17:37:02.058Z",
+                  "startTime": "2026-10-12T19:26:26.861Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -407,9 +2981,9 @@
               "status": "expected"
             }
           ],
-          "id": "310f5d38cd89ad55ea3f-5ba9e3de42098058be45",
+          "id": "310f5d38cd89ad55ea3f-610c47cc82165adb02ce",
           "file": "platform.spec.ts",
-          "line": 18,
+          "line": 27,
           "column": 1
         },
         {
@@ -418,22 +2992,22 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 90000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 997,
+                  "duration": 1359,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-12T17:37:04.272Z",
+                  "startTime": "2026-10-12T19:26:29.445Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -441,9 +3015,9 @@
               "status": "expected"
             }
           ],
-          "id": "310f5d38cd89ad55ea3f-b4fa479e2d3f96620d18",
+          "id": "310f5d38cd89ad55ea3f-e96f9ef6c788a6fbc428",
           "file": "platform.spec.ts",
-          "line": 19,
+          "line": 28,
           "column": 1
         },
         {
@@ -452,22 +3026,22 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 90000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 2480,
+                  "duration": 4256,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-12T17:37:05.283Z",
+                  "startTime": "2026-10-12T19:26:30.814Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -475,9 +3049,9 @@
               "status": "expected"
             }
           ],
-          "id": "310f5d38cd89ad55ea3f-e19ecf51c32829cabcec",
+          "id": "310f5d38cd89ad55ea3f-32f9bc70959bee3783dc",
           "file": "platform.spec.ts",
-          "line": 20,
+          "line": 29,
           "column": 1
         },
         {
@@ -486,22 +3060,22 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 90000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 504,
+                  "duration": 1249,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-12T17:37:07.773Z",
+                  "startTime": "2026-10-12T19:26:35.084Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -509,9 +3083,417 @@
               "status": "expected"
             }
           ],
-          "id": "310f5d38cd89ad55ea3f-7ea25c696aa388bc3ad7",
+          "id": "310f5d38cd89ad55ea3f-3e0e9e9579eaef85e4a4",
+          "file": "platform.spec.ts",
+          "line": 35,
+          "column": 1
+        },
+        {
+          "title": "home, every lesson in both languages, formulas and source links",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11896,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:28:04.877Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-41117df9d85a13894b2c",
+          "file": "platform.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "all images and unchanged originals respond over HTTP",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1999,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:28:17.152Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-31ed95a85bbdc244d3fd",
+          "file": "platform.spec.ts",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "all exercise types reject wrong and accept right answers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6512,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:28:19.161Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-f4119c285ea4e5355f61",
+          "file": "platform.spec.ts",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "progress survives browser context restart and solver step survives language change",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2967,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:28:25.684Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-2b84b3d7a6ff5ccab8b5",
+          "file": "platform.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "glossary bilingual search, term popup keyboard and flashcards",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 936,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:28:28.660Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-1122080e28d0167cb340",
+          "file": "platform.spec.ts",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "each simulation controls and state changes; initial, middle, final, replay, language and resize",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 29282,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:28:29.608Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-d788a1dd27c2e7241010",
+          "file": "platform.spec.ts",
+          "line": 15,
+          "column": 1
+        },
+        {
+          "title": "dark/light responsive layouts, source viewer and reduced-motion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1676,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:28:58.900Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-3598bb30271d50b34c8f",
+          "file": "platform.spec.ts",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "export/import progress and malformed JSON preserve data",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1382,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:29:00.586Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-eb86f6c8bd96ac177767",
           "file": "platform.spec.ts",
           "line": 26,
+          "column": 1
+        },
+        {
+          "title": "diagnostic test records result and supplies correction after finish",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1522,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:29:01.978Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-b04bdd22e6a6c0536b40",
+          "file": "platform.spec.ts",
+          "line": 27,
+          "column": 1
+        },
+        {
+          "title": "runs with external internet blocked and no browser console errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1576,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:29:03.510Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-750767b24e4becc89762",
+          "file": "platform.spec.ts",
+          "line": 28,
+          "column": 1
+        },
+        {
+          "title": "atom isotope, calorimeter sign/capacity, Hess scaling and zero energy flows",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4058,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:29:05.096Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-d26b139516ee2f2b9c7e",
+          "file": "platform.spec.ts",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "full exam and section test cover their lessons without revealing correctness",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1280,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T19:29:09.164Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-59c9771a7aa6901c3b4d",
+          "file": "platform.spec.ts",
+          "line": 35,
           "column": 1
         }
       ]
@@ -519,9 +3501,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-12T17:35:47.073Z",
-    "duration": 81270.254,
-    "expected": 12,
+    "startTime": "2026-10-12T19:25:28.800Z",
+    "duration": 221956.909,
+    "expected": 98,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

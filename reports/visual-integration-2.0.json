@@ -1,0 +1,1600 @@
+[
+  {
+    "lessonId": "atoms",
+    "ru": "Атомы, молекулы и химические формулы",
+    "es": "Átomos, moléculas y fórmulas químicas",
+    "scene": "atom",
+    "questionRU": "Различать атом, элемент и молекулу.",
+    "questionES": "Distinguir átomo, elemento y molécula.",
+    "cover": "/art/section-foundation.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "atom",
+        "ru": "Атом",
+        "es": "Átomo",
+        "formula": "Z=N_p"
+      },
+      {
+        "id": "molecule",
+        "ru": "Молекула",
+        "es": "Molécula",
+        "formula": "\\mathrm{H_2O}"
+      }
+    ]
+  },
+  {
+    "lessonId": "mole",
+    "ru": "Моль и молярная масса",
+    "es": "Mol y masa molar",
+    "scene": "mole",
+    "questionRU": "Понимать каждое обозначение и проверять единицы.",
+    "questionES": "Entender cada símbolo y verificar unidades.",
+    "cover": "/art/section-foundation.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "mole",
+        "ru": "Моль",
+        "es": "Mol",
+        "formula": "N=nN_A"
+      },
+      {
+        "id": "molar-mass",
+        "ru": "Молярная масса",
+        "es": "Masa molar",
+        "formula": "M=m/n"
+      }
+    ]
+  },
+  {
+    "lessonId": "concentration",
+    "ru": "Растворы, концентрация и единицы",
+    "es": "Soluciones, concentración y unidades",
+    "scene": "dilution",
+    "questionRU": "Понимать каждое обозначение и проверять единицы.",
+    "questionES": "Entender cada símbolo y verificar unidades.",
+    "cover": "/art/section-foundation.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "concentration",
+        "ru": "Молярная концентрация",
+        "es": "Concentración molar",
+        "formula": "c=n/V"
+      }
+    ]
+  },
+  {
+    "lessonId": "equations",
+    "ru": "Уравнения реакций и сохранение атомов",
+    "es": "Ecuaciones y conservación de átomos",
+    "scene": "balance",
+    "questionRU": "Понимать каждое обозначение и проверять единицы.",
+    "questionES": "Entender cada símbolo y verificar unidades.",
+    "cover": "/art/section-foundation.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "stoichiometry",
+        "ru": "Стехиометрия",
+        "es": "Estequiometría",
+        "formula": "n_i/\nu_i=n_j/\nu_j"
+      }
+    ]
+  },
+  {
+    "lessonId": "carbon",
+    "ru": "Углерод: цепи и связи",
+    "es": "Carbono: cadenas y enlaces",
+    "scene": "bonds",
+    "questionRU": "Проверять валентность и молекулярную формулу углеводорода.",
+    "questionES": "Comprobar la valencia y la fórmula molecular de un hidrocarburo.",
+    "cover": "/art/section-organic.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "carbon-t1",
+        "ru": "Тетравалентность",
+        "es": "Tetravalencia",
+        "formula": null
+      },
+      {
+        "id": "carbon-t2",
+        "ru": "Катенация",
+        "es": "Concatenación",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "representations",
+    "ru": "Как читать формулы и форму молекулы",
+    "es": "Cómo leer fórmulas y formas moleculares",
+    "scene": "bonds",
+    "questionRU": "Переводить молекулярную, полусокращённую и скелетную формулы.",
+    "questionES": "Convertir fórmulas molecular, semidesarrollada y esquelética.",
+    "cover": "/art/section-organic.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "representations-t1",
+        "ru": "Скелетная формула",
+        "es": "Fórmula esquelética",
+        "formula": null
+      },
+      {
+        "id": "representations-t2",
+        "ru": "Связность",
+        "es": "Conectividad",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "functional",
+    "ru": "Функциональные группы",
+    "es": "Grupos funcionales",
+    "scene": "bonds",
+    "questionRU": "Распознавать OH, карбонил, карбоксил, эфир и амин.",
+    "questionES": "Reconocer OH, carbonilo, carboxilo, éster y amino.",
+    "cover": "/art/section-organic.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "functional-t1",
+        "ru": "Карбонил",
+        "es": "Carbonilo",
+        "formula": null
+      },
+      {
+        "id": "functional-t2",
+        "ru": "Карбоксил",
+        "es": "Carboxilo",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "nomenclature",
+    "ru": "Название как алгоритм структуры",
+    "es": "El nombre como algoritmo estructural",
+    "scene": "bonds",
+    "questionRU": "Составлять названия простых углеводородов и спиртов.",
+    "questionES": "Nombrar hidrocarburos y alcoholes sencillos.",
+    "cover": "/art/section-organic.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "nomenclature-t1",
+        "ru": "Локант",
+        "es": "Localizador",
+        "formula": null
+      },
+      {
+        "id": "nomenclature-t2",
+        "ru": "Заместитель",
+        "es": "Sustituyente",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "isomers",
+    "ru": "Изомерия: состав, связи, пространство",
+    "es": "Isomería: composición, enlaces y espacio",
+    "scene": "bonds",
+    "questionRU": "Классифицировать изомеры цепи, положения и функции.",
+    "questionES": "Clasificar isómeros de cadena, posición y función.",
+    "cover": "/art/section-organic.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "isomers-t1",
+        "ru": "Изомер",
+        "es": "Isómero",
+        "formula": null
+      },
+      {
+        "id": "isomers-t2",
+        "ru": "Конформер",
+        "es": "Confórmero",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "chirality",
+    "ru": "Хиральность и зеркальные молекулы",
+    "es": "Quiralidad y moléculas espejo",
+    "scene": "chirality",
+    "questionRU": "Находить C с четырьмя различными заместителями.",
+    "questionES": "Localizar C con cuatro sustituyentes distintos.",
+    "cover": "/art/section-organic.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "chirality-t1",
+        "ru": "Энантиомеры",
+        "es": "Enantiómeros",
+        "formula": null
+      },
+      {
+        "id": "chirality-t2",
+        "ru": "Рацемат",
+        "es": "Racemato",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "fischer",
+    "ru": "Проекции Fischer и D/L",
+    "es": "Proyecciones de Fischer y D/L",
+    "scene": "chirality",
+    "questionRU": "Правильно отражать проекцию и проверять допустимые повороты.",
+    "questionES": "Reflejar correctamente la proyección y comprobar giros permitidos.",
+    "cover": "/art/section-organic.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "fischer-t1",
+        "ru": "Проекция Fischer",
+        "es": "Proyección de Fischer",
+        "formula": null
+      },
+      {
+        "id": "fischer-t2",
+        "ru": "D/L",
+        "es": "D/L",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "polarimetry",
+    "ru": "Поляриметрия: от угла к свойству",
+    "es": "Polarimetría: del ángulo a la propiedad",
+    "scene": "polarimeter",
+    "questionRU": "Вычислять [α] с согласованными единицами.",
+    "questionES": "Calcular [α] con unidades coherentes.",
+    "cover": "/art/section-organic.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "polarimetry-t1",
+        "ru": "Оптическая активность",
+        "es": "Actividad óptica",
+        "formula": null
+      },
+      {
+        "id": "polarimetry-t2",
+        "ru": "Удельное вращение",
+        "es": "Rotación específica",
+        "formula": "[\\alpha]=\\alpha/(lc)"
+      }
+    ]
+  },
+  {
+    "lessonId": "carb-classification",
+    "ru": "Углеводы: структура и классы",
+    "es": "Glúcidos: estructura y clasificación",
+    "scene": "carbs",
+    "questionRU": "Различать альдозу/кетозу и триозу/тетрозу/пентозу/гексозу.",
+    "questionES": "Distinguir aldosa/cetosa y triosa/tetrosa/pentosa/hexosa.",
+    "cover": "/art/section-carbs.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "carb-classification-t1",
+        "ru": "Моносахарид",
+        "es": "Monosacárido",
+        "formula": null
+      },
+      {
+        "id": "carb-classification-t2",
+        "ru": "Альдогексоза",
+        "es": "Aldohexosa",
+        "formula": null
+      },
+      {
+        "id": "carb-classification-t3",
+        "ru": "Агликон",
+        "es": "Aglicona",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "carb-stereo",
+    "ru": "Стереоизомеры, эпимеры, аномеры",
+    "es": "Estereoisómeros, epímeros y anómeros",
+    "scene": "chirality",
+    "questionRU": "Вычислять верхнюю границу 2ⁿ и считать C* открытых сахаров.",
+    "questionES": "Calcular el límite 2ⁿ y contar C* de azúcares abiertos.",
+    "cover": "/art/section-carbs.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "carb-stereo-t1",
+        "ru": "Эпимеры",
+        "es": "Epímeros",
+        "formula": null
+      },
+      {
+        "id": "carb-stereo-t2",
+        "ru": "Аномеры",
+        "es": "Anómeros",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "cyclization",
+    "ru": "Циклизация и Haworth",
+    "es": "Ciclación y Haworth",
+    "scene": "sugarcycle",
+    "questionRU": "Находить карбонил, участвующий OH и аномерный C.",
+    "questionES": "Localizar carbonilo, OH participante y C anomérico.",
+    "cover": "/art/section-carbs.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "cyclization-t1",
+        "ru": "Аномерный C",
+        "es": "C anomérico",
+        "formula": null
+      },
+      {
+        "id": "cyclization-t2",
+        "ru": "Пираноза/фураноза",
+        "es": "Piranosa/furanosa",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "mutarotation",
+    "ru": "Мутаротация: динамическое равновесие",
+    "es": "Mutarrotación: equilibrio dinámico",
+    "scene": "sugarcycle",
+    "questionRU": "Объяснять путь α↔открытая форма↔β.",
+    "questionES": "Explicar la ruta α↔forma abierta↔β.",
+    "cover": "/art/section-carbs.svg",
+    "formulaTransformations": 1,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "mutarotation-t1",
+        "ru": "Мутаротация",
+        "es": "Mutarrotación",
+        "formula": null
+      },
+      {
+        "id": "mutarotation-t2",
+        "ru": "Динамическое равновесие",
+        "es": "Equilibrio dinámico",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "glycosidic",
+    "ru": "Дисахариды и гликозидные связи",
+    "es": "Disacáridos y enlaces glucosídicos",
+    "scene": "carbs",
+    "questionRU": "Записывать код связи мальтозы, лактозы, сахарозы и трегалозы.",
+    "questionES": "Escribir enlaces de maltosa, lactosa, sacarosa y trehalosa.",
+    "cover": "/art/section-carbs.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "glycosidic-t1",
+        "ru": "Гликозидная связь",
+        "es": "Enlace glucosídico",
+        "formula": null
+      },
+      {
+        "id": "glycosidic-t2",
+        "ru": "Конденсация",
+        "es": "Condensación",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "hydrolysis",
+    "ru": "Гидролиз и ферментная специфичность",
+    "es": "Hidrólisis y especificidad enzimática",
+    "scene": "carbs",
+    "questionRU": "Записывать продукты гидролиза основных дисахаридов.",
+    "questionES": "Escribir productos de hidrólisis de disacáridos.",
+    "cover": "/art/section-carbs.svg",
+    "formulaTransformations": 1,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "hydrolysis-t1",
+        "ru": "Гидролиз",
+        "es": "Hidrólisis",
+        "formula": null
+      },
+      {
+        "id": "hydrolysis-t2",
+        "ru": "Катализатор",
+        "es": "Catalizador",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "reducing",
+    "ru": "Восстановительные сахара и redox",
+    "es": "Azúcares reductores y redox",
+    "scene": "sugartests",
+    "questionRU": "Различать окисление сахара и восстановление реактива.",
+    "questionES": "Distinguir oxidación del azúcar y reducción del reactivo.",
+    "cover": "/art/section-carbs.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "reducing-t1",
+        "ru": "Восстановительный сахар",
+        "es": "Azúcar reductor",
+        "formula": null
+      },
+      {
+        "id": "reducing-t2",
+        "ru": "Свободный аномерный конец",
+        "es": "Extremo anomérico libre",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "sugar-tests",
+    "ru": "Распознавание сахаров: логика проб",
+    "es": "Identificación de azúcares: lógica de ensayos",
+    "scene": "sugartests",
+    "questionRU": "Использовать Fehling, Barfoed, Seliwanoff и Lugol по их роли.",
+    "questionES": "Utilizar Fehling, Barfoed, Seliwanoff y Lugol según su función.",
+    "cover": "/art/section-carbs.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "sugar-tests-t1",
+        "ru": "Контроль",
+        "es": "Control",
+        "formula": null
+      },
+      {
+        "id": "sugar-tests-t2",
+        "ru": "Качественный анализ",
+        "es": "Análisis cualitativo",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "polysaccharides",
+    "ru": "Полисахариды: связи создают свойства",
+    "es": "Polisacáridos: enlaces crean propiedades",
+    "scene": "polymer",
+    "questionRU": "Сопоставлять α/β-связи и ветвление с основными полимерами.",
+    "questionES": "Relacionar enlaces α/β y ramas con polímeros.",
+    "cover": "/art/section-carbs.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "polysaccharides-t1",
+        "ru": "Амилопектин",
+        "es": "Amilopectina",
+        "formula": null
+      },
+      {
+        "id": "polysaccharides-t2",
+        "ru": "Целлюлоза",
+        "es": "Celulosa",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "nutrition",
+    "ru": "Пища, этикетки и энергия",
+    "es": "Alimentos, etiquetas y energía",
+    "scene": "energy",
+    "questionRU": "Читать значения на100 g и на порцию.",
+    "questionES": "Leer valores por100 g y por porción.",
+    "cover": "/art/section-carbs.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 3,
+    "interactiveExercises": 6,
+    "terms": [
+      {
+        "id": "nutrition-t1",
+        "ru": "Энергетическая ценность",
+        "es": "Valor energético",
+        "formula": null
+      },
+      {
+        "id": "nutrition-t2",
+        "ru": "Порция",
+        "es": "Porción",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "thermo-system",
+    "ru": "Система, внутренняя энергия и состояние",
+    "es": "Sistema, energía interna y estado",
+    "scene": "energyflow",
+    "questionRU": "Классифицировать обмен через границу.",
+    "questionES": "Clasificar intercambios a través de la frontera.",
+    "cover": "/art/section-thermo.svg",
+    "formulaTransformations": 1,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "ts-system",
+        "ru": "Система",
+        "es": "Sistema",
+        "formula": null
+      },
+      {
+        "id": "ts-state",
+        "ru": "Функция состояния",
+        "es": "Función de estado",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "thermo-first-law",
+    "ru": "Первый закон: тепло и работа",
+    "es": "Primera ley: calor y trabajo",
+    "scene": "energyflow",
+    "questionRU": "Определять знаки q и w.",
+    "questionES": "Determinar los signos deq yw.",
+    "cover": "/art/section-thermo.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "tf-heat",
+        "ru": "Тепло",
+        "es": "Calor",
+        "formula": null
+      },
+      {
+        "id": "tf-work",
+        "ru": "Работа",
+        "es": "Trabajo",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "thermo-gas-work",
+    "ru": "Расширение газа и идеальный газ",
+    "es": "Expansión de gases y gas ideal",
+    "scene": "work",
+    "questionRU": "Применять w=−PextΔV.",
+    "questionES": "Aplicarw=−PextΔV.",
+    "cover": "/art/section-thermo.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "tg-ext",
+        "ru": "Внешнее давление",
+        "es": "Presión externa",
+        "formula": null
+      },
+      {
+        "id": "tg-kelvin",
+        "ru": "Абсолютная температура",
+        "es": "Temperatura absoluta",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "thermo-heat",
+    "ru": "Теплоёмкость, нагрев и фазовый переход",
+    "es": "Capacidad calorífica, calentamiento y cambio de fase",
+    "scene": "thermo",
+    "questionRU": "Использовать q=mcΔT и q=CΔT.",
+    "questionES": "Usarq=mcΔT yq=CΔT.",
+    "cover": "/art/section-thermo.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "th-specific",
+        "ru": "Удельная теплоёмкость",
+        "es": "Calor específico",
+        "formula": null
+      },
+      {
+        "id": "th-phase",
+        "ru": "Фазовый переход",
+        "es": "Cambio de fase",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "thermo-bomb",
+    "ru": "Бомбовый калориметр: постоянный объём",
+    "es": "Calorímetro de bomba: volumen constante",
+    "scene": "calorimeter",
+    "questionRU": "Составлять баланс калориметра.",
+    "questionES": "Formular el balance del calorímetro.",
+    "cover": "/art/section-thermo.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "tb-cal",
+        "ru": "Теплоёмкость калориметра",
+        "es": "Capacidad del calorímetro",
+        "formula": null
+      },
+      {
+        "id": "tb-bomb",
+        "ru": "Бомбовый калориметр",
+        "es": "Calorímetro de bomba",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "thermo-enthalpy",
+    "ru": "Энтальпия и калориметр растворов",
+    "es": "Entalpía y calorimetría de soluciones",
+    "scene": "calorimeter",
+    "questionRU": "Объяснять условия qP=ΔH.",
+    "questionES": "Explicar condiciones deqP=ΔH.",
+    "cover": "/art/section-thermo.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "te-h",
+        "ru": "Энтальпия",
+        "es": "Entalpía",
+        "formula": "H=U+PV"
+      },
+      {
+        "id": "te-endo",
+        "ru": "Эндотермический процесс",
+        "es": "Proceso endotérmico",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "thermo-thermochemical",
+    "ru": "Термохимические уравнения и масштаб",
+    "es": "Ecuaciones termoquímicas y escala",
+    "scene": "hess",
+    "questionRU": "Масштабировать теплоту по количеству вещества.",
+    "questionES": "Escalar calor según cantidad de sustancia.",
+    "cover": "/art/section-thermo.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "tt-equation",
+        "ru": "Термохимическое уравнение",
+        "es": "Ecuación termoquímica",
+        "formula": null
+      },
+      {
+        "id": "tt-exo",
+        "ru": "Экзотермический процесс",
+        "es": "Proceso exotérmico",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "thermo-formation",
+    "ru": "Образование и чтение таблиц",
+    "es": "Formación y lectura de tablas",
+    "scene": "hess",
+    "questionRU": "Записывать образование 1 моля.",
+    "questionES": "Escribir formación de1mol.",
+    "cover": "/art/section-thermo.svg",
+    "formulaTransformations": 1,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "tfm-formation",
+        "ru": "Энтальпия образования",
+        "es": "Entalpía de formación",
+        "formula": null
+      },
+      {
+        "id": "tfm-reference",
+        "ru": "Референсное состояние",
+        "es": "Estado de referencia",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "thermo-hess",
+    "ru": "Закон Гесса: сложение маршрутов",
+    "es": "Ley de Hess: sumar caminos",
+    "scene": "hess",
+    "questionRU": "Обращать и масштабировать уравнения.",
+    "questionES": "Invertir y escalar ecuaciones.",
+    "cover": "/art/section-thermo.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "hh-hess",
+        "ru": "Закон Гесса",
+        "es": "Ley de Hess",
+        "formula": null
+      },
+      {
+        "id": "hh-inter",
+        "ru": "Промежуточное вещество",
+        "es": "Intermediario",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "equilibrium-dynamic",
+    "ru": "Динамическое равновесие",
+    "es": "Equilibrio dinámico",
+    "scene": "equilibrium",
+    "questionRU": "Читать графики количества и скорости.",
+    "questionES": "Leer gráficos de cantidad y velocidad.",
+    "cover": "/art/section-equilibrium.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "ed-dynamic",
+        "ru": "Динамическое равновесие",
+        "es": "Equilibrio dinámico",
+        "formula": null
+      },
+      {
+        "id": "ed-plateau",
+        "ru": "Плато",
+        "es": "Meseta",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "equilibrium-constant",
+    "ru": "Константа равновесия и активности",
+    "es": "Constante de equilibrio y actividades",
+    "scene": "equilibrium",
+    "questionRU": "Записывать K для однородных и неоднородных систем.",
+    "questionES": "EscribirK para sistemas homogéneos y heterogéneos.",
+    "cover": "/art/section-equilibrium.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "ec-k",
+        "ru": "Константа равновесия",
+        "es": "Constante de equilibrio",
+        "formula": null
+      },
+      {
+        "id": "ec-activity",
+        "ru": "Активность",
+        "es": "Actividad",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "equilibrium-gas",
+    "ru": "Парциальное давление, Kp и Kc",
+    "es": "Presión parcial, Kp y Kc",
+    "scene": "equilibrium",
+    "questionRU": "Записывать Kp из парциальных давлений.",
+    "questionES": "EscribirKp con presiones parciales.",
+    "cover": "/art/section-equilibrium.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "eg-partial",
+        "ru": "Парциальное давление",
+        "es": "Presión parcial",
+        "formula": null
+      },
+      {
+        "id": "eg-dn",
+        "ru": "Изменение газовых коэффициентов",
+        "es": "Cambio de coeficientes gaseosos",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "equilibrium-quotient",
+    "ru": "Q: куда изменится смесь?",
+    "es": "Q: ¿hacia dónde cambia la mezcla?",
+    "scene": "equilibrium",
+    "questionRU": "Вычислять Q по текущему составу.",
+    "questionES": "CalcularQ según la composición actual.",
+    "cover": "/art/section-equilibrium.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "eq-q",
+        "ru": "Реакционный коэффициент",
+        "es": "Cociente de reacción",
+        "formula": null
+      },
+      {
+        "id": "eq-relax",
+        "ru": "Релаксация",
+        "es": "Relajación",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "equilibrium-ice",
+    "ru": "Стехиометрия равновесия: таблица ICE",
+    "es": "Estequiometría del equilibrio: tabla ICE",
+    "scene": "equilibrium",
+    "questionRU": "Строить таблицу начально–изменение–равновесие.",
+    "questionES": "Construir tabla inicial–cambio–equilibrio.",
+    "cover": "/art/section-equilibrium.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "ei-ice",
+        "ru": "Таблица ICE",
+        "es": "TablaICE",
+        "formula": null
+      },
+      {
+        "id": "ei-conv",
+        "ru": "Степень превращения",
+        "es": "Conversión",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "equilibrium-lechatelier",
+    "ru": "Возмущение равновесия: Ле Шателье",
+    "es": "Perturbación del equilibrio: Le Châtelier",
+    "scene": "equilibrium",
+    "questionRU": "Обосновывать сдвиг через Q.",
+    "questionES": "Justificar el desplazamiento conQ.",
+    "cover": "/art/section-equilibrium.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "el-principle",
+        "ru": "Принцип Ле Шателье",
+        "es": "Principio deLe Châtelier",
+        "formula": null
+      },
+      {
+        "id": "el-catalyst",
+        "ru": "Катализатор",
+        "es": "Catalizador",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "equilibrium-applications",
+    "ru": "Кислород и гемоглобин: границы модели",
+    "es": "Oxígeno y hemoglobina: límites del modelo",
+    "scene": "equilibrium",
+    "questionRU": "Связывать pO2 и долю связанного Hb.",
+    "questionES": "RelacionarpO2 y fracción deHb unido.",
+    "cover": "/art/section-equilibrium.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "ea-frac",
+        "ru": "Доля насыщения",
+        "es": "Fracción de saturación",
+        "formula": null
+      },
+      {
+        "id": "ea-coop",
+        "ru": "Кооперативность",
+        "es": "Cooperatividad",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "thermo-fuels",
+    "ru": "Топливо: энергия на массу и CO2",
+    "es": "Combustibles: energía por masa y CO2",
+    "scene": "fuel-comparison",
+    "questionRU": "Вычислять кДж/г и массу CO2 на энергию.",
+    "questionES": "CalcularkJ/g y masaCO2 por energía.",
+    "cover": "/art/section-thermo.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "fu-mass",
+        "ru": "Удельная энергия",
+        "es": "Energía específica",
+        "formula": null
+      },
+      {
+        "id": "fu-model",
+        "ru": "Модель топлива",
+        "es": "Modelo de combustible",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "thermo-lab",
+    "ru": "MgO: калориметрия, Гесс и погрешности",
+    "es": "MgO: calorimetría, Hess e incertidumbres",
+    "scene": "calorimeter",
+    "questionRU": "Определять лимитирующий реагент и молярную ΔH.",
+    "questionES": "Determinar reactivo limitante yΔH molar.",
+    "cover": "/art/section-thermo.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "tl-limit",
+        "ru": "Лимитирующий реагент",
+        "es": "Reactivo limitante",
+        "formula": null
+      },
+      {
+        "id": "tl-uncert",
+        "ru": "Неопределённость",
+        "es": "Incertidumbre",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "lipid-family",
+    "ru": "Липиды и жирные кислоты",
+    "es": "Lípidos y ácidos grasos",
+    "scene": "lipids",
+    "questionRU": "Различать липиды, жиры и жирные кислоты.",
+    "questionES": "Distinguir lípidos, grasas y ácidos grasos.",
+    "cover": "/art/section-lipids.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "lipid",
+        "ru": "Липид",
+        "es": "Lípido",
+        "formula": null
+      },
+      {
+        "id": "fatty-acid",
+        "ru": "Жирная кислота",
+        "es": "Ácido graso",
+        "formula": "\\mathrm{RCOOH}"
+      }
+    ]
+  },
+  {
+    "lessonId": "fatty-acid-omega",
+    "ru": "Δ, ω и существенные изомеры",
+    "es": "Δ, ω e isómeros relevantes",
+    "scene": "lipids",
+    "questionRU": "Переводить Δ в ω.",
+    "questionES": "Convertir Δ en ω.",
+    "cover": "/art/section-lipids.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "omega-family",
+        "ru": "ω-семейство",
+        "es": "Familia ω",
+        "formula": null
+      },
+      {
+        "id": "essential-fatty-acid",
+        "ru": "Незаменимая жирная кислота",
+        "es": "Ácido graso esencial",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "lipid-packing",
+    "ru": "Упаковка цепей и плавление",
+    "es": "Empaquetamiento y fusión",
+    "scene": "lipids",
+    "questionRU": "Объяснять тенденции температуры плавления.",
+    "questionES": "Explicar tendencias de fusión.",
+    "cover": "/art/section-lipids.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "chain-packing",
+        "ru": "Упаковка цепей",
+        "es": "Empaquetamiento de cadenas",
+        "formula": null
+      },
+      {
+        "id": "melting-range",
+        "ru": "Интервал плавления",
+        "es": "Intervalo de fusión",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "waxes-esters",
+    "ru": "Воски и этерификация",
+    "es": "Ceras y esterificación",
+    "scene": "ester",
+    "questionRU": "Строить эфир и продукты его гидролиза.",
+    "questionES": "Construir un éster y sus productos de hidrólisis.",
+    "cover": "/art/section-lipids.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "wax",
+        "ru": "Воск",
+        "es": "Cera",
+        "formula": null
+      },
+      {
+        "id": "esterification",
+        "ru": "Этерификация",
+        "es": "Esterificación",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "lipids-glycerides",
+    "ru": "Глицериды: три связи и разные остатки",
+    "es": "Glicéridos: tres enlaces y restos diferentes",
+    "scene": "lipidreaction",
+    "questionRU": "Отличать простые и смешанные триглицериды.",
+    "questionES": "Distinguir triglicéridos simples y mixtos.",
+    "cover": "/art/section-lipids.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "triacylglycerol",
+        "ru": "Триацилглицерол",
+        "es": "Triacilglicerol",
+        "formula": null
+      },
+      {
+        "id": "acyl-rest",
+        "ru": "Ацильный остаток",
+        "es": "Resto acilo",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "lipid-biodiesel",
+    "ru": "Трансэтерификация и биодизель",
+    "es": "Transesterificación y biodiésel",
+    "scene": "lipidreaction",
+    "questionRU": "Различать гидролиз и трансэтерификацию.",
+    "questionES": "Distinguir hidrólisis y transesterificación.",
+    "cover": "/art/section-lipids.svg",
+    "formulaTransformations": 1,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "transesterification",
+        "ru": "Трансэтерификация",
+        "es": "Transesterificación",
+        "formula": null
+      },
+      {
+        "id": "fame",
+        "ru": "FAME",
+        "es": "FAME",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "lipid-addition",
+    "ru": "Присоединение к C=C",
+    "es": "Adición a C=C",
+    "scene": "lipidreaction",
+    "questionRU": "Считать расход I2 и H2.",
+    "questionES": "Calcular consumo de I2 y H2.",
+    "cover": "/art/section-lipids.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "iodine-value",
+        "ru": "Йодное число",
+        "es": "Índice de yodo",
+        "formula": null
+      },
+      {
+        "id": "hydrogenation",
+        "ru": "Гидрирование",
+        "es": "Hidrogenación",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "lipid-rancidity",
+    "ru": "Гидролиз и окислительное прогоркание",
+    "es": "Hidrólisis y rancidez oxidativa",
+    "scene": "lipids",
+    "questionRU": "Различать разрыв эфира и окисление цепи.",
+    "questionES": "Distinguir ruptura del éster y oxidación de cadena.",
+    "cover": "/art/section-lipids.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "hydrolysis",
+        "ru": "Гидролиз",
+        "es": "Hidrólisis",
+        "formula": null
+      },
+      {
+        "id": "oxidative-rancidity",
+        "ru": "Окислительное прогоркание",
+        "es": "Rancidez oxidativa",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "soap-saponification",
+    "ru": "Омыление и соли жирных кислот",
+    "es": "Saponificación y sales de ácidos grasos",
+    "scene": "lipidreaction",
+    "questionRU": "Балансировать омыление TG.",
+    "questionES": "Balancear saponificación TG.",
+    "cover": "/art/section-colloids.svg",
+    "formulaTransformations": 1,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "saponification",
+        "ru": "Омыление",
+        "es": "Saponificación",
+        "formula": null
+      },
+      {
+        "id": "soap",
+        "ru": "Мыло",
+        "es": "Jabón",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "soap-micelles",
+    "ru": "Амфифильность, мицеллы и эмульсии",
+    "es": "Anfifilicidad, micelas y emulsiones",
+    "scene": "micelle",
+    "questionRU": "Объяснять ориентацию мыла в воде.",
+    "questionES": "Explicar orientación del jabón en agua.",
+    "cover": "/art/section-colloids.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "amphiphile",
+        "ru": "Амфифил",
+        "es": "Anfífilo",
+        "formula": null
+      },
+      {
+        "id": "micelle",
+        "ru": "Мицелла",
+        "es": "Micela",
+        "formula": null
+      },
+      {
+        "id": "cmc",
+        "ru": "Критическая концентрация мицеллообразования",
+        "es": "Concentración micelar crítica",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "acid-models",
+    "ru": "Три модели кислот и оснований",
+    "es": "Tres modelos de ácidos y bases",
+    "scene": "pH",
+    "questionRU": "Определять донор и акцептор протона.",
+    "questionES": "Identificar donante y aceptor de protón.",
+    "cover": "/art/section-acidbase.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "bronsted-acid",
+        "ru": "Кислота Бренстеда",
+        "es": "Ácido Brønsted",
+        "formula": null
+      },
+      {
+        "id": "lewis-base",
+        "ru": "Основание Льюиса",
+        "es": "Base Lewis",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "conjugate-pairs",
+    "ru": "Сопряжённые пары и амфипротность",
+    "es": "Pares conjugados y anfiproticidad",
+    "scene": "pH",
+    "questionRU": "Находить пары и проверять заряд.",
+    "questionES": "Encontrar parejas y verificar carga.",
+    "cover": "/art/section-acidbase.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "conjugate-pair",
+        "ru": "Сопряжённая пара",
+        "es": "Pareja conjugada",
+        "formula": null
+      },
+      {
+        "id": "amphiprotic",
+        "ru": "Амфипротность",
+        "es": "Anfiproticidad",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "water-kw",
+    "ru": "Вода, Kw и температура",
+    "es": "Agua, Kw y temperatura",
+    "scene": "pH",
+    "questionRU": "Вычислять второй ион по Kw.",
+    "questionES": "Calcular segundo ion mediante Kw.",
+    "cover": "/art/section-acidbase.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "kw",
+        "ru": "Ионное произведение воды",
+        "es": "Producto iónico del agua",
+        "formula": "K_w"
+      },
+      {
+        "id": "neutrality",
+        "ru": "Нейтральность",
+        "es": "Neutralidad",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "ph-scale",
+    "ru": "Логарифмическая шкала pH",
+    "es": "Escala logarítmica de pH",
+    "scene": "pH",
+    "questionRU": "Вычислять pH и обратную концентрацию.",
+    "questionES": "Calcular pH y concentración inversa.",
+    "cover": "/art/section-acidbase.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "ph",
+        "ru": "pH",
+        "es": "pH",
+        "formula": null
+      },
+      {
+        "id": "indicator",
+        "ru": "Индикатор",
+        "es": "Indicador",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "strong-acids",
+    "ru": "Сильные кислоты и основания: расчёт",
+    "es": "Ácidos y bases fuertes: cálculo",
+    "scene": "pH",
+    "questionRU": "Вычислять pH сильного электролита.",
+    "questionES": "Calcular pH de electrolito fuerte.",
+    "cover": "/art/section-acidbase.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "strong-electrolyte",
+        "ru": "Сильный электролит",
+        "es": "Electrolito fuerte",
+        "formula": null
+      },
+      {
+        "id": "neutralization",
+        "ru": "Нейтрализация",
+        "es": "Neutralización",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "weak-acids",
+    "ru": "Слабые кислоты и основания: ICE-таблица",
+    "es": "Ácidos y bases débiles: tabla ICE",
+    "scene": "pH",
+    "questionRU": "Строить начальное–изменение–равновесие.",
+    "questionES": "Construir inicial–cambio–equilibrio.",
+    "cover": "/art/section-acidbase.svg",
+    "formulaTransformations": 2,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "ka",
+        "ru": "Константа кислотности",
+        "es": "Constante de acidez",
+        "formula": "K_a"
+      },
+      {
+        "id": "ionization-degree",
+        "ru": "Степень ионизации",
+        "es": "Grado de ionización",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "amino-acids",
+    "ru": "Аминокислоты: строение и классификация",
+    "es": "Aminoácidos: estructura y clasificación",
+    "scene": "protein",
+    "questionRU": "Читать структуру и тип боковой цепи.",
+    "questionES": "Leer estructura y tipo de cadena lateral.",
+    "cover": "/art/section-protein.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "alpha-amino-acid",
+        "ru": "α-Аминокислота",
+        "es": "α-Aminoácido",
+        "formula": null
+      },
+      {
+        "id": "side-chain",
+        "ru": "Боковая цепь R",
+        "es": "Cadena lateral R",
+        "formula": null
+      },
+      {
+        "id": "essential-amino-acid",
+        "ru": "Незаменимая аминокислота",
+        "es": "Aminoácido esencial",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "amino-acid-charge",
+    "ru": "Цвиттер-ионы, pKa и pI",
+    "es": "Zwitteriones, pKa y pI",
+    "scene": "aminocharge",
+    "questionRU": "Выбирать формы по pKa.",
+    "questionES": "Elegir formas mediante pKa.",
+    "cover": "/art/section-protein.svg",
+    "formulaTransformations": 1,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "zwitterion",
+        "ru": "Цвиттер-ион",
+        "es": "Zwitterion",
+        "formula": null
+      },
+      {
+        "id": "isoelectric-point",
+        "ru": "Изоэлектрическая точка",
+        "es": "Punto isoeléctrico",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "peptide-bonds",
+    "ru": "Пептидная связь и направление цепи",
+    "es": "Enlace peptídico y dirección de cadena",
+    "scene": "protein",
+    "questionRU": "Строить пептид и находить концы.",
+    "questionES": "Construir péptido y encontrar extremos.",
+    "cover": "/art/section-protein.svg",
+    "formulaTransformations": 1,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "peptide-bond",
+        "ru": "Пептидная связь",
+        "es": "Enlace peptídico",
+        "formula": null
+      },
+      {
+        "id": "n-terminus",
+        "ru": "N-конец",
+        "es": "Extremo N",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "protein-structure",
+    "ru": "Четыре уровня структуры белка",
+    "es": "Cuatro niveles de estructura proteica",
+    "scene": "proteinfold",
+    "questionRU": "Различать четыре уровня.",
+    "questionES": "Distinguir cuatro niveles.",
+    "cover": "/art/section-protein.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "secondary-structure",
+        "ru": "Вторичная структура",
+        "es": "Estructura secundaria",
+        "formula": null
+      },
+      {
+        "id": "tertiary-structure",
+        "ru": "Третичная структура",
+        "es": "Estructura terciaria",
+        "formula": null
+      },
+      {
+        "id": "quaternary-structure",
+        "ru": "Четвертичная структура",
+        "es": "Estructura cuaternaria",
+        "formula": null
+      }
+    ]
+  },
+  {
+    "lessonId": "protein-denaturation",
+    "ru": "Денатурация, гидролиз и функция",
+    "es": "Desnaturalización, hidrólisis y función",
+    "scene": "proteinfold",
+    "questionRU": "Различать денатурацию и гидролиз.",
+    "questionES": "Distinguir desnaturalización e hidrólisis.",
+    "cover": "/art/section-protein.svg",
+    "formulaTransformations": 0,
+    "animatedStepSolutions": 2,
+    "interactiveExercises": 4,
+    "terms": [
+      {
+        "id": "denaturation",
+        "ru": "Денатурация",
+        "es": "Desnaturalización",
+        "formula": null
+      },
+      {
+        "id": "renaturation",
+        "ru": "Ренатурация",
+        "es": "Renaturalización",
+        "formula": null
+      }
+    ]
+  }
+]

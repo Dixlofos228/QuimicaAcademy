@@ -1,0 +1,8 @@
+import {useRef} from 'react';
+import {motion,useMotionValue,useSpring,useTransform} from 'motion/react';
+import {Icon} from './Icon';
+import {useVisualPreferences} from './MotionSystem';
+export const groupIcons:Record<string,string>={foundation:'atom',organic:'molecule',carbs:'sugar',thermo:'thermo',equilibrium:'equilibrium',acidbase:'acid',protein:'protein',lipids:'lipid',colloids:'colloid'};
+export function HeroIllustration(){const ref=useRef<HTMLDivElement>(null);const {reduced,lightweight}=useVisualPreferences();const x=useMotionValue(0),y=useMotionValue(0),sx=useSpring(x,{stiffness:70,damping:25}),sy=useSpring(y,{stiffness:70,damping:25});const rx=useTransform(sy,[-1,1],[2,-2]),ry=useTransform(sx,[-1,1],[-3,3]);return <div ref={ref} className="hero-illustration" aria-hidden="true" onPointerMove={e=>{if(reduced||lightweight)return;const r=ref.current?.getBoundingClientRect();if(r){x.set((e.clientX-r.left)/r.width*2-1);y.set((e.clientY-r.top)/r.height*2-1);}}} onPointerLeave={()=>{x.set(0);y.set(0);}}><motion.img src="/art/hero.webp" alt="" width="1400" height="788" fetchPriority="high" style={{rotateX:rx,rotateY:ry}}/><div className="hero-art-caption"><Icon name="molecule" size={16}/><span>QUÍMICA · ACADEMY 2.0</span></div></div>;}
+export function SectionIllustration({group,className=''}:{group:string;className?:string}){return <img className={`section-illustration ${className}`} src={`/art/section-${group}.svg`} alt="" width="400" height="220" loading="lazy"/>;}
+export function ConceptIllustration({group,small=false}:{group:string;small?:boolean}){return <div className={`concept-illustration ${small?'small':''}`} aria-hidden="true"><SectionIllustration group={group}/><Icon name={groupIcons[group]||'molecule'} size={small?28:40}/></div>;}

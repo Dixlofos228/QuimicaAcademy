@@ -1,0 +1,495 @@
+{
+  "results": [
+    {
+      "kind": "carbs",
+      "lang": "ru",
+      "p": 0,
+      "caption": "01Сахароза содержит глюкозный и фруктозный остатки, соединённые через кислород. Рядом показана вода.",
+      "atoms": 48,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "carbs",
+      "lang": "ru",
+      "p": 0.5,
+      "caption": "03В итоговом балансе вода даёт H и OH. Цвет и номер помогают проследить те же атомы.",
+      "atoms": 48,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "carbs",
+      "lang": "ru",
+      "p": 1,
+      "caption": "05В обеих частях C₁₂H₂₄O₁₂. Атомы сохраняются, меняются связи между ними.",
+      "atoms": 48,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "carbs",
+      "lang": "es",
+      "p": 0,
+      "caption": "01La sacarosa une restos de glucosa y fructosa mediante oxígeno. Se muestra también agua.",
+      "atoms": 48,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "carbs",
+      "lang": "es",
+      "p": 0.5,
+      "caption": "03En el balance neto, el agua aporta H y OH. El color y número permiten seguir los mismos átomos.",
+      "atoms": 48,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "carbs",
+      "lang": "es",
+      "p": 1,
+      "caption": "05Ambos lados tienen C₁₂H₂₄O₁₂. Se conservan los átomos; cambian sus enlaces.",
+      "atoms": 48,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "protein",
+      "lang": "ru",
+      "p": 0,
+      "caption": "01Две молекулы глицина содержат карбоксильную и аминогруппу.",
+      "atoms": 20,
+      "outside": [
+        "CH₂−COOH"
+      ],
+      "overflow": false
+    },
+    {
+      "kind": "protein",
+      "lang": "ru",
+      "p": 0.5,
+      "caption": "03Эти атомы составляют воду; углерод карбонила соединяется с азотом.",
+      "atoms": 20,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "protein",
+      "lang": "ru",
+      "p": 1,
+      "caption": "05Дипептид и вода сохраняют C₄H₁₀N₂O₄. Биологический синтез требует активации и энергии.",
+      "atoms": 20,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "protein",
+      "lang": "es",
+      "p": 0,
+      "caption": "01Dos glicinas contienen grupos carboxilo y amino.",
+      "atoms": 20,
+      "outside": [
+        "CH₂−COOH"
+      ],
+      "overflow": false
+    },
+    {
+      "kind": "protein",
+      "lang": "es",
+      "p": 0.5,
+      "caption": "03Estos átomos forman agua; el carbono carbonílico se une al nitrógeno.",
+      "atoms": 20,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "protein",
+      "lang": "es",
+      "p": 1,
+      "caption": "05Dipéptido y agua conservan C₄H₁₀N₂O₄. La síntesis biológica requiere activación y energía.",
+      "atoms": 20,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "ester",
+      "lang": "ru",
+      "p": 0,
+      "caption": "01Этановая кислота и этанол: будущий эфир связывает кислотный и спиртовой остатки.",
+      "atoms": 17,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "ester",
+      "lang": "ru",
+      "p": 0.5,
+      "caption": "03В итоговой схеме между C карбонила и O спирта появляется эфирная связь.",
+      "atoms": 17,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "ester",
+      "lang": "ru",
+      "p": 1,
+      "caption": "05Сохраняется C₄H₁₀O₃. Это итоговый баланс, а не подробный механизм кислотного катализа.",
+      "atoms": 17,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "ester",
+      "lang": "es",
+      "p": 0,
+      "caption": "01Ácido etanoico y etanol: el éster unirá los restos del ácido y del alcohol.",
+      "atoms": 17,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "ester",
+      "lang": "es",
+      "p": 0.5,
+      "caption": "03El esquema neto forma el enlace éster entre C carbonílico y O del alcohol.",
+      "atoms": 17,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "ester",
+      "lang": "es",
+      "p": 1,
+      "caption": "05Se conserva C₄H₁₀O₃. Es balance neto, no el mecanismo detallado de catálisis ácida.",
+      "atoms": 17,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "lipidreaction",
+      "lang": "ru",
+      "p": 0,
+      "caption": "01Сопоставьте уравнение с тремя цепями жирных кислот и спиртовой частью.",
+      "atoms": 164,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "lipidreaction",
+      "lang": "ru",
+      "p": 0.5,
+      "caption": "03Переход показывает итоговое перераспределение атомов, без утверждения о механизме.",
+      "atoms": 164,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "lipidreaction",
+      "lang": "ru",
+      "p": 1,
+      "caption": "05Каждый атом остаётся в инвентаре. Состав каждого продукта проверен по формуле.",
+      "atoms": 164,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "lipidreaction",
+      "lang": "es",
+      "p": 0,
+      "caption": "01Relacioná la ecuación con las tres cadenas grasas y la parte alcohólica.",
+      "atoms": 164,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "lipidreaction",
+      "lang": "es",
+      "p": 0.5,
+      "caption": "03La transición muestra redistribución neta de átomos, sin proponer un mecanismo.",
+      "atoms": 164,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "lipidreaction",
+      "lang": "es",
+      "p": 1,
+      "caption": "05Cada átomo permanece en el inventario. La composición de cada producto se verifica por su fórmula.",
+      "atoms": 164,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "balance",
+      "lang": "ru",
+      "p": 0,
+      "caption": "01Коэффициент задаёт число молекул. Индексы внутри формулы остаются неизменными.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "balance",
+      "lang": "ru",
+      "p": 0.5,
+      "caption": "03Число молекул меняется вместе с коэффициентами; счётчики показывают атомы.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "balance",
+      "lang": "ru",
+      "p": 1,
+      "caption": "05Уравнение верно только при одинаковом числе H и O с обеих сторон.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "balance",
+      "lang": "es",
+      "p": 0,
+      "caption": "01El coeficiente fija la cantidad de moléculas. Los subíndices de la fórmula permanecen iguales.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "balance",
+      "lang": "es",
+      "p": 0.5,
+      "caption": "03Las moléculas cambian con los coeficientes; los contadores muestran los átomos.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "balance",
+      "lang": "es",
+      "p": 1,
+      "caption": "05La ecuación es válida solo con igual cantidad de H y O en ambos lados.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "micelle",
+      "lang": "ru",
+      "p": 0,
+      "caption": "01Гидрофильная головка взаимодействует с водой; гидрофобный хвост избегает водного окружения.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "micelle",
+      "lang": "ru",
+      "p": 0.5,
+      "caption": "03Хвосты собираются вокруг неполярной области; головки остаются со стороны воды.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "micelle",
+      "lang": "ru",
+      "p": 1,
+      "caption": "05Это качественная схема самоорганизации. Она не задаёт CMC, размер или скорость реального мыла.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "micelle",
+      "lang": "es",
+      "p": 0,
+      "caption": "01La cabeza hidrófila interactúa con agua; la cola hidrófoba evita el entorno acuoso.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "micelle",
+      "lang": "es",
+      "p": 0.5,
+      "caption": "03Las colas se agrupan alrededor de la región no polar; las cabezas quedan hacia el agua.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "micelle",
+      "lang": "es",
+      "p": 1,
+      "caption": "05Es un esquema cualitativo de autoorganización. No fija CMC, tamaño ni velocidad de un jabón real.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "sugarcycle",
+      "lang": "ru",
+      "p": 0,
+      "caption": "01Открытая D-глюкоза: OH в проекции Фишера идут справа, слева, справа, справа.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "sugarcycle",
+      "lang": "ru",
+      "p": 0.5,
+      "caption": "03O5 входит в кольцо, а карбонильный O1 становится OH. Никакая вода не отщепляется.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "sugarcycle",
+      "lang": "ru",
+      "p": 1,
+      "caption": "05Для выбранной проекции α-OH при C1 вниз, β-OH вверх. Формула остаётся C₆H₁₂O₆.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "sugarcycle",
+      "lang": "es",
+      "p": 0,
+      "caption": "01D-glucosa abierta: los OH de Fischer están a derecha, izquierda, derecha, derecha.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "sugarcycle",
+      "lang": "es",
+      "p": 0.5,
+      "caption": "03O5 entra en el anillo; O1 carbonílico pasa a OH. No se desprende agua.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "sugarcycle",
+      "lang": "es",
+      "p": 1,
+      "caption": "05En esta proyección, OH α de C1 abajo y OH β arriba. Se mantiene C₆H₁₂O₆.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "sugartests",
+      "lang": "ru",
+      "p": 0,
+      "caption": "01Выберите сахар и пробу: результат зависит от химической структуры и условий.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "sugartests",
+      "lang": "ru",
+      "p": 0.5,
+      "caption": "03В школьной качественной модели развиваются характерные изменения.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "sugartests",
+      "lang": "ru",
+      "p": 1,
+      "caption": "05Проба качественная: время, нагрев и контроль влияют на реальный опыт. Это не измерение концентрации.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "sugartests",
+      "lang": "es",
+      "p": 0,
+      "caption": "01Elegí azúcar y ensayo: el resultado depende de estructura y condiciones.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "sugartests",
+      "lang": "es",
+      "p": 0.5,
+      "caption": "03Se desarrollan los cambios característicos del modelo cualitativo escolar.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "sugartests",
+      "lang": "es",
+      "p": 1,
+      "caption": "05El ensayo es cualitativo: tiempo, calor y controles afectan el experimento real. No mide concentración.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "polymer",
+      "lang": "ru",
+      "p": 0,
+      "caption": "01Каждый шестиугольник обозначает глюкозный остаток. Выберите длину и тип связи.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "polymer",
+      "lang": "ru",
+      "p": 0.5,
+      "caption": "03В итоговом балансе образования каждой связи выделяется одна H₂O.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "polymer",
+      "lang": "ru",
+      "p": 1,
+      "caption": "05Для цепи без циклов n остатков дают n−1 связей. Концевые группы добавляют H₂O к (C₆H₁₀O₅)ₙ.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "polymer",
+      "lang": "es",
+      "p": 0,
+      "caption": "01Cada hexágono representa un resto de glucosa. Elegí longitud y tipo de enlace.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "polymer",
+      "lang": "es",
+      "p": 0.5,
+      "caption": "03El balance neto de formación de cada enlace libera una H₂O.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "kind": "polymer",
+      "lang": "es",
+      "p": 1,
+      "caption": "05Una cadena sin ciclos de n restos tiene n−1 enlaces. Los extremos suman H₂O a (C₆H₁₀O₅)ₙ.",
+      "atoms": 0,
+      "outside": [],
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

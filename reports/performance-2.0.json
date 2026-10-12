@@ -1,0 +1,696 @@
+{
+  "schema": 1,
+  "recordedAt": "2026-10-12T19:09:45.485Z",
+  "baseUrl": "http://127.0.0.1:4173",
+  "sampleDurationMs": 3600,
+  "viewport": {
+    "width": 1600,
+    "height": 1000
+  },
+  "host": {
+    "cpu": {
+      "lscpu": [
+        {
+          "field": "Architecture:",
+          "data": "x86_64"
+        },
+        {
+          "field": "CPU op-mode(s):",
+          "data": "32-bit, 64-bit"
+        },
+        {
+          "field": "Address sizes:",
+          "data": "39 bits physical, 48 bits virtual"
+        },
+        {
+          "field": "Byte Order:",
+          "data": "Little Endian"
+        },
+        {
+          "field": "CPU(s):",
+          "data": "8"
+        },
+        {
+          "field": "On-line CPU(s) list:",
+          "data": "0-7"
+        },
+        {
+          "field": "Vendor ID:",
+          "data": "GenuineIntel"
+        },
+        {
+          "field": "Model name:",
+          "data": "Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz"
+        },
+        {
+          "field": "CPU family:",
+          "data": "6"
+        },
+        {
+          "field": "Model:",
+          "data": "158"
+        },
+        {
+          "field": "Thread(s) per core:",
+          "data": "1"
+        },
+        {
+          "field": "Core(s) per socket:",
+          "data": "8"
+        },
+        {
+          "field": "Socket(s):",
+          "data": "1"
+        },
+        {
+          "field": "Stepping:",
+          "data": "13"
+        },
+        {
+          "field": "Microcode version:",
+          "data": "0x104"
+        },
+        {
+          "field": "CPU(s) scaling MHz:",
+          "data": "95%"
+        },
+        {
+          "field": "CPU max MHz:",
+          "data": "4700.0000"
+        },
+        {
+          "field": "CPU min MHz:",
+          "data": "800.0000"
+        },
+        {
+          "field": "BogoMIPS:",
+          "data": "6000.00"
+        },
+        {
+          "field": "Flags:",
+          "data": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp vnmi md_clear flush_l1d arch_capabilities"
+        },
+        {
+          "field": "Virtualization:",
+          "data": "VT-x"
+        },
+        {
+          "field": "L1d cache:",
+          "data": "256 KiB (8 instances)"
+        },
+        {
+          "field": "L1i cache:",
+          "data": "256 KiB (8 instances)"
+        },
+        {
+          "field": "L2 cache:",
+          "data": "2 MiB (8 instances)"
+        },
+        {
+          "field": "L3 cache:",
+          "data": "12 MiB (1 instance)"
+        },
+        {
+          "field": "NUMA node(s):",
+          "data": "1"
+        },
+        {
+          "field": "NUMA node0 CPU(s):",
+          "data": "0-7"
+        },
+        {
+          "field": "Vulnerability Gather data sampling:",
+          "data": "Mitigation; Microcode"
+        },
+        {
+          "field": "Vulnerability Ghostwrite:",
+          "data": "Not affected"
+        },
+        {
+          "field": "Vulnerability Indirect target selection:",
+          "data": "Mitigation; Aligned branch/return thunks"
+        },
+        {
+          "field": "Vulnerability Itlb multihit:",
+          "data": "KVM: Mitigation: Split huge pages"
+        },
+        {
+          "field": "Vulnerability L1tf:",
+          "data": "Not affected"
+        },
+        {
+          "field": "Vulnerability Mds:",
+          "data": "Not affected"
+        },
+        {
+          "field": "Vulnerability Meltdown:",
+          "data": "Not affected"
+        },
+        {
+          "field": "Vulnerability Mmio stale data:",
+          "data": "Mitigation; Clear CPU buffers; SMT disabled"
+        },
+        {
+          "field": "Vulnerability Old microcode:",
+          "data": "Not affected"
+        },
+        {
+          "field": "Vulnerability Reg file data sampling:",
+          "data": "Not affected"
+        },
+        {
+          "field": "Vulnerability Retbleed:",
+          "data": "Mitigation; Enhanced IBRS"
+        },
+        {
+          "field": "Vulnerability Spec rstack overflow:",
+          "data": "Not affected"
+        },
+        {
+          "field": "Vulnerability Spec store bypass:",
+          "data": "Mitigation; Speculative Store Bypass disabled via prctl"
+        },
+        {
+          "field": "Vulnerability Spectre v1:",
+          "data": "Mitigation; usercopy/swapgs barriers and __user pointer sanitization"
+        },
+        {
+          "field": "Vulnerability Spectre v2:",
+          "data": "Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI SW loop, KVM SW loop"
+        },
+        {
+          "field": "Vulnerability Srbds:",
+          "data": "Mitigation; Microcode"
+        },
+        {
+          "field": "Vulnerability Tsa:",
+          "data": "Not affected"
+        },
+        {
+          "field": "Vulnerability Tsx async abort:",
+          "data": "Mitigation; TSX disabled"
+        },
+        {
+          "field": "Vulnerability Vmscape:",
+          "data": "Mitigation; IBPB before exit to userspace"
+        }
+      ]
+    },
+    "gpu": "NVIDIA GeForce RTX 2060, 615.71.09",
+    "waylandDisplay": "wayland-1",
+    "display": ":1",
+    "sessionType": null,
+    "hyprlandVersion": "Hyprland 0.56.2 built from branch v0.56.2 at commit efb50993780079460b0cbed1363e2166a2de1d9f clean ([gha] Nix: update inputs).\nDate: Wed Aug 5 14:13:21 2026\nTag: v0.56.2, commits: 7661\n\nLibraries:\nHyprgraphics: built against 0.5.1, system has 0.5.1\nHyprutils: built against 0.14.1, system has 0.14.2\nHyprcursor: built against 0.1.13, system has 0.1.13\nHyprlang: built against 0.6.8, system has 0.6.8\nAquamarine: built against 0.15.0, system has 0.15.1\n\nVersion ABI string: efb50993780079460b0cbed1363e2166a2de1d9f_aq_0.15_hu_0.14_hg_0.5_hc_0.1_hlg_0.6\nno flags were set",
+    "monitors": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "refreshRate": 164.996,
+        "scale": 1
+      }
+    ]
+  },
+  "methodology": {
+    "metric": "requestAnimationFrame callback cadence; not certified displayed-frame FPS",
+    "samples": "One warm sample per representative workload and browser; timeline duration4200ms, sample3600ms unless overridden",
+    "workload": "Real application timeline playback. Molecule: construction plus Playwright mouse drag. Home: pointer parallax via Playwright mouse movement. SVG graphs: playback with parameter updates.",
+    "warmupMs": 700,
+    "profiles": "Temporary Playwright profiles, separate from user profiles",
+    "backendEvidence": "Hyprland newly created client xwayland flag + actual WebGL unmasked renderer; Chromium also CDPSystemInfo",
+    "limitations": [
+      "No GPU frame-presentation timestamps; rAF cadence does not guarantee every frame was painted or presented.",
+      "Short samples, one run per scene; not a long-term stress or thermal benchmark.",
+      "Browser startup and initial content loading are excluded after warmup.",
+      "Pointer input comes from Playwright. This includes rendering work but is not a physical-input latency measurement."
+    ]
+  },
+  "browsers": [
+    {
+      "name": "chromium",
+      "requestedHeaded": true,
+      "requestedWindowSystem": "wayland",
+      "executable": "/usr/bin/chromium",
+      "launchArguments": [
+        "--no-sandbox",
+        "--ozone-platform=wayland"
+      ],
+      "launchEnvironment": {},
+      "measurements": [
+        {
+          "id": "home-parallax",
+          "route": "#home",
+          "activity": "pointer",
+          "loadAverage": "0.86 1.12 1.22 1/1449 164227",
+          "elapsedMs": 3605.9,
+          "callbackIntervals": 593,
+          "callbacksPerSecond": 164.4527025153221,
+          "medianIntervalMs": 6.099999999999454,
+          "p95IntervalMs": 6.100000000000364,
+          "maxIntervalMs": 18.199999999999818,
+          "cadenceFromMedianHz": 163.93442622952287,
+          "intervalsAbove25ms": 0,
+          "intervalsAbove33_34ms": 0,
+          "intervalsAbove50ms": 0,
+          "webglFramesWithDrawCalls": 0,
+          "timelineFramesWithChangedProgress": 1,
+          "longTaskApi": true,
+          "longTasks": [],
+          "visibility": "visible",
+          "dpr": 1,
+          "heapBytes": 13295458,
+          "timelineFinal": null
+        },
+        {
+          "id": "molecule-build-and-drag",
+          "route": "#lesson/carbon",
+          "activity": "drag",
+          "loadAverage": "0.79 1.10 1.22 9/1454 164295",
+          "kind": "bonds",
+          "renderer": "webgl",
+          "webgl": {
+            "available": true,
+            "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+            "shadingLanguage": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+            "vendor": "Google Inc. (NVIDIA Corporation)",
+            "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 2060/PCIe/SSE2, OpenGL ES 3.2)",
+            "maxTextureSize": 32768,
+            "contextLost": false,
+            "unmaskedExtension": true
+          },
+          "elapsedMs": 3600,
+          "callbackIntervals": 560,
+          "callbacksPerSecond": 155.55555555555557,
+          "medianIntervalMs": 6.099999999999454,
+          "p95IntervalMs": 6.199999999998909,
+          "maxIntervalMs": 181.6999999999989,
+          "cadenceFromMedianHz": 163.93442622952287,
+          "intervalsAbove25ms": 2,
+          "intervalsAbove33_34ms": 2,
+          "intervalsAbove50ms": 1,
+          "webglFramesWithDrawCalls": 558,
+          "timelineFramesWithChangedProgress": 559,
+          "longTaskApi": true,
+          "longTasks": [],
+          "visibility": "visible",
+          "dpr": 1,
+          "heapBytes": 17560141,
+          "timelineFinal": "0.8435"
+        },
+        {
+          "id": "reaction-atom-tracking",
+          "route": "#lesson/hydrolysis",
+          "activity": "timeline",
+          "loadAverage": "0.81 1.10 1.22 3/1453 164344",
+          "kind": "carbs",
+          "elapsedMs": 3600.199999999999,
+          "callbackIntervals": 593,
+          "callbacksPerSecond": 164.71307149602805,
+          "medianIntervalMs": 6.099999999998545,
+          "p95IntervalMs": 6.200000000000728,
+          "maxIntervalMs": 12.100000000000364,
+          "cadenceFromMedianHz": 163.9344262295473,
+          "intervalsAbove25ms": 0,
+          "intervalsAbove33_34ms": 0,
+          "intervalsAbove50ms": 0,
+          "webglFramesWithDrawCalls": 0,
+          "timelineFramesWithChangedProgress": 594,
+          "longTaskApi": true,
+          "longTasks": [],
+          "visibility": "visible",
+          "dpr": 1,
+          "heapBytes": 28450450,
+          "timelineFinal": "0.8586"
+        },
+        {
+          "id": "calorimeter",
+          "route": "#lesson/thermo-bomb",
+          "activity": "timeline",
+          "loadAverage": "0.90 1.11 1.22 3/1453 164417",
+          "kind": "calorimeter",
+          "elapsedMs": 3600.2000000000007,
+          "callbackIntervals": 555,
+          "callbacksPerSecond": 154.15810232764844,
+          "medianIntervalMs": 6.099999999998545,
+          "p95IntervalMs": 6.200000000000728,
+          "maxIntervalMs": 200,
+          "cadenceFromMedianHz": 163.9344262295473,
+          "intervalsAbove25ms": 2,
+          "intervalsAbove33_34ms": 1,
+          "intervalsAbove50ms": 1,
+          "webglFramesWithDrawCalls": 0,
+          "timelineFramesWithChangedProgress": 556,
+          "longTaskApi": true,
+          "longTasks": [],
+          "visibility": "visible",
+          "dpr": 1,
+          "heapBytes": 27202543,
+          "timelineFinal": "0.8262"
+        },
+        {
+          "id": "equilibrium",
+          "route": "#lesson/equilibrium-dynamic",
+          "activity": "parameter",
+          "loadAverage": "0.91 1.11 1.22 2/1451 164451",
+          "kind": "equilibrium",
+          "elapsedMs": 3600.100000000002,
+          "callbackIntervals": 574,
+          "callbacksPerSecond": 159.44001555512338,
+          "medianIntervalMs": 6.099999999998545,
+          "p95IntervalMs": 6.200000000000728,
+          "maxIntervalMs": 109.09999999999854,
+          "cadenceFromMedianHz": 163.9344262295473,
+          "intervalsAbove25ms": 1,
+          "intervalsAbove33_34ms": 1,
+          "intervalsAbove50ms": 1,
+          "webglFramesWithDrawCalls": 0,
+          "timelineFramesWithChangedProgress": 575,
+          "longTaskApi": true,
+          "longTasks": [],
+          "visibility": "visible",
+          "dpr": 1,
+          "heapBytes": 21194940,
+          "timelineFinal": "0.8465"
+        },
+        {
+          "id": "heat-graph",
+          "route": "#lesson/thermo-heat",
+          "activity": "parameter",
+          "loadAverage": "1.00 1.13 1.22 4/1444 164529",
+          "kind": "thermo",
+          "elapsedMs": 3600.2000000000007,
+          "callbackIntervals": 594,
+          "callbacksPerSecond": 164.99083384256429,
+          "medianIntervalMs": 6.099999999998545,
+          "p95IntervalMs": 6.200000000000728,
+          "maxIntervalMs": 6.799999999999272,
+          "cadenceFromMedianHz": 163.9344262295473,
+          "intervalsAbove25ms": 0,
+          "intervalsAbove33_34ms": 0,
+          "intervalsAbove50ms": 0,
+          "webglFramesWithDrawCalls": 0,
+          "timelineFramesWithChangedProgress": 595,
+          "longTaskApi": true,
+          "longTasks": [],
+          "visibility": "visible",
+          "dpr": 1,
+          "heapBytes": 18101593,
+          "timelineFinal": "0.8586"
+        }
+      ],
+      "errors": [],
+      "mode": "headed",
+      "version": "153.0.8010.52",
+      "windowEvidence": [
+        {
+          "class": "chromium",
+          "pid": 164023,
+          "xwayland": false
+        }
+      ],
+      "nativeWaylandConfirmed": true,
+      "webgl": {
+        "available": true,
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "shadingLanguage": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+        "vendor": "Google Inc. (NVIDIA Corporation)",
+        "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 2060/PCIe/SSE2, OpenGL ES 3.2)",
+        "maxTextureSize": 32768,
+        "contextLost": false,
+        "unmaskedExtension": true
+      },
+      "graphicsClassification": "hardware-indicated",
+      "cdpGpu": {
+        "devices": [
+          {
+            "vendorId": 4318,
+            "deviceId": 7817,
+            "vendorString": "Google Inc. (NVIDIA Corporation)",
+            "deviceString": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 2060/PCIe/SSE2, OpenGL ES 3.2 NVIDIA 615.71.09)",
+            "driverVendor": "NVIDIA",
+            "driverVersion": "615.71.09"
+          }
+        ],
+        "auxAttributes": {
+          "amdSwitchable": false,
+          "canSupportThreadedTextureMailbox": false,
+          "directRenderingVersion": "",
+          "displayType": "ANGLE_OPENGL",
+          "glExtensions": "GL_AMD_performance_monitor GL_ANGLE_blob_cache GL_ANGLE_client_arrays GL_ANGLE_clip_cull_distance GL_ANGLE_compressed_texture_etc GL_ANGLE_depth_texture GL_ANGLE_framebuffer_blit GL_ANGLE_framebuffer_multisample GL_ANGLE_get_serialized_context_string GL_ANGLE_get_tex_level_parameter GL_ANGLE_instanced_arrays GL_ANGLE_memory_size GL_ANGLE_polygon_mode GL_ANGLE_program_binary_readiness_query GL_ANGLE_program_cache_control GL_ANGLE_renderability_validation GL_ANGLE_request_extension GL_ANGLE_robust_client_memory GL_ANGLE_shader_pixel_local_storage GL_ANGLE_stencil_texturing GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ANGLE_texture_multisample GL_ANGLE_translated_shader_source GL_ARM_rgba8 GL_CHROMIUM_bind_generates_resource GL_CHROMIUM_bind_uniform_location GL_CHROMIUM_copy_texture GL_CHROMIUM_lose_context GL_EXT_EGL_image_array GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_func_extended GL_EXT_blend_minmax GL_EXT_clear_texture GL_EXT_clip_control GL_EXT_clip_cull_distance GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_conservative_depth GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_clamp GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers_indexed GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_multisample_compatibility GL_EXT_multisampled_render_to_texture GL_EXT_multisampled_render_to_texture2 GL_EXT_occlusion_query_boolean GL_EXT_polygon_offset_clamp GL_EXT_read_format_bgra GL_EXT_render_snorm GL_EXT_robustness GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_texture_lod GL_EXT_shadow_samplers GL_EXT_texture_border_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_robustness GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_NV_fence GL_NV_framebuffer_blit GL_NV_pack_subimage GL_NV_pixel_buffer_object GL_NV_polygon_mode GL_NV_read_depth GL_NV_read_stencil GL_NV_robustness_video_memory_purge GL_NV_shader_noperspective_interpolation GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_draw_buffers_indexed GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object ",
+          "glImplementationParts": "(gl=egl-angle,angle=opengl)",
+          "glRenderer": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 2060/PCIe/SSE2, OpenGL ES 3.2 NVIDIA 615.71.09)",
+          "glResetNotificationStrategy": 33362,
+          "glVendor": "Google Inc. (NVIDIA Corporation)",
+          "glVersion": "OpenGL ES 3.0 (ANGLE 2.1.1 git hash: ed04c8113c65)",
+          "glWsExtensions": "EGL_EXT_create_context_robustness EGL_KHR_create_context EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_colorspace EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_renderbuffer_image EGL_KHR_get_all_proc_addresses EGL_KHR_fence_sync EGL_KHR_wait_sync EGL_ANGLE_create_context_webgl_compatibility EGL_CHROMIUM_create_context_bind_generates_resource EGL_KHR_swap_buffers_with_damage EGL_EXT_pixel_format_float EGL_KHR_surfaceless_context EGL_ANGLE_display_texture_share_group EGL_ANGLE_display_semaphore_share_group EGL_ANGLE_create_context_client_arrays EGL_ANGLE_program_cache_control EGL_ANGLE_robust_resource_initialization EGL_ANGLE_create_context_extensions_enabled EGL_ANDROID_blob_cache EGL_ANDROID_recordable EGL_ANDROID_native_fence_sync EGL_ANGLE_create_context_backwards_compatible EGL_KHR_no_config_context EGL_KHR_create_context_no_error EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_NV_robustness_video_memory_purge EGL_KHR_reusable_sync EGL_ANGLE_external_context_and_surface EGL_EXT_buffer_age EGL_ANGLE_context_virtualization EGL_ANGLE_memory_usage_report EGL_ANGLE_create_context_passthrough_shaders ",
+          "glWsVendor": "Google Inc. (NVIDIA Corporation)",
+          "glWsVersion": "1.5 (ANGLE 2.1.1 git hash: ed04c8113c65)",
+          "hardwareSupportsVulkan": true,
+          "inProcessGpu": false,
+          "initializationTime": 0.349806,
+          "isAsan": false,
+          "isClangCoverage": false,
+          "jpegDecodeAcceleratorSupported": false,
+          "maxMsaaSamples": "8",
+          "optimus": false,
+          "passthroughCmdDecoder": true,
+          "pixelShaderVersion": "3.00",
+          "processCrashCount": 0,
+          "sandboxed": false,
+          "skiaBackendType": "GaneshGL",
+          "subpixelFontRendering": true,
+          "targetCpuBits": 64,
+          "vertexShaderVersion": "3.00",
+          "visibilityCallbackCallCount": 0
+        },
+        "featureStatus": {
+          "2d_canvas": "enabled",
+          "direct_rendering_display_compositor": "disabled_off_ok",
+          "gpu_compositing": "enabled",
+          "multiple_raster_threads": "enabled_on",
+          "opengl": "enabled_on",
+          "rasterization": "enabled",
+          "raw_draw": "disabled_off_ok",
+          "skia_graphite": "disabled_off",
+          "trees_in_viz": "disabled_off",
+          "video_decode": "enabled",
+          "video_encode": "disabled_software",
+          "vulkan": "disabled_off",
+          "webgl": "enabled",
+          "webgpu": "enabled",
+          "webgpu_on_vk_via_gl_interop": "enabled",
+          "webnn": "disabled_off"
+        },
+        "driverBugWorkarounds": [
+          "disable_discard_framebuffer",
+          "disable_rgb_to_yuv_conversion",
+          "enable_webgl_timer_query_extensions",
+          "exit_on_context_lost",
+          "force_cube_complete",
+          "init_gl_position_in_vertex_shader",
+          "unpack_overlapping_rows_separately_unpack_buffer",
+          "disabled_extension_GL_KHR_blend_equation_advanced",
+          "disabled_extension_GL_KHR_blend_equation_advanced_coherent"
+        ],
+        "videoDecoding": [],
+        "videoEncoding": []
+      }
+    },
+    {
+      "name": "firefox",
+      "requestedHeaded": true,
+      "requestedWindowSystem": "wayland",
+      "executable": "/home/mirai/.cache/ms-playwright/firefox-1555/firefox/firefox",
+      "launchArguments": [],
+      "launchEnvironment": {
+        "MOZ_ENABLE_WAYLAND": "1",
+        "GDK_BACKEND": "wayland",
+        "XDG_SESSION_TYPE": "wayland"
+      },
+      "measurements": [
+        {
+          "id": "home-parallax",
+          "route": "#home",
+          "activity": "pointer",
+          "loadAverage": "1.48 1.22 1.25 4/1514 164867",
+          "elapsedMs": 3600,
+          "callbackIntervals": 584,
+          "callbacksPerSecond": 162.2222222222222,
+          "medianIntervalMs": 6,
+          "p95IntervalMs": 7,
+          "maxIntervalMs": 61,
+          "cadenceFromMedianHz": 166.66666666666666,
+          "intervalsAbove25ms": 1,
+          "intervalsAbove33_34ms": 1,
+          "intervalsAbove50ms": 1,
+          "webglFramesWithDrawCalls": 0,
+          "timelineFramesWithChangedProgress": 1,
+          "longTaskApi": false,
+          "longTasks": [],
+          "visibility": "visible",
+          "dpr": 1,
+          "heapBytes": null,
+          "timelineFinal": null
+        },
+        {
+          "id": "molecule-build-and-drag",
+          "route": "#lesson/carbon",
+          "activity": "drag",
+          "loadAverage": "1.44 1.22 1.25 7/1513 164916",
+          "kind": "bonds",
+          "renderer": "webgl",
+          "webgl": {
+            "available": true,
+            "version": "WebGL 2.0",
+            "shadingLanguage": "WebGL GLSL ES 3.00",
+            "vendor": "NVIDIA Corporation",
+            "renderer": "NVIDIA GeForce GTX 980, or similar",
+            "maxTextureSize": 32768,
+            "contextLost": false,
+            "unmaskedExtension": true
+          },
+          "elapsedMs": 3605.999999999999,
+          "callbackIntervals": 595,
+          "callbacksPerSecond": 165.0027731558514,
+          "medianIntervalMs": 6,
+          "p95IntervalMs": 7,
+          "maxIntervalMs": 7,
+          "cadenceFromMedianHz": 166.66666666666666,
+          "intervalsAbove25ms": 0,
+          "intervalsAbove33_34ms": 0,
+          "intervalsAbove50ms": 0,
+          "webglFramesWithDrawCalls": 596,
+          "timelineFramesWithChangedProgress": 596,
+          "longTaskApi": false,
+          "longTasks": [],
+          "visibility": "visible",
+          "dpr": 1,
+          "heapBytes": null,
+          "timelineFinal": "0.8717"
+        },
+        {
+          "id": "reaction-atom-tracking",
+          "route": "#lesson/hydrolysis",
+          "activity": "timeline",
+          "loadAverage": "1.41 1.22 1.25 7/1512 164961",
+          "kind": "carbs",
+          "elapsedMs": 3600,
+          "callbackIntervals": 593,
+          "callbacksPerSecond": 164.72222222222223,
+          "medianIntervalMs": 6,
+          "p95IntervalMs": 7,
+          "maxIntervalMs": 12,
+          "cadenceFromMedianHz": 166.66666666666666,
+          "intervalsAbove25ms": 0,
+          "intervalsAbove33_34ms": 0,
+          "intervalsAbove50ms": 0,
+          "webglFramesWithDrawCalls": 0,
+          "timelineFramesWithChangedProgress": 594,
+          "longTaskApi": false,
+          "longTasks": [],
+          "visibility": "visible",
+          "dpr": 1,
+          "heapBytes": null,
+          "timelineFinal": "0.8571"
+        },
+        {
+          "id": "calorimeter",
+          "route": "#lesson/thermo-bomb",
+          "activity": "timeline",
+          "loadAverage": "1.61 1.26 1.27 3/1503 165018",
+          "kind": "calorimeter",
+          "elapsedMs": 3601.000000000002,
+          "callbackIntervals": 594,
+          "callbacksPerSecond": 164.9541793946125,
+          "medianIntervalMs": 6,
+          "p95IntervalMs": 7,
+          "maxIntervalMs": 7,
+          "cadenceFromMedianHz": 166.66666666666666,
+          "intervalsAbove25ms": 0,
+          "intervalsAbove33_34ms": 0,
+          "intervalsAbove50ms": 0,
+          "webglFramesWithDrawCalls": 0,
+          "timelineFramesWithChangedProgress": 595,
+          "longTaskApi": false,
+          "longTasks": [],
+          "visibility": "visible",
+          "dpr": 1,
+          "heapBytes": null,
+          "timelineFinal": "0.8571"
+        },
+        {
+          "id": "equilibrium",
+          "route": "#lesson/equilibrium-dynamic",
+          "activity": "parameter",
+          "loadAverage": "1.64 1.27 1.27 6/1499 165047",
+          "kind": "equilibrium",
+          "elapsedMs": 3600,
+          "callbackIntervals": 594,
+          "callbacksPerSecond": 165,
+          "medianIntervalMs": 6,
+          "p95IntervalMs": 7,
+          "maxIntervalMs": 7,
+          "cadenceFromMedianHz": 166.66666666666666,
+          "intervalsAbove25ms": 0,
+          "intervalsAbove33_34ms": 0,
+          "intervalsAbove50ms": 0,
+          "webglFramesWithDrawCalls": 0,
+          "timelineFramesWithChangedProgress": 595,
+          "longTaskApi": false,
+          "longTasks": [],
+          "visibility": "visible",
+          "dpr": 1,
+          "heapBytes": null,
+          "timelineFinal": "0.8571"
+        },
+        {
+          "id": "heat-graph",
+          "route": "#lesson/thermo-heat",
+          "activity": "parameter",
+          "loadAverage": "1.75 1.30 1.28 7/1500 165126",
+          "kind": "thermo",
+          "elapsedMs": 3601,
+          "callbackIntervals": 594,
+          "callbacksPerSecond": 164.9541793946126,
+          "medianIntervalMs": 6,
+          "p95IntervalMs": 7,
+          "maxIntervalMs": 7,
+          "cadenceFromMedianHz": 166.66666666666666,
+          "intervalsAbove25ms": 0,
+          "intervalsAbove33_34ms": 0,
+          "intervalsAbove50ms": 0,
+          "webglFramesWithDrawCalls": 0,
+          "timelineFramesWithChangedProgress": 595,
+          "longTaskApi": false,
+          "longTasks": [],
+          "visibility": "visible",
+          "dpr": 1,
+          "heapBytes": null,
+          "timelineFinal": "0.8574"
+        }
+      ],
+      "errors": [],
+      "mode": "headed",
+      "version": "157.0",
+      "windowEvidence": [
+        {
+          "class": "firefox-default",
+          "pid": 164584,
+          "xwayland": false
+        }
+      ],
+      "nativeWaylandConfirmed": true,
+      "webgl": {
+        "available": true,
+        "version": "WebGL 2.0",
+        "shadingLanguage": "WebGL GLSL ES 3.00",
+        "vendor": "NVIDIA Corporation",
+        "renderer": "NVIDIA GeForce GTX 980, or similar",
+        "maxTextureSize": 32768,
+        "contextLost": false,
+        "unmaskedExtension": true
+      },
+      "graphicsPrivacyNote": "Firefox sanitizes the renderer string; it does not identify the exact physical GPU. Host nvidia-smi records RTX2060 separately.",
+      "graphicsClassification": "hardware-indicated"
+    }
+  ]
+}

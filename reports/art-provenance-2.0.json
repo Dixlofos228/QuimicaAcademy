@@ -1,0 +1,119 @@
+[
+  {
+    "name": "hero",
+    "url": "/art/hero.webp",
+    "tool": "Built-in image_gen.imagegen",
+    "sourcePath": "/home/mirai/.codex/generated_images/01a12fd4-f1a5-7962-ba7e-976f0d1b8812/exec-5f283ed3-130e-4a53-95bb-3f1fc3417896.png",
+    "sourceSHA256": "b2194d114176b8e12deb811bb785cf1873708dcd028e317a1f335f221a3fddca",
+    "brief": "Scientific editorial glass laboratory still life, soft blue and orange, graphite, negative space for heading, no text or chemical structure claims.",
+    "size": [
+      1400,
+      788
+    ],
+    "bytes": 39372,
+    "format": "WebP",
+    "scientificUse": "Atmosphere only; scientific structures, values and plots are rendered from verified code."
+  },
+  {
+    "name": "lab-atmosphere",
+    "url": "/art/lab-atmosphere.webp",
+    "tool": "Built-in image_gen.imagegen",
+    "sourcePath": "/home/mirai/.codex/generated_images/01a12fd4-f1a5-7962-ba7e-976f0d1b8812/exec-758431ad-065e-4caa-a5b4-63a565a11814.png",
+    "sourceSHA256": "d011e5bfc418e6479f8ae6a87c32e3b67fe19cd90d269954f6a360bd97a91cde",
+    "brief": "Subtle out-of-focus glass laboratory atmosphere with uncluttered centre for scientific code-rendered diagrams.",
+    "size": [
+      1400,
+      788
+    ],
+    "bytes": 30228,
+    "format": "WebP",
+    "scientificUse": "Atmosphere only; scientific structures, values and plots are rendered from verified code."
+  },
+  {
+    "name": "completion",
+    "url": "/art/completion.webp",
+    "tool": "Built-in image_gen.imagegen",
+    "sourcePath": "/home/mirai/.codex/generated_images/01a12fd4-f1a5-7962-ba7e-976f0d1b8812/exec-c8743d2c-48a2-4293-99ff-465a90b17e73.png",
+    "sourceSHA256": "7eecff755b3b56dd2214c11e403bf130b485724961876a5e29c91c281c820701",
+    "brief": "Symbolic sculptural completion ring and rising ceramic forms, soft blue and warm accent on graphite, no atom or orbital claims.",
+    "size": [
+      360,
+      360
+    ],
+    "bytes": 5760,
+    "format": "WebP",
+    "scientificUse": "Atmosphere only; scientific structures, values and plots are rendered from verified code."
+  },
+  {
+    "name": "section-lipids",
+    "url": "/art/section-lipids.svg",
+    "tool": "Original project SVG generator",
+    "bytes": 886,
+    "format": "SVG",
+    "scientificUse": "Thematic cover; lesson-specific scientific model is interactive."
+  },
+  {
+    "name": "section-colloids",
+    "url": "/art/section-colloids.svg",
+    "tool": "Original project SVG generator",
+    "bytes": 2313,
+    "format": "SVG",
+    "scientificUse": "Thematic cover; lesson-specific scientific model is interactive."
+  },
+  {
+    "name": "section-protein",
+    "url": "/art/section-protein.svg",
+    "tool": "Original project SVG generator",
+    "bytes": 913,
+    "format": "SVG",
+    "scientificUse": "Thematic cover; lesson-specific scientific model is interactive."
+  },
+  {
+    "name": "section-thermo",
+    "url": "/art/section-thermo.svg",
+    "tool": "Original project SVG generator",
+    "bytes": 936,
+    "format": "SVG",
+    "scientificUse": "Thematic cover; lesson-specific scientific model is interactive."
+  },
+  {
+    "name": "section-carbs",
+    "url": "/art/section-carbs.svg",
+    "tool": "Original project SVG generator",
+    "bytes": 904,
+    "format": "SVG",
+    "scientificUse": "Thematic cover; lesson-specific scientific model is interactive."
+  },
+  {
+    "name": "section-acidbase",
+    "url": "/art/section-acidbase.svg",
+    "tool": "Original project SVG generator",
+    "bytes": 831,
+    "format": "SVG",
+    "scientificUse": "Thematic cover; lesson-specific scientific model is interactive."
+  },
+  {
+    "name": "section-foundation",
+    "url": "/art/section-foundation.svg",
+    "tool": "Original project SVG generator",
+    "bytes": 918,
+    "format": "SVG",
+    "scientificUse": "Thematic cover; lesson-specific scientific model is interactive."
+  },
+  {
+    "name": "section-organic",
+    "url": "/art/section-organic.svg",
+    "tool": "Original project SVG generator",
+    "bytes": 1071,
+    "format": "SVG",
+    "scientificUse": "Thematic cover; lesson-specific scientific model is interactive."
+  },
+  {
+    "name": "section-equilibrium",
+    "url": "/art/section-equilibrium.svg",
+    "tool": "Original project SVG generator",
+    "bytes": 880,
+    "format": "SVG",
+    "scientificUse": "Thematic cover; lesson-specific scientific model is interactive."
+  }
+]

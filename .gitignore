@@ -7,3 +7,6 @@ reports/e2e-artifacts/
 # Original photos remain on disk; immutable hashes recorded in reports.
 public/originals/
 public/sources/
+
+reports/*-local-artifacts/
+reports/artwork-final-artifacts/

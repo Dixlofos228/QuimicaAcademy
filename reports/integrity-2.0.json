@@ -1,0 +1,37 @@
+{
+  "courseData": {
+    "src/data/course-b.json": {
+      "sha256": "44993bc0490799517c66ec432266292f1b9454160d4710b06efb717ad79642c4",
+      "unchanged": true
+    },
+    "src/data/course-a.json": {
+      "sha256": "fa5d02c704a94970aef9037251e6dd37178e981f696471146352a0b16f49a8d6",
+      "unchanged": true
+    },
+    "src/data/source-notes-es.json": {
+      "sha256": "18f749237aebe36ec6b8c259691df9fafc220d6762673aabd4d640427fdc2aa1",
+      "unchanged": true
+    },
+    "src/data/course-c.json": {
+      "sha256": "811804007ed7e8a2d57b7329d8a9103ac36333103e4879533262d2e3eed3d749",
+      "unchanged": true
+    },
+    "src/data/foundations.json": {
+      "sha256": "3c51facbddb165552412ae378e6439c21e88b71bd7c2633cc2fbc85f0fd3e450",
+      "unchanged": true
+    },
+    "src/data/coverage.json": {
+      "sha256": "3e0a7f300c27e1314c5b6dff33b2898c784bdf851271b8b16833b1be8175e0fa",
+      "unchanged": true
+    }
+  },
+  "originals": {
+    "checked": 241,
+    "matches": 241,
+    "unchanged": true
+  },
+  "archive": {
+    "sha256": "82314a791398a71e6035dfc4062068e5fd643894b299707f99c94732387f29aa",
+    "unchanged": true
+  }
+}

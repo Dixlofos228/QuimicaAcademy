@@ -1,0 +1,269 @@
+
+> quimica-academy@2.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: animated bomb calorimetry results conserve heat with explicit J-to-kJ conversion
+ok 1 - animated bomb calorimetry results conserve heat with explicit J-to-kJ conversion
+  ---
+  duration_ms: 1.078093
+  ...
+# Subtest: fuel comparisons use CO2 mass in grams and energy-normalized direct emission
+ok 2 - fuel comparisons use CO2 mass in grams and energy-normalized direct emission
+  ---
+  duration_ms: 0.293463
+  ...
+# Subtest: hydrolysis, saponification and hydrogenation preserve every element
+ok 3 - hydrolysis, saponification and hydrogenation preserve every element
+  ---
+  duration_ms: 0.686653
+  ...
+# Subtest: weak acid animated exact roots satisfy mass action rather than the square-root approximation
+ok 4 - weak acid animated exact roots satisfy mass action rather than the square-root approximation
+  ---
+  duration_ms: 0.250288
+  ...
+# Subtest: all animated frames point to the original lesson example and retain five stages
+ok 5 - all animated frames point to the original lesson example and retain five stages
+  ---
+  duration_ms: 10.027527
+  ...
+# Subtest: count and amount are distinct in iodine uptake and peptide hydrolysis
+ok 6 - count and amount are distinct in iodine uptake and peptide hydrolysis
+  ---
+  duration_ms: 0.379779
+  ...
+# Subtest: animated unit conversions reduce to the declared dimensions
+ok 7 - animated unit conversions reduce to the declared dimensions
+  ---
+  duration_ms: 1.213944
+  ...
+# Subtest: all C2–C5 alkane, alkene and alkyne models have exact explicit-H formula and valence
+ok 8 - all C2–C5 alkane, alkene and alkyne models have exact explicit-H formula and valence
+  ---
+  duration_ms: 3.563137
+  ...
+# Subtest: alkane, alkene and alkyne carbon geometries preserve tetrahedral, trigonal and linear constraints
+ok 9 - alkane, alkene and alkyne carbon geometries preserve tetrahedral, trigonal and linear constraints
+  ---
+  duration_ms: 0.327988
+  ...
+# Subtest: water bond angle is 104.5 degrees and two O-H lengths are 0.957 Å
+ok 10 - water bond angle is 104.5 degrees and two O-H lengths are 0.957 Å
+  ---
+  duration_ms: 0.19551
+  ...
+# Subtest: functional group examples and constitutional butane isomer conserve explicit composition
+ok 11 - functional group examples and constitutional butane isomer conserve explicit composition
+  ---
+  duration_ms: 0.670913
+  ...
+# Subtest: D/L glyceraldehyde are nonplanar mirror pairs with C3H6O3 and tetrahedral C2
+ok 12 - D/L glyceraldehyde are nonplanar mirror pairs with C3H6O3 and tetrahedral C2
+  ---
+  duration_ms: 0.628273
+  ...
+# Subtest: cis and trans but-2-ene have C4H8, correct valence and substituent side relationship
+ok 13 - cis and trans but-2-ene have C4H8, correct valence and substituent side relationship
+  ---
+  duration_ms: 0.384506
+  ...
+# Subtest: glycine protonation changes explicit H and formal net charge consistently
+ok 14 - glycine protonation changes explicit H and formal net charge consistently
+  ---
+  duration_ms: 0.787827
+  ...
+# Subtest: glycine fractions sum to one throughout pH0–14 and mean charge is zero at pI5.97
+ok 15 - glycine fractions sum to one throughout pH0–14 and mean charge is zero at pI5.97
+  ---
+  duration_ms: 0.335711
+  ...
+# Subtest: unfolding preserves all32 residue identities and31 covalent sequence links at every stage
+ok 16 - unfolding preserves all32 residue identities and31 covalent sequence links at every stage
+  ---
+  duration_ms: 0.924215
+  ...
+# Subtest: dilution conserves solute and halves concentration when volume doubles
+ok 17 - dilution conserves solute and halves concentration when volume doubles
+  ---
+  duration_ms: 1.53275
+  ...
+# Subtest: food energy uses explicitly declared 17/37/17 kJ per gram
+ok 18 - food energy uses explicitly declared 17/37/17 kJ per gram
+  ---
+  duration_ms: 0.735477
+  ...
+# Subtest: water sensible heat and calorimeter have correct opposite signs
+ok 19 - water sensible heat and calorimeter have correct opposite signs
+  ---
+  duration_ms: 0.218785
+  ...
+# Subtest: first law and constant external-pressure piston use chemistry signs
+ok 20 - first law and constant external-pressure piston use chemistry signs
+  ---
+  duration_ms: 1.175202
+  ...
+# Subtest: Hess scales energy and every stoichiometric coefficient
+ok 21 - Hess scales energy and every stoichiometric coefficient
+  ---
+  duration_ms: 0.232074
+  ...
+# Subtest: HF quadratic satisfies the acid equilibrium at the whole slider domain
+ok 22 - HF quadratic satisfies the acid equilibrium at the whole slider domain
+  ---
+  duration_ms: 0.363796
+  ...
+# Subtest: NO2 dimerization satisfies matter balance and mass action on domain corners
+ok 23 - NO2 dimerization satisfies matter balance and mass action on domain corners
+  ---
+  duration_ms: 0.328383
+  ...
+# Subtest: optical rotation doubles with optical path and preserves signs
+ok 24 - optical rotation doubles with optical path and preserves signs
+  ---
+  duration_ms: 0.199742
+  ...
+# Subtest: finite input guards and timeline clamping prevent broken plots
+ok 25 - finite input guards and timeline clamping prevent broken plots
+  ---
+  duration_ms: 0.279169
+  ...
+# Subtest: fuel comparison normalizes combustion energy and direct CO2 on the same basis
+ok 26 - fuel comparison normalizes combustion energy and direct CO2 on the same basis
+  ---
+  duration_ms: 0.573659
+  ...
+# Subtest: carbs: every original atom retains its identity and full product composition
+ok 27 - carbs: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 3.830919
+  ...
+# Subtest: protein: every original atom retains its identity and full product composition
+ok 28 - protein: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 0.524182
+  ...
+# Subtest: ester: every original atom retains its identity and full product composition
+ok 29 - ester: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 0.340159
+  ...
+# Subtest: esterification: every original atom retains its identity and full product composition
+ok 30 - esterification: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 3.129966
+  ...
+# Subtest: transesterification: every original atom retains its identity and full product composition
+ok 31 - transesterification: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 2.760651
+  ...
+# Subtest: saponification: every original atom retains its identity and full product composition
+ok 32 - saponification: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 1.540133
+  ...
+# Subtest: hydrogenation: every original atom retains its identity and full product composition
+ok 33 - hydrogenation: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 1.384616
+  ...
+# Subtest: water is assembled from specified ester and peptide leaving groups
+ok 34 - water is assembled from specified ester and peptide leaving groups
+  ---
+  duration_ms: 0.708667
+  ...
+# Subtest: water split in sucrose hydrolysis yields two C6H12O6 molecules
+ok 35 - water split in sucrose hydrolysis yields two C6H12O6 molecules
+  ---
+  duration_ms: 0.355634
+  ...
+# Subtest: stoichiometric ledger accepts all positive multiples, rejects atom deficits
+ok 36 - stoichiometric ledger accepts all positive multiples, rejects atom deficits
+  ---
+  duration_ms: 0.223143
+  ...
+# Subtest: all finite linear and branched glucose chains are connected and acyclic
+ok 37 - all finite linear and branched glucose chains are connected and acyclic
+  ---
+  duration_ms: 0.572915
+  ...
+# Subtest: qualitative assays retain fructose and sucrose caveats
+ok 38 - qualitative assays retain fructose and sucrose caveats
+  ---
+  duration_ms: 0.178405
+  ...
+# Subtest: finite polysaccharide formation conserves every element including end groups
+ok 39 - finite polysaccharide formation conserves every element including end groups
+  ---
+  duration_ms: 0.146835
+  ...
+# Subtest: atom parser respects subscripts, parentheses and case
+ok 40 - atom parser respects subscripts, parentheses and case
+  ---
+  duration_ms: 3.757826
+  ...
+# Subtest: molar masses match atomic-mass sums
+ok 41 - molar masses match atomic-mass sums
+  ---
+  duration_ms: 0.321828
+  ...
+# Subtest: reaction models conserve every element
+ok 42 - reaction models conserve every element
+  ---
+  duration_ms: 0.451559
+  ...
+# Subtest: numeric answers parse decimal comma, scientific notation and compatible units
+ok 43 - numeric answers parse decimal comma, scientific notation and compatible units
+  ---
+  duration_ms: 0.35716
+  ...
+# Subtest: first law, calorimetry, food energy and optical units
+ok 44 - first law, calorimetry, food energy and optical units
+  ---
+  duration_ms: 0.160305
+  ...
+# Subtest: weak-acid quadratic and equilibrium mass balance
+ok 45 - weak-acid quadratic and equilibrium mass balance
+  ---
+  duration_ms: 0.173046
+  ...
+# Subtest: all lessons have substantive bilingual content, two examples and exercises
+ok 46 - all lessons have substantive bilingual content, two examples and exercises
+  ---
+  duration_ms: 1.080329
+  ...
+# Subtest: every stored answer accepted, incorrect answers rejected
+ok 47 - every stored answer accepted, incorrect answers rejected
+  ---
+  duration_ms: 1.084073
+  ...
+# Subtest: formulas render with strict KaTeX validation
+ok 48 - formulas render with strict KaTeX validation
+  ---
+  duration_ms: 41.776434
+  ...
+# Subtest: all 241 archive photos linked to actual lessons and visual registry
+ok 49 - all 241 archive photos linked to actual lessons and visual registry
+  ---
+  duration_ms: 4.580513
+  ...
+# Subtest: gas work conversion, Hess cycle and glycine charge model
+ok 50 - gas work conversion, Hess cycle and glycine charge model
+  ---
+  duration_ms: 0.233338
+  ...
+# Subtest: lipid transformations conserve atoms independently of answer keys
+ok 51 - lipid transformations conserve atoms independently of answer keys
+  ---
+  duration_ms: 0.294877
+  ...
+1..51
+# tests 51
+# suites 0
+# pass 51
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 593.741348

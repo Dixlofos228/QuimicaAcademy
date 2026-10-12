@@ -1,0 +1,62 @@
+lessonId,ru,es,scene,formulaTransformations,animatedStepSolutions,interactiveExercises,cover,questionRU,questionES
+atoms,"Атомы, молекулы и химические формулы","Átomos, moléculas y fórmulas químicas",atom,2,2,4,/art/section-foundation.svg,"Различать атом, элемент и молекулу.","Distinguir átomo, elemento y molécula."
+mole,Моль и молярная масса,Mol y masa molar,mole,2,2,4,/art/section-foundation.svg,Понимать каждое обозначение и проверять единицы.,Entender cada símbolo y verificar unidades.
+concentration,"Растворы, концентрация и единицы","Soluciones, concentración y unidades",dilution,2,2,4,/art/section-foundation.svg,Понимать каждое обозначение и проверять единицы.,Entender cada símbolo y verificar unidades.
+equations,Уравнения реакций и сохранение атомов,Ecuaciones y conservación de átomos,balance,2,2,4,/art/section-foundation.svg,Понимать каждое обозначение и проверять единицы.,Entender cada símbolo y verificar unidades.
+carbon,Углерод: цепи и связи,Carbono: cadenas y enlaces,bonds,0,2,4,/art/section-organic.svg,Проверять валентность и молекулярную формулу углеводорода.,Comprobar la valencia y la fórmula molecular de un hidrocarburo.
+representations,Как читать формулы и форму молекулы,Cómo leer fórmulas y formas moleculares,bonds,0,2,4,/art/section-organic.svg,"Переводить молекулярную, полусокращённую и скелетную формулы.","Convertir fórmulas molecular, semidesarrollada y esquelética."
+functional,Функциональные группы,Grupos funcionales,bonds,0,2,4,/art/section-organic.svg,"Распознавать OH, карбонил, карбоксил, эфир и амин.","Reconocer OH, carbonilo, carboxilo, éster y amino."
+nomenclature,Название как алгоритм структуры,El nombre como algoritmo estructural,bonds,0,2,4,/art/section-organic.svg,Составлять названия простых углеводородов и спиртов.,Nombrar hidrocarburos y alcoholes sencillos.
+isomers,"Изомерия: состав, связи, пространство","Isomería: composición, enlaces y espacio",bonds,0,2,4,/art/section-organic.svg,"Классифицировать изомеры цепи, положения и функции.","Clasificar isómeros de cadena, posición y función."
+chirality,Хиральность и зеркальные молекулы,Quiralidad y moléculas espejo,chirality,0,2,4,/art/section-organic.svg,Находить C с четырьмя различными заместителями.,Localizar C con cuatro sustituyentes distintos.
+fischer,Проекции Fischer и D/L,Proyecciones de Fischer y D/L,chirality,0,2,4,/art/section-organic.svg,Правильно отражать проекцию и проверять допустимые повороты.,Reflejar correctamente la proyección y comprobar giros permitidos.
+polarimetry,Поляриметрия: от угла к свойству,Polarimetría: del ángulo a la propiedad,polarimeter,2,2,4,/art/section-organic.svg,Вычислять [α] с согласованными единицами.,Calcular [α] con unidades coherentes.
+carb-classification,Углеводы: структура и классы,Glúcidos: estructura y clasificación,carbs,0,2,4,/art/section-carbs.svg,Различать альдозу/кетозу и триозу/тетрозу/пентозу/гексозу.,Distinguir aldosa/cetosa y triosa/tetrosa/pentosa/hexosa.
+carb-stereo,"Стереоизомеры, эпимеры, аномеры","Estereoisómeros, epímeros y anómeros",chirality,0,2,4,/art/section-carbs.svg,Вычислять верхнюю границу 2ⁿ и считать C* открытых сахаров.,Calcular el límite 2ⁿ y contar C* de azúcares abiertos.
+cyclization,Циклизация и Haworth,Ciclación y Haworth,sugarcycle,0,2,4,/art/section-carbs.svg,"Находить карбонил, участвующий OH и аномерный C.","Localizar carbonilo, OH participante y C anomérico."
+mutarotation,Мутаротация: динамическое равновесие,Mutarrotación: equilibrio dinámico,sugarcycle,1,2,4,/art/section-carbs.svg,Объяснять путь α↔открытая форма↔β.,Explicar la ruta α↔forma abierta↔β.
+glycosidic,Дисахариды и гликозидные связи,Disacáridos y enlaces glucosídicos,carbs,0,2,4,/art/section-carbs.svg,"Записывать код связи мальтозы, лактозы, сахарозы и трегалозы.","Escribir enlaces de maltosa, lactosa, sacarosa y trehalosa."
+hydrolysis,Гидролиз и ферментная специфичность,Hidrólisis y especificidad enzimática,carbs,1,2,4,/art/section-carbs.svg,Записывать продукты гидролиза основных дисахаридов.,Escribir productos de hidrólisis de disacáridos.
+reducing,Восстановительные сахара и redox,Azúcares reductores y redox,sugartests,0,2,4,/art/section-carbs.svg,Различать окисление сахара и восстановление реактива.,Distinguir oxidación del azúcar y reducción del reactivo.
+sugar-tests,Распознавание сахаров: логика проб,Identificación de azúcares: lógica de ensayos,sugartests,0,2,4,/art/section-carbs.svg,"Использовать Fehling, Barfoed, Seliwanoff и Lugol по их роли.","Utilizar Fehling, Barfoed, Seliwanoff y Lugol según su función."
+polysaccharides,Полисахариды: связи создают свойства,Polisacáridos: enlaces crean propiedades,polymer,0,2,4,/art/section-carbs.svg,Сопоставлять α/β-связи и ветвление с основными полимерами.,Relacionar enlaces α/β y ramas con polímeros.
+nutrition,"Пища, этикетки и энергия","Alimentos, etiquetas y energía",energy,2,3,6,/art/section-carbs.svg,Читать значения на100 g и на порцию.,Leer valores por100 g y por porción.
+thermo-system,"Система, внутренняя энергия и состояние","Sistema, energía interna y estado",energyflow,1,2,4,/art/section-thermo.svg,Классифицировать обмен через границу.,Clasificar intercambios a través de la frontera.
+thermo-first-law,Первый закон: тепло и работа,Primera ley: calor y trabajo,energyflow,2,2,4,/art/section-thermo.svg,Определять знаки q и w.,Determinar los signos deq yw.
+thermo-gas-work,Расширение газа и идеальный газ,Expansión de gases y gas ideal,work,2,2,4,/art/section-thermo.svg,Применять w=−PextΔV.,Aplicarw=−PextΔV.
+thermo-heat,"Теплоёмкость, нагрев и фазовый переход","Capacidad calorífica, calentamiento y cambio de fase",thermo,2,2,4,/art/section-thermo.svg,Использовать q=mcΔT и q=CΔT.,Usarq=mcΔT yq=CΔT.
+thermo-bomb,Бомбовый калориметр: постоянный объём,Calorímetro de bomba: volumen constante,calorimeter,2,2,4,/art/section-thermo.svg,Составлять баланс калориметра.,Formular el balance del calorímetro.
+thermo-enthalpy,Энтальпия и калориметр растворов,Entalpía y calorimetría de soluciones,calorimeter,2,2,4,/art/section-thermo.svg,Объяснять условия qP=ΔH.,Explicar condiciones deqP=ΔH.
+thermo-thermochemical,Термохимические уравнения и масштаб,Ecuaciones termoquímicas y escala,hess,0,2,4,/art/section-thermo.svg,Масштабировать теплоту по количеству вещества.,Escalar calor según cantidad de sustancia.
+thermo-formation,Образование и чтение таблиц,Formación y lectura de tablas,hess,1,2,4,/art/section-thermo.svg,Записывать образование 1 моля.,Escribir formación de1mol.
+thermo-hess,Закон Гесса: сложение маршрутов,Ley de Hess: sumar caminos,hess,2,2,4,/art/section-thermo.svg,Обращать и масштабировать уравнения.,Invertir y escalar ecuaciones.
+equilibrium-dynamic,Динамическое равновесие,Equilibrio dinámico,equilibrium,0,2,4,/art/section-equilibrium.svg,Читать графики количества и скорости.,Leer gráficos de cantidad y velocidad.
+equilibrium-constant,Константа равновесия и активности,Constante de equilibrio y actividades,equilibrium,2,2,4,/art/section-equilibrium.svg,Записывать K для однородных и неоднородных систем.,EscribirK para sistemas homogéneos y heterogéneos.
+equilibrium-gas,"Парциальное давление, Kp и Kc","Presión parcial, Kp y Kc",equilibrium,2,2,4,/art/section-equilibrium.svg,Записывать Kp из парциальных давлений.,EscribirKp con presiones parciales.
+equilibrium-quotient,Q: куда изменится смесь?,Q: ¿hacia dónde cambia la mezcla?,equilibrium,2,2,4,/art/section-equilibrium.svg,Вычислять Q по текущему составу.,CalcularQ según la composición actual.
+equilibrium-ice,Стехиометрия равновесия: таблица ICE,Estequiometría del equilibrio: tabla ICE,equilibrium,2,2,4,/art/section-equilibrium.svg,Строить таблицу начально–изменение–равновесие.,Construir tabla inicial–cambio–equilibrio.
+equilibrium-lechatelier,Возмущение равновесия: Ле Шателье,Perturbación del equilibrio: Le Châtelier,equilibrium,0,2,4,/art/section-equilibrium.svg,Обосновывать сдвиг через Q.,Justificar el desplazamiento conQ.
+equilibrium-applications,Кислород и гемоглобин: границы модели,Oxígeno y hemoglobina: límites del modelo,equilibrium,0,2,4,/art/section-equilibrium.svg,Связывать pO2 и долю связанного Hb.,RelacionarpO2 y fracción deHb unido.
+thermo-fuels,Топливо: энергия на массу и CO2,Combustibles: energía por masa y CO2,fuel-comparison,2,2,4,/art/section-thermo.svg,Вычислять кДж/г и массу CO2 на энергию.,CalcularkJ/g y masaCO2 por energía.
+thermo-lab,"MgO: калориметрия, Гесс и погрешности","MgO: calorimetría, Hess e incertidumbres",calorimeter,2,2,4,/art/section-thermo.svg,Определять лимитирующий реагент и молярную ΔH.,Determinar reactivo limitante yΔH molar.
+lipid-family,Липиды и жирные кислоты,Lípidos y ácidos grasos,lipids,0,2,4,/art/section-lipids.svg,"Различать липиды, жиры и жирные кислоты.","Distinguir lípidos, grasas y ácidos grasos."
+fatty-acid-omega,"Δ, ω и существенные изомеры","Δ, ω e isómeros relevantes",lipids,0,2,4,/art/section-lipids.svg,Переводить Δ в ω.,Convertir Δ en ω.
+lipid-packing,Упаковка цепей и плавление,Empaquetamiento y fusión,lipids,0,2,4,/art/section-lipids.svg,Объяснять тенденции температуры плавления.,Explicar tendencias de fusión.
+waxes-esters,Воски и этерификация,Ceras y esterificación,ester,0,2,4,/art/section-lipids.svg,Строить эфир и продукты его гидролиза.,Construir un éster y sus productos de hidrólisis.
+lipids-glycerides,Глицериды: три связи и разные остатки,Glicéridos: tres enlaces y restos diferentes,lipidreaction,0,2,4,/art/section-lipids.svg,Отличать простые и смешанные триглицериды.,Distinguir triglicéridos simples y mixtos.
+lipid-biodiesel,Трансэтерификация и биодизель,Transesterificación y biodiésel,lipidreaction,1,2,4,/art/section-lipids.svg,Различать гидролиз и трансэтерификацию.,Distinguir hidrólisis y transesterificación.
+lipid-addition,Присоединение к C=C,Adición a C=C,lipidreaction,2,2,4,/art/section-lipids.svg,Считать расход I2 и H2.,Calcular consumo de I2 y H2.
+lipid-rancidity,Гидролиз и окислительное прогоркание,Hidrólisis y rancidez oxidativa,lipids,0,2,4,/art/section-lipids.svg,Различать разрыв эфира и окисление цепи.,Distinguir ruptura del éster y oxidación de cadena.
+soap-saponification,Омыление и соли жирных кислот,Saponificación y sales de ácidos grasos,lipidreaction,1,2,4,/art/section-colloids.svg,Балансировать омыление TG.,Balancear saponificación TG.
+soap-micelles,"Амфифильность, мицеллы и эмульсии","Anfifilicidad, micelas y emulsiones",micelle,0,2,4,/art/section-colloids.svg,Объяснять ориентацию мыла в воде.,Explicar orientación del jabón en agua.
+acid-models,Три модели кислот и оснований,Tres modelos de ácidos y bases,pH,0,2,4,/art/section-acidbase.svg,Определять донор и акцептор протона.,Identificar donante y aceptor de protón.
+conjugate-pairs,Сопряжённые пары и амфипротность,Pares conjugados y anfiproticidad,pH,0,2,4,/art/section-acidbase.svg,Находить пары и проверять заряд.,Encontrar parejas y verificar carga.
+water-kw,"Вода, Kw и температура","Agua, Kw y temperatura",pH,2,2,4,/art/section-acidbase.svg,Вычислять второй ион по Kw.,Calcular segundo ion mediante Kw.
+ph-scale,Логарифмическая шкала pH,Escala logarítmica de pH,pH,2,2,4,/art/section-acidbase.svg,Вычислять pH и обратную концентрацию.,Calcular pH y concentración inversa.
+strong-acids,Сильные кислоты и основания: расчёт,Ácidos y bases fuertes: cálculo,pH,2,2,4,/art/section-acidbase.svg,Вычислять pH сильного электролита.,Calcular pH de electrolito fuerte.
+weak-acids,Слабые кислоты и основания: ICE-таблица,Ácidos y bases débiles: tabla ICE,pH,2,2,4,/art/section-acidbase.svg,Строить начальное–изменение–равновесие.,Construir inicial–cambio–equilibrio.
+amino-acids,Аминокислоты: строение и классификация,Aminoácidos: estructura y clasificación,protein,0,2,4,/art/section-protein.svg,Читать структуру и тип боковой цепи.,Leer estructura y tipo de cadena lateral.
+amino-acid-charge,"Цвиттер-ионы, pKa и pI","Zwitteriones, pKa y pI",aminocharge,1,2,4,/art/section-protein.svg,Выбирать формы по pKa.,Elegir formas mediante pKa.
+peptide-bonds,Пептидная связь и направление цепи,Enlace peptídico y dirección de cadena,protein,1,2,4,/art/section-protein.svg,Строить пептид и находить концы.,Construir péptido y encontrar extremos.
+protein-structure,Четыре уровня структуры белка,Cuatro niveles de estructura proteica,proteinfold,0,2,4,/art/section-protein.svg,Различать четыре уровня.,Distinguir cuatro niveles.
+protein-denaturation,"Денатурация, гидролиз и функция","Desnaturalización, hidrólisis y función",proteinfold,0,2,4,/art/section-protein.svg,Различать денатурацию и гидролиз.,Distinguir desnaturalización e hidrólisis.
