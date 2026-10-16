@@ -5,7 +5,8 @@ const base=(process.argv[2]||'http://127.0.0.1:4181/QuimicaAcademy/').replace(/\
 const output=process.argv[3]||'work/pages-check';
 await fs.mkdir(output,{recursive:true});
 const results=[];
-for(const [name,engine,options] of [['chromium',chromium,{executablePath:'/usr/bin/chromium',args:['--no-sandbox']}],['firefox',firefox,{}]]){
+// These isolated test profiles use direct networking, independent of desktop proxy/PAC settings.
+for(const [name,engine,options] of [['chromium',chromium,{executablePath:'/usr/bin/chromium',args:['--no-sandbox']}],['firefox',firefox,{firefoxUserPrefs:{'network.proxy.type':0}}]]){
  const browser=await engine.launch(options);
  try{
   const context=await browser.newContext({viewport:{width:1440,height:1000}}),page=await context.newPage(),errors=[];
