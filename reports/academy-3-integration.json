@@ -1,0 +1,2042 @@
+{
+  "version": "3.0.0",
+  "auditDate": "2026-10-16",
+  "baseline": "0fb25a687b5786fcacf6ac19649440974760dafa",
+  "totals": {
+    "lessons": 61,
+    "formulas": 80,
+    "semanticParts": 1191,
+    "fractions": 24,
+    "animatedStories": 54,
+    "animatedFrames": 270,
+    "inlineLessonOccurrencesRUandES": 3115,
+    "inlineQuestionOccurrencesRUandES": 3931,
+    "questions": 920,
+    "oldQuestions": 246,
+    "newQuestions": 674,
+    "normalQuestions": 10,
+    "normalDifficulty": [
+      3,
+      4,
+      3
+    ],
+    "minimumFormats": 6
+  },
+  "preservation": {
+    "protectedJSON": [
+      {
+        "file": "src/data/course-a.json",
+        "sha256": "fa5d02c704a94970aef9037251e6dd37178e981f696471146352a0b16f49a8d6",
+        "unchanged": true
+      },
+      {
+        "file": "src/data/course-b.json",
+        "sha256": "44993bc0490799517c66ec432266292f1b9454160d4710b06efb717ad79642c4",
+        "unchanged": true
+      },
+      {
+        "file": "src/data/course-c.json",
+        "sha256": "811804007ed7e8a2d57b7329d8a9103ac36333103e4879533262d2e3eed3d749",
+        "unchanged": true
+      },
+      {
+        "file": "src/data/coverage.json",
+        "sha256": "3e0a7f300c27e1314c5b6dff33b2898c784bdf851271b8b16833b1be8175e0fa",
+        "unchanged": true
+      },
+      {
+        "file": "src/data/foundations.json",
+        "sha256": "3c51facbddb165552412ae378e6439c21e88b71bd7c2633cc2fbc85f0fd3e450",
+        "unchanged": true
+      },
+      {
+        "file": "src/data/source-notes-es.json",
+        "sha256": "18f749237aebe36ec6b8c259691df9fafc220d6762673aabd4d640427fdc2aa1",
+        "unchanged": true
+      }
+    ],
+    "protectedPathsUnchanged": [
+      "src/data",
+      "src/visuals/formula-frames.ts",
+      "public/sources",
+      "public/art",
+      "public/coverage.json",
+      "public/coverage.csv",
+      "reports/inventory.json",
+      "reports/archive-integrity.json"
+    ],
+    "photos": 241,
+    "scenes": 27,
+    "originalHashManifest": "reports/inventory.json",
+    "originalArchiveAudit": "reports/archive-integrity.json",
+    "progressKey": "quimica-academy-v1",
+    "backupKey": "quimica-academy-before-3.0",
+    "attemptKey": "quimica-academy-attempts-v3"
+  },
+  "lessons": [
+    {
+      "id": "atoms",
+      "title": {
+        "ru": "Атомы, молекулы и химические формулы",
+        "es": "Átomos, moléculas y fórmulas químicas"
+      },
+      "formulas": 1,
+      "semanticParts": 21,
+      "fractions": 0,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 43,
+      "inlineQuestionOccurrencesRUandES": 76,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "formula",
+        "multi",
+        "error",
+        "choice",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "mole",
+      "title": {
+        "ru": "Моль и молярная масса",
+        "es": "Mol y masa molar"
+      },
+      "formulas": 1,
+      "semanticParts": 18,
+      "fractions": 1,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 70,
+      "inlineQuestionOccurrencesRUandES": 83,
+      "questions": 18,
+      "oldQuestions": 4,
+      "newQuestions": 14,
+      "types": [
+        "numeric",
+        "order",
+        "steps",
+        "formula",
+        "math",
+        "choice",
+        "error",
+        "guided",
+        "equation",
+        "multi",
+        "match"
+      ],
+      "levels": {
+        "easy": 6,
+        "medium": 7,
+        "hard": 5
+      }
+    },
+    {
+      "id": "concentration",
+      "title": {
+        "ru": "Растворы, концентрация и единицы",
+        "es": "Soluciones, concentración y unidades"
+      },
+      "formulas": 1,
+      "semanticParts": 24,
+      "fractions": 2,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 36,
+      "inlineQuestionOccurrencesRUandES": 72,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "match",
+        "multi",
+        "error",
+        "math",
+        "order",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 8,
+        "hard": 3
+      }
+    },
+    {
+      "id": "equations",
+      "title": {
+        "ru": "Уравнения реакций и сохранение атомов",
+        "es": "Ecuaciones y conservación de átomos"
+      },
+      "formulas": 1,
+      "semanticParts": 11,
+      "fractions": 0,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 60,
+      "inlineQuestionOccurrencesRUandES": 44,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "balance",
+        "error",
+        "numeric",
+        "multi",
+        "choice",
+        "equation",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 3,
+        "medium": 8,
+        "hard": 4
+      }
+    },
+    {
+      "id": "carbon",
+      "title": {
+        "ru": "Углерод: цепи и связи",
+        "es": "Carbono: cadenas y enlaces"
+      },
+      "formulas": 2,
+      "semanticParts": 8,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 58,
+      "inlineQuestionOccurrencesRUandES": 52,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "formula",
+        "choice",
+        "error",
+        "multi",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 5,
+        "medium": 6,
+        "hard": 4
+      }
+    },
+    {
+      "id": "representations",
+      "title": {
+        "ru": "Как читать формулы и форму молекулы",
+        "es": "Cómo leer fórmulas y formas moleculares"
+      },
+      "formulas": 2,
+      "semanticParts": 16,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 94,
+      "inlineQuestionOccurrencesRUandES": 82,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "formula",
+        "choice",
+        "error",
+        "multi",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 5,
+        "medium": 6,
+        "hard": 4
+      }
+    },
+    {
+      "id": "functional",
+      "title": {
+        "ru": "Функциональные группы",
+        "es": "Grupos funcionales"
+      },
+      "formulas": 1,
+      "semanticParts": 14,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 155,
+      "inlineQuestionOccurrencesRUandES": 192,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "multi",
+        "error",
+        "formula",
+        "order",
+        "match",
+        "numeric",
+        "guided"
+      ],
+      "levels": {
+        "easy": 5,
+        "medium": 6,
+        "hard": 4
+      }
+    },
+    {
+      "id": "nomenclature",
+      "title": {
+        "ru": "Название как алгоритм структуры",
+        "es": "El nombre como algoritmo estructural"
+      },
+      "formulas": 1,
+      "semanticParts": 19,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 64,
+      "inlineQuestionOccurrencesRUandES": 52,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "numeric",
+        "order",
+        "error",
+        "multi",
+        "formula",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "isomers",
+      "title": {
+        "ru": "Изомерия: состав, связи, пространство",
+        "es": "Isomería: composición, enlaces y espacio"
+      },
+      "formulas": 1,
+      "semanticParts": 4,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 32,
+      "inlineQuestionOccurrencesRUandES": 56,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "multi",
+        "error",
+        "formula",
+        "order",
+        "match",
+        "numeric",
+        "guided"
+      ],
+      "levels": {
+        "easy": 5,
+        "medium": 6,
+        "hard": 4
+      }
+    },
+    {
+      "id": "chirality",
+      "title": {
+        "ru": "Хиральность и зеркальные молекулы",
+        "es": "Quiralidad y moléculas espejo"
+      },
+      "formulas": 1,
+      "semanticParts": 10,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 72,
+      "inlineQuestionOccurrencesRUandES": 72,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "numeric",
+        "multi",
+        "error",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "fischer",
+      "title": {
+        "ru": "Проекции Fischer и D/L",
+        "es": "Proyecciones de Fischer y D/L"
+      },
+      "formulas": 1,
+      "semanticParts": 11,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 34,
+      "inlineQuestionOccurrencesRUandES": 56,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "multi",
+        "error",
+        "formula",
+        "order",
+        "match",
+        "numeric",
+        "guided"
+      ],
+      "levels": {
+        "easy": 5,
+        "medium": 6,
+        "hard": 4
+      }
+    },
+    {
+      "id": "polarimetry",
+      "title": {
+        "ru": "Поляриметрия: от угла к свойству",
+        "es": "Polarimetría: del ángulo a la propiedad"
+      },
+      "formulas": 1,
+      "semanticParts": 12,
+      "fractions": 1,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 37,
+      "inlineQuestionOccurrencesRUandES": 87,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "error",
+        "multi",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "carb-classification",
+      "title": {
+        "ru": "Углеводы: структура и классы",
+        "es": "Glúcidos: estructura y clasificación"
+      },
+      "formulas": 1,
+      "semanticParts": 6,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 32,
+      "inlineQuestionOccurrencesRUandES": 48,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "numeric",
+        "multi",
+        "match",
+        "error",
+        "formula",
+        "order",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 8,
+        "hard": 3
+      }
+    },
+    {
+      "id": "carb-stereo",
+      "title": {
+        "ru": "Стереоизомеры, эпимеры, аномеры",
+        "es": "Estereoisómeros, epímeros y anómeros"
+      },
+      "formulas": 1,
+      "semanticParts": 5,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 25,
+      "inlineQuestionOccurrencesRUandES": 29,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "multi",
+        "steps",
+        "error",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "cyclization",
+      "title": {
+        "ru": "Циклизация и Haworth",
+        "es": "Ciclación y Haworth"
+      },
+      "formulas": 1,
+      "semanticParts": 10,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 58,
+      "inlineQuestionOccurrencesRUandES": 45,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "error",
+        "multi",
+        "formula",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 5,
+        "medium": 6,
+        "hard": 4
+      }
+    },
+    {
+      "id": "mutarotation",
+      "title": {
+        "ru": "Мутаротация: динамическое равновесие",
+        "es": "Mutarrotación: equilibrio dinámico"
+      },
+      "formulas": 1,
+      "semanticParts": 22,
+      "fractions": 0,
+      "animatedStories": 1,
+      "animatedFrames": 5,
+      "inlineLessonOccurrencesRUandES": 15,
+      "inlineQuestionOccurrencesRUandES": 28,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "order",
+        "numeric",
+        "error",
+        "multi",
+        "math",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "glycosidic",
+      "title": {
+        "ru": "Дисахариды и гликозидные связи",
+        "es": "Disacáridos y enlaces glucosídicos"
+      },
+      "formulas": 1,
+      "semanticParts": 18,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 26,
+      "inlineQuestionOccurrencesRUandES": 54,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "balance",
+        "multi",
+        "numeric",
+        "error",
+        "equation",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 8,
+        "hard": 3
+      }
+    },
+    {
+      "id": "hydrolysis",
+      "title": {
+        "ru": "Гидролиз и ферментная специфичность",
+        "es": "Hidrólisis y especificidad enzimática"
+      },
+      "formulas": 1,
+      "semanticParts": 24,
+      "fractions": 0,
+      "animatedStories": 1,
+      "animatedFrames": 5,
+      "inlineLessonOccurrencesRUandES": 22,
+      "inlineQuestionOccurrencesRUandES": 44,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "numeric",
+        "error",
+        "multi",
+        "equation",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "reducing",
+      "title": {
+        "ru": "Восстановительные сахара и redox",
+        "es": "Azúcares reductores y redox"
+      },
+      "formulas": 1,
+      "semanticParts": 28,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 18,
+      "inlineQuestionOccurrencesRUandES": 18,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "multi",
+        "numeric",
+        "error",
+        "equation",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "sugar-tests",
+      "title": {
+        "ru": "Распознавание сахаров: логика проб",
+        "es": "Identificación de azúcares: lógica de ensayos"
+      },
+      "formulas": 1,
+      "semanticParts": 8,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 2,
+      "inlineQuestionOccurrencesRUandES": 28,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "match",
+        "error",
+        "multi",
+        "formula",
+        "order",
+        "numeric",
+        "guided"
+      ],
+      "levels": {
+        "easy": 5,
+        "medium": 6,
+        "hard": 4
+      }
+    },
+    {
+      "id": "polysaccharides",
+      "title": {
+        "ru": "Полисахариды: связи создают свойства",
+        "es": "Polisacáridos: enlaces crean propiedades"
+      },
+      "formulas": 2,
+      "semanticParts": 32,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 16,
+      "inlineQuestionOccurrencesRUandES": 20,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "match",
+        "numeric",
+        "error",
+        "multi",
+        "math",
+        "order",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "nutrition",
+      "title": {
+        "ru": "Пища, этикетки и энергия",
+        "es": "Alimentos, etiquetas y energía"
+      },
+      "formulas": 2,
+      "semanticParts": 18,
+      "fractions": 0,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 18,
+      "inlineQuestionOccurrencesRUandES": 12,
+      "questions": 17,
+      "oldQuestions": 6,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "error",
+        "choice",
+        "multi",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 3,
+        "medium": 10,
+        "hard": 4
+      }
+    },
+    {
+      "id": "thermo-system",
+      "title": {
+        "ru": "Система, внутренняя энергия и состояние",
+        "es": "Sistema, energía interna y estado"
+      },
+      "formulas": 1,
+      "semanticParts": 8,
+      "fractions": 0,
+      "animatedStories": 1,
+      "animatedFrames": 5,
+      "inlineLessonOccurrencesRUandES": 14,
+      "inlineQuestionOccurrencesRUandES": 12,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "numeric",
+        "multi",
+        "error",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "thermo-first-law",
+      "title": {
+        "ru": "Первый закон: тепло и работа",
+        "es": "Primera ley: calor y trabajo"
+      },
+      "formulas": 1,
+      "semanticParts": 6,
+      "fractions": 0,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 60,
+      "inlineQuestionOccurrencesRUandES": 130,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "error",
+        "multi",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "thermo-gas-work",
+      "title": {
+        "ru": "Расширение газа и идеальный газ",
+        "es": "Expansión de gases y gas ideal"
+      },
+      "formulas": 2,
+      "semanticParts": 18,
+      "fractions": 0,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 75,
+      "inlineQuestionOccurrencesRUandES": 104,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "multi",
+        "error",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 8,
+        "hard": 3
+      }
+    },
+    {
+      "id": "thermo-heat",
+      "title": {
+        "ru": "Теплоёмкость, нагрев и фазовый переход",
+        "es": "Capacidad calorífica, calentamiento y cambio de fase"
+      },
+      "formulas": 2,
+      "semanticParts": 22,
+      "fractions": 0,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 52,
+      "inlineQuestionOccurrencesRUandES": 81,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "multi",
+        "error",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 8,
+        "hard": 3
+      }
+    },
+    {
+      "id": "thermo-bomb",
+      "title": {
+        "ru": "Бомбовый калориметр: постоянный объём",
+        "es": "Calorímetro de bomba: volumen constante"
+      },
+      "formulas": 2,
+      "semanticParts": 29,
+      "fractions": 2,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 56,
+      "inlineQuestionOccurrencesRUandES": 91,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "error",
+        "multi",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "thermo-enthalpy",
+      "title": {
+        "ru": "Энтальпия и калориметр растворов",
+        "es": "Entalpía y calorimetría de soluciones"
+      },
+      "formulas": 2,
+      "semanticParts": 27,
+      "fractions": 0,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 61,
+      "inlineQuestionOccurrencesRUandES": 83,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "numeric",
+        "error",
+        "multi",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "thermo-thermochemical",
+      "title": {
+        "ru": "Термохимические уравнения и масштаб",
+        "es": "Ecuaciones termoquímicas y escala"
+      },
+      "formulas": 1,
+      "semanticParts": 15,
+      "fractions": 1,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 71,
+      "inlineQuestionOccurrencesRUandES": 70,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "balance",
+        "numeric",
+        "error",
+        "choice",
+        "multi",
+        "equation",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "thermo-formation",
+      "title": {
+        "ru": "Образование и чтение таблиц",
+        "es": "Formación y lectura de tablas"
+      },
+      "formulas": 1,
+      "semanticParts": 20,
+      "fractions": 0,
+      "animatedStories": 1,
+      "animatedFrames": 5,
+      "inlineLessonOccurrencesRUandES": 55,
+      "inlineQuestionOccurrencesRUandES": 45,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "numeric",
+        "multi",
+        "error",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "thermo-hess",
+      "title": {
+        "ru": "Закон Гесса: сложение маршрутов",
+        "es": "Ley de Hess: sumar caminos"
+      },
+      "formulas": 1,
+      "semanticParts": 11,
+      "fractions": 0,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 54,
+      "inlineQuestionOccurrencesRUandES": 50,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "order",
+        "multi",
+        "error",
+        "math",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 8,
+        "hard": 3
+      }
+    },
+    {
+      "id": "equilibrium-dynamic",
+      "title": {
+        "ru": "Динамическое равновесие",
+        "es": "Equilibrio dinámico"
+      },
+      "formulas": 1,
+      "semanticParts": 5,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 40,
+      "inlineQuestionOccurrencesRUandES": 31,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "numeric",
+        "multi",
+        "error",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "equilibrium-constant",
+      "title": {
+        "ru": "Константа равновесия и активности",
+        "es": "Constante de equilibrio y actividades"
+      },
+      "formulas": 2,
+      "semanticParts": 28,
+      "fractions": 1,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 60,
+      "inlineQuestionOccurrencesRUandES": 47,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "formula",
+        "numeric",
+        "multi",
+        "choice",
+        "error",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 8,
+        "hard": 3
+      }
+    },
+    {
+      "id": "equilibrium-gas",
+      "title": {
+        "ru": "Парциальное давление, Kp и Kc",
+        "es": "Presión parcial, Kp y Kc"
+      },
+      "formulas": 1,
+      "semanticParts": 18,
+      "fractions": 0,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 104,
+      "inlineQuestionOccurrencesRUandES": 82,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "error",
+        "multi",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "equilibrium-quotient",
+      "title": {
+        "ru": "Q: куда изменится смесь?",
+        "es": "Q: ¿hacia dónde cambia la mezcla?"
+      },
+      "formulas": 2,
+      "semanticParts": 27,
+      "fractions": 1,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 66,
+      "inlineQuestionOccurrencesRUandES": 79,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "numeric",
+        "error",
+        "order",
+        "multi",
+        "math",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "equilibrium-ice",
+      "title": {
+        "ru": "Стехиометрия равновесия: таблица ICE",
+        "es": "Estequiometría del equilibrio: tabla ICE"
+      },
+      "formulas": 2,
+      "semanticParts": 21,
+      "fractions": 1,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 61,
+      "inlineQuestionOccurrencesRUandES": 44,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "order",
+        "multi",
+        "error",
+        "math",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 8,
+        "hard": 3
+      }
+    },
+    {
+      "id": "equilibrium-lechatelier",
+      "title": {
+        "ru": "Возмущение равновесия: Ле Шателье",
+        "es": "Perturbación del equilibrio: Le Châtelier"
+      },
+      "formulas": 1,
+      "semanticParts": 9,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 61,
+      "inlineQuestionOccurrencesRUandES": 76,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "multi",
+        "error",
+        "numeric",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "equilibrium-applications",
+      "title": {
+        "ru": "Кислород и гемоглобин: границы модели",
+        "es": "Oxígeno y hemoglobina: límites del modelo"
+      },
+      "formulas": 1,
+      "semanticParts": 13,
+      "fractions": 1,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 37,
+      "inlineQuestionOccurrencesRUandES": 50,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "multi",
+        "error",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "thermo-fuels",
+      "title": {
+        "ru": "Топливо: энергия на массу и CO2",
+        "es": "Combustibles: energía por masa y CO2"
+      },
+      "formulas": 1,
+      "semanticParts": 28,
+      "fractions": 2,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 74,
+      "inlineQuestionOccurrencesRUandES": 111,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "balance",
+        "numeric",
+        "error",
+        "multi",
+        "choice",
+        "equation",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 3,
+        "medium": 8,
+        "hard": 4
+      }
+    },
+    {
+      "id": "thermo-lab",
+      "title": {
+        "ru": "MgO: калориметрия, Гесс и погрешности",
+        "es": "MgO: calorimetría, Hess e incertidumbres"
+      },
+      "formulas": 2,
+      "semanticParts": 44,
+      "fractions": 1,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 103,
+      "inlineQuestionOccurrencesRUandES": 69,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "multi",
+        "error",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 8,
+        "hard": 3
+      }
+    },
+    {
+      "id": "lipid-family",
+      "title": {
+        "ru": "Липиды и жирные кислоты",
+        "es": "Lípidos y ácidos grasos"
+      },
+      "formulas": 1,
+      "semanticParts": 17,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 62,
+      "inlineQuestionOccurrencesRUandES": 76,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "multi",
+        "error",
+        "formula",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "fatty-acid-omega",
+      "title": {
+        "ru": "Δ, ω и существенные изомеры",
+        "es": "Δ, ω e isómeros relevantes"
+      },
+      "formulas": 1,
+      "semanticParts": 8,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 25,
+      "inlineQuestionOccurrencesRUandES": 48,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "multi",
+        "error",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "lipid-packing",
+      "title": {
+        "ru": "Упаковка цепей и плавление",
+        "es": "Empaquetamiento y fusión"
+      },
+      "formulas": 1,
+      "semanticParts": 11,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 6,
+      "inlineQuestionOccurrencesRUandES": 40,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "error",
+        "order",
+        "multi",
+        "formula",
+        "match",
+        "numeric",
+        "guided"
+      ],
+      "levels": {
+        "easy": 5,
+        "medium": 6,
+        "hard": 4
+      }
+    },
+    {
+      "id": "waxes-esters",
+      "title": {
+        "ru": "Воски и этерификация",
+        "es": "Ceras y esterificación"
+      },
+      "formulas": 1,
+      "semanticParts": 21,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 58,
+      "inlineQuestionOccurrencesRUandES": 66,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "balance",
+        "error",
+        "multi",
+        "equation",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "lipids-glycerides",
+      "title": {
+        "ru": "Глицериды: три связи и разные остатки",
+        "es": "Glicéridos: tres enlaces y restos diferentes"
+      },
+      "formulas": 1,
+      "semanticParts": 33,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 52,
+      "inlineQuestionOccurrencesRUandES": 88,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "error",
+        "multi",
+        "formula",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "lipid-biodiesel",
+      "title": {
+        "ru": "Трансэтерификация и биодизель",
+        "es": "Transesterificación y biodiésel"
+      },
+      "formulas": 1,
+      "semanticParts": 27,
+      "fractions": 0,
+      "animatedStories": 1,
+      "animatedFrames": 5,
+      "inlineLessonOccurrencesRUandES": 21,
+      "inlineQuestionOccurrencesRUandES": 19,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "error",
+        "balance",
+        "multi",
+        "formula",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "lipid-addition",
+      "title": {
+        "ru": "Присоединение к C=C",
+        "es": "Adición a C=C"
+      },
+      "formulas": 2,
+      "semanticParts": 37,
+      "fractions": 1,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 58,
+      "inlineQuestionOccurrencesRUandES": 86,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "error",
+        "multi",
+        "equation",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "lipid-rancidity",
+      "title": {
+        "ru": "Гидролиз и окислительное прогоркание",
+        "es": "Hidrólisis y rancidez oxidativa"
+      },
+      "formulas": 1,
+      "semanticParts": 15,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 11,
+      "inlineQuestionOccurrencesRUandES": 46,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "multi",
+        "numeric",
+        "error",
+        "equation",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "soap-saponification",
+      "title": {
+        "ru": "Омыление и соли жирных кислот",
+        "es": "Saponificación y sales de ácidos grasos"
+      },
+      "formulas": 2,
+      "semanticParts": 34,
+      "fractions": 0,
+      "animatedStories": 1,
+      "animatedFrames": 5,
+      "inlineLessonOccurrencesRUandES": 36,
+      "inlineQuestionOccurrencesRUandES": 76,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "balance",
+        "multi",
+        "error",
+        "equation",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 8,
+        "hard": 3
+      }
+    },
+    {
+      "id": "soap-micelles",
+      "title": {
+        "ru": "Амфифильность, мицеллы и эмульсии",
+        "es": "Anfifilicidad, micelas y emulsiones"
+      },
+      "formulas": 1,
+      "semanticParts": 7,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 12,
+      "inlineQuestionOccurrencesRUandES": 22,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "error",
+        "multi",
+        "formula",
+        "order",
+        "match",
+        "numeric",
+        "guided"
+      ],
+      "levels": {
+        "easy": 5,
+        "medium": 6,
+        "hard": 4
+      }
+    },
+    {
+      "id": "acid-models",
+      "title": {
+        "ru": "Три модели кислот и оснований",
+        "es": "Tres modelos de ácidos y bases"
+      },
+      "formulas": 1,
+      "semanticParts": 16,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 98,
+      "inlineQuestionOccurrencesRUandES": 122,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "match",
+        "error",
+        "multi",
+        "equation",
+        "order",
+        "numeric",
+        "guided"
+      ],
+      "levels": {
+        "easy": 5,
+        "medium": 6,
+        "hard": 4
+      }
+    },
+    {
+      "id": "conjugate-pairs",
+      "title": {
+        "ru": "Сопряжённые пары и амфипротность",
+        "es": "Pares conjugados y anfiproticidad"
+      },
+      "formulas": 1,
+      "semanticParts": 7,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 104,
+      "inlineQuestionOccurrencesRUandES": 121,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "formula",
+        "choice",
+        "multi",
+        "numeric",
+        "error",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 5,
+        "medium": 7,
+        "hard": 3
+      }
+    },
+    {
+      "id": "water-kw",
+      "title": {
+        "ru": "Вода, Kw и температура",
+        "es": "Agua, Kw y temperatura"
+      },
+      "formulas": 1,
+      "semanticParts": 29,
+      "fractions": 1,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 81,
+      "inlineQuestionOccurrencesRUandES": 139,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "error",
+        "choice",
+        "multi",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "ph-scale",
+      "title": {
+        "ru": "Логарифмическая шкала pH",
+        "es": "Escala logarítmica de pH"
+      },
+      "formulas": 2,
+      "semanticParts": 36,
+      "fractions": 2,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 50,
+      "inlineQuestionOccurrencesRUandES": 72,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "error",
+        "choice",
+        "multi",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 3,
+        "medium": 8,
+        "hard": 4
+      }
+    },
+    {
+      "id": "strong-acids",
+      "title": {
+        "ru": "Сильные кислоты и основания: расчёт",
+        "es": "Ácidos y bases fuertes: cálculo"
+      },
+      "formulas": 2,
+      "semanticParts": 20,
+      "fractions": 1,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 78,
+      "inlineQuestionOccurrencesRUandES": 96,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "error",
+        "choice",
+        "multi",
+        "equation",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "weak-acids",
+      "title": {
+        "ru": "Слабые кислоты и основания: ICE-таблица",
+        "es": "Ácidos y bases débiles: tabla ICE"
+      },
+      "formulas": 2,
+      "semanticParts": 44,
+      "fractions": 3,
+      "animatedStories": 2,
+      "animatedFrames": 10,
+      "inlineLessonOccurrencesRUandES": 67,
+      "inlineQuestionOccurrencesRUandES": 69,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "error",
+        "multi",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "amino-acids",
+      "title": {
+        "ru": "Аминокислоты: строение и классификация",
+        "es": "Aminoácidos: estructura y clasificación"
+      },
+      "formulas": 1,
+      "semanticParts": 14,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 70,
+      "inlineQuestionOccurrencesRUandES": 92,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "multi",
+        "error",
+        "formula",
+        "order",
+        "match",
+        "numeric",
+        "guided"
+      ],
+      "levels": {
+        "easy": 5,
+        "medium": 6,
+        "hard": 4
+      }
+    },
+    {
+      "id": "amino-acid-charge",
+      "title": {
+        "ru": "Цвиттер-ионы, pKa и pI",
+        "es": "Zwitteriones, pKa y pI"
+      },
+      "formulas": 2,
+      "semanticParts": 31,
+      "fractions": 2,
+      "animatedStories": 1,
+      "animatedFrames": 5,
+      "inlineLessonOccurrencesRUandES": 69,
+      "inlineQuestionOccurrencesRUandES": 48,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "error",
+        "multi",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "peptide-bonds",
+      "title": {
+        "ru": "Пептидная связь и направление цепи",
+        "es": "Enlace peptídico y dirección de cadena"
+      },
+      "formulas": 2,
+      "semanticParts": 61,
+      "fractions": 0,
+      "animatedStories": 1,
+      "animatedFrames": 5,
+      "inlineLessonOccurrencesRUandES": 48,
+      "inlineQuestionOccurrencesRUandES": 40,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "numeric",
+        "choice",
+        "order",
+        "multi",
+        "error",
+        "math",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 8,
+        "hard": 3
+      }
+    },
+    {
+      "id": "protein-structure",
+      "title": {
+        "ru": "Четыре уровня структуры белка",
+        "es": "Cuatro niveles de estructura proteica"
+      },
+      "formulas": 1,
+      "semanticParts": 17,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 14,
+      "inlineQuestionOccurrencesRUandES": 52,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "match",
+        "choice",
+        "multi",
+        "error",
+        "formula",
+        "order",
+        "numeric",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    },
+    {
+      "id": "protein-denaturation",
+      "title": {
+        "ru": "Денатурация, гидролиз и функция",
+        "es": "Desnaturalización, hidrólisis y función"
+      },
+      "formulas": 1,
+      "semanticParts": 18,
+      "fractions": 0,
+      "animatedStories": 0,
+      "animatedFrames": 0,
+      "inlineLessonOccurrencesRUandES": 4,
+      "inlineQuestionOccurrencesRUandES": 8,
+      "questions": 15,
+      "oldQuestions": 4,
+      "newQuestions": 11,
+      "types": [
+        "choice",
+        "error",
+        "numeric",
+        "multi",
+        "math",
+        "order",
+        "match",
+        "guided"
+      ],
+      "levels": {
+        "easy": 4,
+        "medium": 7,
+        "hard": 4
+      }
+    }
+  ]
+}

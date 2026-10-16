@@ -1,74 +1,349 @@
 
-> quimica-academy@1.0.0 test
-> node --test tests/science.test.mjs
+> quimica-academy@3.0.0 test
+> node --test tests/*.test.mjs
 
 TAP version 13
-# Subtest: atom parser respects subscripts, parentheses and case
-ok 1 - atom parser respects subscripts, parentheses and case
+# Subtest: 61 banks preserve all 246 old questions and provide 920 unique, bilingual questions
+ok 1 - 61 banks preserve all 246 old questions and provide 920 unique, bilingual questions
   ---
-  duration_ms: 3.13563
+  duration_ms: 22.641026
+  ...
+# Subtest: all canonical answers pass, including every guided stage; corrupt answers fail
+ok 2 - all canonical answers pass, including every guided stage; corrupt answers fail
+  ---
+  duration_ms: 48.192621
+  ...
+# Subtest: all 6100 normal thematic samples have ten unique questions, six formats and 3/4/3 levels
+ok 3 - all 6100 normal thematic samples have ten unique questions, six formats and 3/4/3 levels
+  ---
+  duration_ms: 641.487061
+  ...
+# Subtest: level practice has no duplicate padding, and aggregate exams preserve lesson coverage
+ok 4 - level practice has no duplicate padding, and aggregate exams preserve lesson coverage
+  ---
+  duration_ms: 16.122575
+  ...
+# Subtest: notation-choice distractors do not contain another algebraically or chemically equivalent answer
+ok 5 - notation-choice distractors do not contain another algebraically or chemically equivalent answer
+  ---
+  duration_ms: 19.977987
+  ...
+# Subtest: all 60 new application answers agree with independent stoichiometric and physical calculations
+ok 6 - all 60 new application answers agree with independent stoichiometric and physical calculations
+  ---
+  duration_ms: 1.58914
+  ...
+# Subtest: plausible near-miss typed answers fail in every new lesson bank
+ok 7 - plausible near-miss typed answers fail in every new lesson bank
+  ---
+  duration_ms: 47.269639
+  ...
+# Subtest: animated bomb calorimetry results conserve heat with explicit J-to-kJ conversion
+ok 8 - animated bomb calorimetry results conserve heat with explicit J-to-kJ conversion
+  ---
+  duration_ms: 1.273237
+  ...
+# Subtest: fuel comparisons use CO2 mass in grams and energy-normalized direct emission
+ok 9 - fuel comparisons use CO2 mass in grams and energy-normalized direct emission
+  ---
+  duration_ms: 0.366668
+  ...
+# Subtest: hydrolysis, saponification and hydrogenation preserve every element
+ok 10 - hydrolysis, saponification and hydrogenation preserve every element
+  ---
+  duration_ms: 0.839878
+  ...
+# Subtest: weak acid animated exact roots satisfy mass action rather than the square-root approximation
+ok 11 - weak acid animated exact roots satisfy mass action rather than the square-root approximation
+  ---
+  duration_ms: 2.107517
+  ...
+# Subtest: all animated frames point to the original lesson example and retain five stages
+ok 12 - all animated frames point to the original lesson example and retain five stages
+  ---
+  duration_ms: 18.254732
+  ...
+# Subtest: count and amount are distinct in iodine uptake and peptide hydrolysis
+ok 13 - count and amount are distinct in iodine uptake and peptide hydrolysis
+  ---
+  duration_ms: 0.496575
+  ...
+# Subtest: animated unit conversions reduce to the declared dimensions
+ok 14 - animated unit conversions reduce to the declared dimensions
+  ---
+  duration_ms: 4.411138
+  ...
+# Subtest: all C2–C5 alkane, alkene and alkyne models have exact explicit-H formula and valence
+ok 15 - all C2–C5 alkane, alkene and alkyne models have exact explicit-H formula and valence
+  ---
+  duration_ms: 4.70765
+  ...
+# Subtest: alkane, alkene and alkyne carbon geometries preserve tetrahedral, trigonal and linear constraints
+ok 16 - alkane, alkene and alkyne carbon geometries preserve tetrahedral, trigonal and linear constraints
+  ---
+  duration_ms: 0.443974
+  ...
+# Subtest: water bond angle is 104.5 degrees and two O-H lengths are 0.957 Å
+ok 17 - water bond angle is 104.5 degrees and two O-H lengths are 0.957 Å
+  ---
+  duration_ms: 0.247699
+  ...
+# Subtest: functional group examples and constitutional butane isomer conserve explicit composition
+ok 18 - functional group examples and constitutional butane isomer conserve explicit composition
+  ---
+  duration_ms: 0.744165
+  ...
+# Subtest: D/L glyceraldehyde are nonplanar mirror pairs with C3H6O3 and tetrahedral C2
+ok 19 - D/L glyceraldehyde are nonplanar mirror pairs with C3H6O3 and tetrahedral C2
+  ---
+  duration_ms: 0.692438
+  ...
+# Subtest: cis and trans but-2-ene have C4H8, correct valence and substituent side relationship
+ok 20 - cis and trans but-2-ene have C4H8, correct valence and substituent side relationship
+  ---
+  duration_ms: 0.392126
+  ...
+# Subtest: glycine protonation changes explicit H and formal net charge consistently
+ok 21 - glycine protonation changes explicit H and formal net charge consistently
+  ---
+  duration_ms: 0.69356
+  ...
+# Subtest: glycine fractions sum to one throughout pH0–14 and mean charge is zero at pI5.97
+ok 22 - glycine fractions sum to one throughout pH0–14 and mean charge is zero at pI5.97
+  ---
+  duration_ms: 0.379425
+  ...
+# Subtest: unfolding preserves all32 residue identities and31 covalent sequence links at every stage
+ok 23 - unfolding preserves all32 residue identities and31 covalent sequence links at every stage
+  ---
+  duration_ms: 1.022553
+  ...
+# Subtest: nested chemical groups, hydrates, real elements and Unicode are parsed completely
+ok 24 - nested chemical groups, hydrates, real elements and Unicode are parsed completely
+  ---
+  duration_ms: 6.976556
+  ...
+# Subtest: reaction grading checks species, all atoms, charge, direction and minimum coefficients
+ok 25 - reaction grading checks species, all atoms, charge, direction and minimum coefficients
+  ---
+  duration_ms: 25.155175
+  ...
+# Subtest: algebraic equivalence is structural rational algebra, not string appearance or samples
+ok 26 - algebraic equivalence is structural rational algebra, not string appearance or samples
+  ---
+  duration_ms: 4.42031
+  ...
+# Subtest: numeric validators accept conversions but reject incompatible dimensions and empty choices
+ok 27 - numeric validators accept conversions but reject incompatible dimensions and empty choices
+  ---
+  duration_ms: 0.820461
+  ...
+# Subtest: all 80 original lesson formulas and all 270 animated frames render as structured mathematics
+ok 28 - all 80 original lesson formulas and all 270 animated frames render as structured mathematics
+  ---
+  duration_ms: 391.772491
+  ...
+# Subtest: fractions, chemical indices, phases, powers and roots are real notation rather than CSS text
+ok 29 - fractions, chemical indices, phases, powers and roots are real notation rather than CSS text
+  ---
+  duration_ms: 3.903113
+  ...
+# Subtest: semantic IDs and explicit roles come from the AST, with language-safe contextual explanations
+ok 30 - semantic IDs and explicit roles come from the AST, with language-safe contextual explanations
+  ---
+  duration_ms: 496.156909
+  ...
+# Subtest: prose segmentation preserves Spanish and Russian text around formulas
+ok 31 - prose segmentation preserves Spanish and Russian text around formulas
+  ---
+  duration_ms: 0.639034
+  ...
+# Subtest: all bilingual lesson and question strings preserve prose and render every detected expression
+ok 32 - all bilingual lesson and question strings preserve prose and render every detected expression
+  ---
+  duration_ms: 1400.815348
+  ...
+# Subtest: dilution conserves solute and halves concentration when volume doubles
+ok 33 - dilution conserves solute and halves concentration when volume doubles
+  ---
+  duration_ms: 1.945072
+  ...
+# Subtest: food energy uses explicitly declared 17/37/17 kJ per gram
+ok 34 - food energy uses explicitly declared 17/37/17 kJ per gram
+  ---
+  duration_ms: 0.75607
+  ...
+# Subtest: water sensible heat and calorimeter have correct opposite signs
+ok 35 - water sensible heat and calorimeter have correct opposite signs
+  ---
+  duration_ms: 0.237639
+  ...
+# Subtest: first law and constant external-pressure piston use chemistry signs
+ok 36 - first law and constant external-pressure piston use chemistry signs
+  ---
+  duration_ms: 1.290927
+  ...
+# Subtest: Hess scales energy and every stoichiometric coefficient
+ok 37 - Hess scales energy and every stoichiometric coefficient
+  ---
+  duration_ms: 0.308908
+  ...
+# Subtest: HF quadratic satisfies the acid equilibrium at the whole slider domain
+ok 38 - HF quadratic satisfies the acid equilibrium at the whole slider domain
+  ---
+  duration_ms: 0.518443
+  ...
+# Subtest: NO2 dimerization satisfies matter balance and mass action on domain corners
+ok 39 - NO2 dimerization satisfies matter balance and mass action on domain corners
+  ---
+  duration_ms: 0.805962
+  ...
+# Subtest: optical rotation doubles with optical path and preserves signs
+ok 40 - optical rotation doubles with optical path and preserves signs
+  ---
+  duration_ms: 0.201483
+  ...
+# Subtest: finite input guards and timeline clamping prevent broken plots
+ok 41 - finite input guards and timeline clamping prevent broken plots
+  ---
+  duration_ms: 0.383564
+  ...
+# Subtest: fuel comparison normalizes combustion energy and direct CO2 on the same basis
+ok 42 - fuel comparison normalizes combustion energy and direct CO2 on the same basis
+  ---
+  duration_ms: 0.663445
+  ...
+# Subtest: carbs: every original atom retains its identity and full product composition
+ok 43 - carbs: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 6.83944
+  ...
+# Subtest: protein: every original atom retains its identity and full product composition
+ok 44 - protein: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 1.927762
+  ...
+# Subtest: ester: every original atom retains its identity and full product composition
+ok 45 - ester: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 0.385809
+  ...
+# Subtest: esterification: every original atom retains its identity and full product composition
+ok 46 - esterification: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 3.899407
+  ...
+# Subtest: transesterification: every original atom retains its identity and full product composition
+ok 47 - transesterification: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 2.125321
+  ...
+# Subtest: saponification: every original atom retains its identity and full product composition
+ok 48 - saponification: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 4.656655
+  ...
+# Subtest: hydrogenation: every original atom retains its identity and full product composition
+ok 49 - hydrogenation: every original atom retains its identity and full product composition
+  ---
+  duration_ms: 1.025145
+  ...
+# Subtest: water is assembled from specified ester and peptide leaving groups
+ok 50 - water is assembled from specified ester and peptide leaving groups
+  ---
+  duration_ms: 0.577889
+  ...
+# Subtest: water split in sucrose hydrolysis yields two C6H12O6 molecules
+ok 51 - water split in sucrose hydrolysis yields two C6H12O6 molecules
+  ---
+  duration_ms: 0.401769
+  ...
+# Subtest: stoichiometric ledger accepts all positive multiples, rejects atom deficits
+ok 52 - stoichiometric ledger accepts all positive multiples, rejects atom deficits
+  ---
+  duration_ms: 0.371469
+  ...
+# Subtest: all finite linear and branched glucose chains are connected and acyclic
+ok 53 - all finite linear and branched glucose chains are connected and acyclic
+  ---
+  duration_ms: 0.729507
+  ...
+# Subtest: qualitative assays retain fructose and sucrose caveats
+ok 54 - qualitative assays retain fructose and sucrose caveats
+  ---
+  duration_ms: 0.265138
+  ...
+# Subtest: finite polysaccharide formation conserves every element including end groups
+ok 55 - finite polysaccharide formation conserves every element including end groups
+  ---
+  duration_ms: 0.315083
+  ...
+# Subtest: atom parser respects subscripts, parentheses and case
+ok 56 - atom parser respects subscripts, parentheses and case
+  ---
+  duration_ms: 5.252737
   ...
 # Subtest: molar masses match atomic-mass sums
-ok 2 - molar masses match atomic-mass sums
+ok 57 - molar masses match atomic-mass sums
   ---
-  duration_ms: 0.343757
+  duration_ms: 0.371541
   ...
 # Subtest: reaction models conserve every element
-ok 3 - reaction models conserve every element
+ok 58 - reaction models conserve every element
   ---
-  duration_ms: 0.410907
+  duration_ms: 0.471948
   ...
 # Subtest: numeric answers parse decimal comma, scientific notation and compatible units
-ok 4 - numeric answers parse decimal comma, scientific notation and compatible units
+ok 59 - numeric answers parse decimal comma, scientific notation and compatible units
   ---
-  duration_ms: 0.32355
+  duration_ms: 0.621172
   ...
 # Subtest: first law, calorimetry, food energy and optical units
-ok 5 - first law, calorimetry, food energy and optical units
+ok 60 - first law, calorimetry, food energy and optical units
   ---
-  duration_ms: 0.159749
+  duration_ms: 0.19786
   ...
 # Subtest: weak-acid quadratic and equilibrium mass balance
-ok 6 - weak-acid quadratic and equilibrium mass balance
+ok 61 - weak-acid quadratic and equilibrium mass balance
   ---
-  duration_ms: 0.15537
+  duration_ms: 0.190228
   ...
 # Subtest: all lessons have substantive bilingual content, two examples and exercises
-ok 7 - all lessons have substantive bilingual content, two examples and exercises
+ok 62 - all lessons have substantive bilingual content, two examples and exercises
   ---
-  duration_ms: 1.021703
+  duration_ms: 1.241357
   ...
 # Subtest: every stored answer accepted, incorrect answers rejected
-ok 8 - every stored answer accepted, incorrect answers rejected
+ok 63 - every stored answer accepted, incorrect answers rejected
   ---
-  duration_ms: 1.024355
+  duration_ms: 1.418218
   ...
 # Subtest: formulas render with strict KaTeX validation
-ok 9 - formulas render with strict KaTeX validation
+ok 64 - formulas render with strict KaTeX validation
   ---
-  duration_ms: 41.155409
+  duration_ms: 100.134143
   ...
 # Subtest: all 241 archive photos linked to actual lessons and visual registry
-ok 10 - all 241 archive photos linked to actual lessons and visual registry
+ok 65 - all 241 archive photos linked to actual lessons and visual registry
   ---
-  duration_ms: 4.221896
+  duration_ms: 6.256187
   ...
 # Subtest: gas work conversion, Hess cycle and glycine charge model
-ok 11 - gas work conversion, Hess cycle and glycine charge model
+ok 66 - gas work conversion, Hess cycle and glycine charge model
   ---
-  duration_ms: 0.161422
+  duration_ms: 0.218368
   ...
 # Subtest: lipid transformations conserve atoms independently of answer keys
-ok 12 - lipid transformations conserve atoms independently of answer keys
+ok 67 - lipid transformations conserve atoms independently of answer keys
   ---
-  duration_ms: 0.270752
+  duration_ms: 0.349028
   ...
-1..12
-# tests 12
+1..67
+# tests 67
 # suites 0
-# pass 12
+# pass 67
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 129.705847
+# duration_ms 2528.859365

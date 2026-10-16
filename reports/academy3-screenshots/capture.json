@@ -1,0 +1,20 @@
+{
+  "base": "http://127.0.0.1:4173/",
+  "seed": 122,
+  "files": [
+    "01-mole-fractions.png",
+    "02-formula-inspector.png",
+    "03-exam-chemical-editor.png",
+    "04-exam-guided-math.png",
+    "05-exam-results.png",
+    "06-mobile-es-light.png",
+    "07-home-mobile-light.png",
+    "08-lesson-desktop-light.png"
+  ],
+  "errors": [],
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "result": "10/10"
+}

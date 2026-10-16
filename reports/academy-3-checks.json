@@ -1,0 +1,52 @@
+{
+  "version": "3.0.0",
+  "auditDate": "2026-10-16",
+  "unit": {
+    "passed": 67,
+    "failed": 0,
+    "report": "unit-tests.tap"
+  },
+  "typescript": "passed through npm run build (tsc -b && vite build)",
+  "productionBuild": {
+    "status": "passed",
+    "report": "build-3.0.log"
+  },
+  "e2e": {
+    "passed": 114,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "browsers": [
+      "chromium",
+      "firefox"
+    ],
+    "durationMs": 389862.878,
+    "report": "e2e-results.json"
+  },
+  "finalAssessmentRerun": {
+    "passed": 16,
+    "failed": 0,
+    "reason": "Neutral format labels replace H₂O badge to avoid giving away the water formula",
+    "report": "e2e-assessment-final-3.0.log"
+  },
+  "touchPreflight": {
+    "passed": 4,
+    "browsers": [
+      "chromium",
+      "firefox"
+    ],
+    "viewports": [
+      {
+        "width": 1500,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ]
+  },
+  "publicDeployment": {
+    "status": "pending"
+  }
+}

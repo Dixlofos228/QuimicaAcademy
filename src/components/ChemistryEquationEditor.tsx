@@ -1,0 +1,12 @@
+import {useRef} from 'react';
+import type {Lang} from '../types';
+import {chemicalTex} from '../notation/chemistry.mjs';
+import {algebraTex} from '../notation/algebra.mjs';
+import {InteractiveFormulaInspector} from './InteractiveFormulaInspector';
+export function ChemistryEquationEditor({value,onChange,lang,mode='formula',label,neutral=false}:{value:string;onChange:(s:string)=>void;lang:Lang;mode?:'formula'|'equation'|'math';label?:string;neutral?:boolean}){
+ const ref=useRef<HTMLTextAreaElement>(null),ru=lang==='ru';
+ let tex:string|null=null;try{tex=mode==='math'?algebraTex(value):chemicalTex(value);}catch{}
+ const insert=(text:string,offset=0)=>{const input=ref.current,start=input?.selectionStart??value.length,end=input?.selectionEnd??start;onChange(value.slice(0,start)+text+value.slice(end));requestAnimationFrame(()=>{input?.focus();input?.setSelectionRange(start+text.length+offset,start+text.length+offset);});};
+ const symbols=mode==='math'?[['m','m'],['n','n'],['M','M'],['=','='],['a/b','()/()'],['( )','()'],['×','*'],['−','-'],['²','^2']]:[['H','H'],['O','O'],['C','C'],['₂','2'],['₃','3'],['( )','()'],['⁺','^+'],['⁻','^-'],['+',' + '],['→',' -> '],['⇌',' <-> ']];
+ return <div className="chem-editor" data-testid={mode==='math'?'math-editor':'chemistry-editor'}><label><span>{label||(ru?'Ваше выражение':'Tu expresión')}</span><textarea ref={ref} aria-label={label||(ru?'Ваше выражение':'Tu expresión')} rows={2} maxLength={500} spellCheck={false} autoCapitalize="off" autoCorrect="off" value={value} placeholder={neutral?(ru?'Введите запись':'Escribí la expresión'):mode==='math'?'n=m/M':mode==='equation'?'2H2 + O2 -> 2H2O':'H2O'} onChange={e=>onChange(e.target.value)}/></label><div className="editor-symbols" role="group" aria-label={ru?'Панель символов':'Panel de símbolos'}>{symbols.map(([name,text])=><button type="button" key={name} aria-label={`${ru?'Вставить':'Insertar'} ${name}`} onClick={()=>insert(text,text==='()'?-1:text==='()/()'?-4:0)}>{name}</button>)}</div><div className="editor-preview"><small>{ru?'ПРЕДПРОСМОТР ЗАПИСИ':'VISTA PREVIA DE LA NOTACIÓN'}</small>{tex?<InteractiveFormulaInspector tex={tex} block lang={lang} interactive={false}/>:<p>{value?(ru?'Продолжайте запись: проверьте скобки и символы.':'Seguí escribiendo: revisá paréntesis y símbolos.'):(ru?'Введите запись обычными символами; знание LaTeX не требуется.':'Escribí con símbolos comunes; no necesitás saber LaTeX.')}</p>}</div></div>;
+}

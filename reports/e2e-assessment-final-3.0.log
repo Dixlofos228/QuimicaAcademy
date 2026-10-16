@@ -1,0 +1,21 @@
+
+Running 16 tests using 2 workers
+
+  ✓   2 [chromium] › tests/e2e/academy3.spec.ts:20:1 › mole: true fractions, AST hit zones, detailed bilingual explanations, keyboard and copying (2.2s)
+  ✓   1 [firefox] › tests/e2e/academy3.spec.ts:20:1 › mole: true fractions, AST hit zones, detailed bilingual explanations, keyboard and copying (3.3s)
+  ✓   3 [chromium] › tests/e2e/academy3.spec.ts:28:1 › chemical subscript, charge and C contexts are inspectable without ambiguous global-letter meanings (3.1s)
+  ✓   4 [firefox] › tests/e2e/academy3.spec.ts:28:1 › chemical subscript, charge and C contexts are inspectable without ambiguous global-letter meanings (3.3s)
+  ✓   5 [chromium] › tests/e2e/academy3.spec.ts:34:1 › every lesson provides ten diverse exam questions, 3/4/3 levels and no answer explanations before completion (35.3s)
+  ✓   7 [chromium] › tests/e2e/academy3.spec.ts:44:1 › mole complete attempt: editors, staged reasoning, drafts, language/reload, scoring and retry (5.2s)
+  ✓   6 [firefox] › tests/e2e/academy3.spec.ts:34:1 › every lesson provides ten diverse exam questions, 3/4/3 levels and no answer explanations before completion (39.8s)
+  ✓   8 [chromium] › tests/e2e/academy3.spec.ts:53:1 › training filters difficulty and exposes staged checks; existing v1 progress gets one exact backup (1.1s)
+  ✓   9 [firefox] › tests/e2e/academy3.spec.ts:44:1 › mole complete attempt: editors, staged reasoning, drafts, language/reload, scoring and retry (4.6s)
+  ✓  10 [chromium] › tests/e2e/academy3.spec.ts:59:1 › mobile independent equation and algebra entry reject real mistakes; guided checks unlock stages (5.0s)
+  ✓  11 [firefox] › tests/e2e/academy3.spec.ts:53:1 › training filters difficulty and exposes staged checks; existing v1 progress gets one exact backup (1.0s)
+  ✓  12 [chromium] › tests/e2e/academy3.spec.ts:67:1 › formula popover inside a term dialog closes first and its lesson link navigates (2.0s)
+  ✓  13 [firefox] › tests/e2e/academy3.spec.ts:59:1 › mobile independent equation and algebra entry reject real mistakes; guided checks unlock stages (4.0s)
+  ✓  14 [chromium] › tests/e2e/academy3.spec.ts:71:1 › wrong chemical answer produces detailed exam correction and a review topic only after finishing (4.1s)
+  ✓  15 [firefox] › tests/e2e/academy3.spec.ts:67:1 › formula popover inside a term dialog closes first and its lesson link navigates (2.1s)
+  ✓  16 [firefox] › tests/e2e/academy3.spec.ts:71:1 › wrong chemical answer produces detailed exam correction and a review topic only after finishing (2.9s)
+
+  16 passed (1.1m)
