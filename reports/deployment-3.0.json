@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "commit": "3125aeba3ea888e5858376d6e22814037a646a33",
+  "url": "https://dixlofos228.github.io/QuimicaAcademy/",
+  "workflowRunId": 38908227924,
+  "workflowUrl": "https://github.com/Dixlofos228/QuimicaAcademy/actions/runs/38908227924",
+  "deploymentId": 7120203419,
+  "deploymentState": "success",
+  "artifactId": 12049410792,
+  "artifactBytes": 115570630,
+  "artifactDigest": "sha256:4e9b400a4561f37035e4bed2065cc260245596e8cdd18ee676fd86f14563dd19",
+  "verifiedAt": "2026-10-16T13:31:12.780Z",
+  "publicBrowserCases": 4
+}

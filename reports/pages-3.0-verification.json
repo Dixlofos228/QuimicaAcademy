@@ -1,0 +1,71 @@
+{
+  "commit": "3125aeba3ea888e5858376d6e22814037a646a33",
+  "url": "https://dixlofos228.github.io/QuimicaAcademy/",
+  "checkedAt": "2026-10-16T13:31:12.780Z",
+  "cases": [
+    {
+      "engine": "chromium",
+      "mobile": false,
+      "status": "passed",
+      "http": 200,
+      "moleQuestions": 10,
+      "bank": 18,
+      "typedDraftPreserved": true,
+      "trueFraction": true,
+      "interactiveExplanation": true,
+      "spanish": true,
+      "errors": [],
+      "scripts": [
+        "https://dixlofos228.github.io/QuimicaAcademy/assets/index-CwyPZK8P.js"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "status": "passed",
+      "http": 200,
+      "moleQuestions": 10,
+      "bank": 18,
+      "typedDraftPreserved": true,
+      "trueFraction": true,
+      "interactiveExplanation": true,
+      "spanish": true,
+      "errors": [],
+      "scripts": [
+        "https://dixlofos228.github.io/QuimicaAcademy/assets/index-CwyPZK8P.js"
+      ]
+    },
+    {
+      "engine": "firefox",
+      "mobile": false,
+      "status": "passed",
+      "http": 200,
+      "moleQuestions": 10,
+      "bank": 18,
+      "typedDraftPreserved": true,
+      "trueFraction": true,
+      "interactiveExplanation": true,
+      "spanish": true,
+      "errors": [],
+      "scripts": [
+        "https://dixlofos228.github.io/QuimicaAcademy/assets/index-CwyPZK8P.js"
+      ]
+    },
+    {
+      "engine": "firefox",
+      "mobile": true,
+      "status": "passed",
+      "http": 200,
+      "moleQuestions": 10,
+      "bank": 18,
+      "typedDraftPreserved": true,
+      "trueFraction": true,
+      "interactiveExplanation": true,
+      "spanish": true,
+      "errors": [],
+      "scripts": [
+        "https://dixlofos228.github.io/QuimicaAcademy/assets/index-CwyPZK8P.js"
+      ]
+    }
+  ]
+}
